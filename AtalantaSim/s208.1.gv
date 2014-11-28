@@ -1,0 +1,557 @@
+digraph a
+{
+	//18 Inputs
+	//9 Outputs
+	//104 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"s208.1" [color = invis]
+	P.0 [label = "INPUT(P.0)" shape = cds style = filled fillcolor = white]
+	OP.0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.0 -> OP.0 [arrowhead=none]
+	C.8 [label = "INPUT(C.8)" shape = cds style = filled fillcolor = white]
+	OC.8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.8 -> OC.8 [arrowhead=none]
+	C.7 [label = "INPUT(C.7)" shape = cds style = filled fillcolor = white]
+	OC.7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.7 -> OC.7 [arrowhead=none]
+	C.6 [label = "INPUT(C.6)" shape = cds style = filled fillcolor = white]
+	OC.6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.6 -> OC.6 [arrowhead=none]
+	C.5 [label = "INPUT(C.5)" shape = cds style = filled fillcolor = white]
+	OC.5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.5 -> OC.5 [arrowhead=none]
+	C.4 [label = "INPUT(C.4)" shape = cds style = filled fillcolor = white]
+	OC.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.4 -> OC.4 [arrowhead=none]
+	C.3 [label = "INPUT(C.3)" shape = cds style = filled fillcolor = white]
+	OC.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.3 -> OC.3 [arrowhead=none]
+	C.2 [label = "INPUT(C.2)" shape = cds style = filled fillcolor = white]
+	OC.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.2 -> OC.2 [arrowhead=none]
+	C.1 [label = "INPUT(C.1)" shape = cds style = filled fillcolor = white]
+	OC.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.1 -> OC.1 [arrowhead=none]
+	C.0 [label = "INPUT(C.0)" shape = cds style = filled fillcolor = white]
+	OC.0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C.0 -> OC.0 [arrowhead=none]
+	X.4 [label = "INPUT(X.4)" shape = cds style = filled fillcolor = white]
+	OX.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.4 -> OX.4 [arrowhead=none]
+	X.3 [label = "INPUT(X.3)" shape = cds style = filled fillcolor = white]
+	OX.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.3 -> OX.3 [arrowhead=none]
+	X.2 [label = "INPUT(X.2)" shape = cds style = filled fillcolor = white]
+	OX.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.2 -> OX.2 [arrowhead=none]
+	X.1 [label = "INPUT(X.1)" shape = cds style = filled fillcolor = white]
+	OX.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.1 -> OX.1 [arrowhead=none]
+	X.8 [label = "INPUT(X.8)" shape = cds style = filled fillcolor = white]
+	OX.8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.8 -> OX.8 [arrowhead=none]
+	X.7 [label = "INPUT(X.7)" shape = cds style = filled fillcolor = white]
+	OX.7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.7 -> OX.7 [arrowhead=none]
+	X.6 [label = "INPUT(X.6)" shape = cds style = filled fillcolor = white]
+	OX.6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.6 -> OX.6 [arrowhead=none]
+	X.5 [label = "INPUT(X.5)" shape = cds style = filled fillcolor = white]
+	OX.5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X.5 -> OX.5 [arrowhead=none]
+	OI13 [label = "OUTPUT(I13)" shape = cds style = filled fillcolor = yellow]
+	OI15 [label = "OUTPUT(I15)" shape = cds style = filled fillcolor = yellow]
+	OI113 [label = "OUTPUT(I113)" shape = cds style = filled fillcolor = yellow]
+	OZ [label = "OUTPUT(Z)" shape = cds style = filled fillcolor = yellow]
+	OI12 [label = "OUTPUT(I12)" shape = cds style = filled fillcolor = yellow]
+	OI110 [label = "OUTPUT(I110)" shape = cds style = filled fillcolor = yellow]
+	OI111 [label = "OUTPUT(I111)" shape = cds style = filled fillcolor = yellow]
+	OI14 [label = "OUTPUT(I14)" shape = cds style = filled fillcolor = yellow]
+	OI112 [label = "OUTPUT(I112)" shape = cds style = filled fillcolor = yellow]
+	I73.1 [label = "I73.1" shape = none fillcolor = red image="NOT.png"];
+	OI73.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I73.1 -> OI73.1 [arrowhead=none color = red tailclip=false]
+	OI69 -> I73.1 [color = red];
+	I73.2 [label = "I73.2" shape = none fillcolor = red image="NOT.png"];
+	OI73.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I73.2 -> OI73.2 [arrowhead=none color = red tailclip=false]
+	OX.3 -> I73.2 [color = red];
+	I7.1 [label = "I7.1" shape = none fillcolor = red image="NOT.png"];
+	OI7.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I7.1 -> OI7.1 [arrowhead=none color = red tailclip=false]
+	OI66 -> I7.1 [color = red];
+	I7.2 [label = "I7.2" shape = none fillcolor = red image="NOT.png"];
+	OI7.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I7.2 -> OI7.2 [arrowhead=none color = red tailclip=false]
+	OX.2 -> I7.2 [color = red];
+	I88.1 [label = "I88.1" shape = none fillcolor = red image="NOT.png"];
+	OI88.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I88.1 -> OI88.1 [arrowhead=none color = red tailclip=false]
+	OX.1 -> I88.1 [color = red];
+	I88.2 [label = "I88.2" shape = none fillcolor = red image="NOT.png"];
+	OI88.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I88.2 -> OI88.2 [arrowhead=none color = red tailclip=false]
+	OP.0 -> I88.2 [color = red];
+	I48 [label = "I48" shape = none fillcolor = red image="NOT.png"];
+	OI48 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I48 -> OI48 [arrowhead=none color = red tailclip=false]
+	OP.0 -> I48 [color = red];
+	I49 [label = "I49" shape = none fillcolor = red image="NOT.png"];
+	OI49 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I49 -> OI49 [arrowhead=none color = red tailclip=false]
+	OX.4 -> I49 [color = red];
+	I50 [label = "I50" shape = none fillcolor = red image="NOT.png"];
+	OI50 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I50 -> OI50 [arrowhead=none color = red tailclip=false]
+	OX.3 -> I50 [color = red];
+	I68 [label = "I68" shape = none fillcolor = red image="NOT.png"];
+	OI68 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I68 -> OI68 [arrowhead=none color = red tailclip=false]
+	OI69 -> I68 [color = red];
+	I105.1 [label = "I105.1" shape = none fillcolor = red image="NOT.png"];
+	OI105.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I105.1 -> OI105.1 [arrowhead=none color = red tailclip=false]
+	OI163 -> I105.1 [color = red];
+	I105.2 [label = "I105.2" shape = none fillcolor = red image="NOT.png"];
+	OI105.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I105.2 -> OI105.2 [arrowhead=none color = red tailclip=false]
+	OX.6 -> I105.2 [color = red];
+	I182.1 [label = "I182.1" shape = none fillcolor = red image="NOT.png"];
+	OI182.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I182.1 -> OI182.1 [arrowhead=none color = red tailclip=false]
+	OX.5 -> I182.1 [color = red];
+	I182.2 [label = "I182.2" shape = none fillcolor = red image="NOT.png"];
+	OI182.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I182.2 -> OI182.2 [arrowhead=none color = red tailclip=false]
+	OI1.2 -> I182.2 [color = red];
+	I148 [label = "I148" shape = none fillcolor = red image="NOT.png"];
+	OI148 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I148 -> OI148 [arrowhead=none color = red tailclip=false]
+	OX.7 -> I148 [color = red];
+	I149 [label = "I149" shape = none fillcolor = red image="NOT.png"];
+	OI149 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I149 -> OI149 [arrowhead=none color = red tailclip=false]
+	OX.6 -> I149 [color = red];
+	I161 [label = "I161" shape = none fillcolor = red image="NOT.png"];
+	OI161 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I161 -> OI161 [arrowhead=none color = red tailclip=false]
+	OI162 -> I161 [color = red];
+	I164 [label = "I164" shape = none fillcolor = red image="NOT.png"];
+	OI164 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I164 -> OI164 [arrowhead=none color = red tailclip=false]
+	OI163 -> I164 [color = red];
+	I212 [label = "I212" shape = none fillcolor = red image="NOT.png"];
+	OI212 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I212 -> OI212 [arrowhead=none color = red tailclip=false]
+	OP.0 -> I212 [color = red];
+	I213 [label = "I213" shape = none fillcolor = red image="NOT.png"];
+	OI213 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I213 -> OI213 [arrowhead=none color = red tailclip=false]
+	OX.1 -> I213 [color = red];
+	I214 [label = "I214" shape = none fillcolor = red image="NOT.png"];
+	OI214 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I214 -> OI214 [arrowhead=none color = red tailclip=false]
+	OX.2 -> I214 [color = red];
+	I215 [label = "I215" shape = none fillcolor = red image="NOT.png"];
+	OI215 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I215 -> OI215 [arrowhead=none color = red tailclip=false]
+	OX.3 -> I215 [color = red];
+	I216 [label = "I216" shape = none fillcolor = red image="NOT.png"];
+	OI216 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I216 -> OI216 [arrowhead=none color = red tailclip=false]
+	OX.4 -> I216 [color = red];
+	I225 [label = "I225" shape = none fillcolor = red image="NOT.png"];
+	OI225 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I225 -> OI225 [arrowhead=none color = red tailclip=false]
+	OI224 -> I225 [color = red];
+	I240 [label = "I240" shape = none fillcolor = red image="NOT.png"];
+	OI240 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I240 -> OI240 [arrowhead=none color = red tailclip=false]
+	OP.0 -> I240 [color = red];
+	I241 [label = "I241" shape = none fillcolor = red image="NOT.png"];
+	OI241 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I241 -> OI241 [arrowhead=none color = red tailclip=false]
+	OX.5 -> I241 [color = red];
+	I242 [label = "I242" shape = none fillcolor = red image="NOT.png"];
+	OI242 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I242 -> OI242 [arrowhead=none color = red tailclip=false]
+	OX.6 -> I242 [color = red];
+	I243 [label = "I243" shape = none fillcolor = red image="NOT.png"];
+	OI243 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I243 -> OI243 [arrowhead=none color = red tailclip=false]
+	OX.7 -> I243 [color = red];
+	I244 [label = "I244" shape = none fillcolor = red image="NOT.png"];
+	OI244 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I244 -> OI244 [arrowhead=none color = red tailclip=false]
+	OX.8 -> I244 [color = red];
+	I252 [label = "I252" shape = none fillcolor = red image="NOT.png"];
+	OI252 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I252 -> OI252 [arrowhead=none color = red tailclip=false]
+	OI251 -> I252 [color = red];
+	I282 [label = "I282" shape = none fillcolor = red image="NOT.png"];
+	OI282 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I282 -> OI282 [arrowhead=none color = red tailclip=false]
+	OP.2 -> I282 [color = red];
+	I283 [label = "I283" shape = none fillcolor = red image="NOT.png"];
+	OI283 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I283 -> OI283 [arrowhead=none color = red tailclip=false]
+	OP.3 -> I283 [color = red];
+	I286 [label = "I286" shape = none fillcolor = red image="NOT.png"];
+	OI286 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I286 -> OI286 [arrowhead=none color = red tailclip=false]
+	OC.2 -> I286 [color = red];
+	I287 [label = "I287" shape = none fillcolor = red image="NOT.png"];
+	OI287 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I287 -> OI287 [arrowhead=none color = red tailclip=false]
+	OC.3 -> I287 [color = red];
+	I306 [label = "I306" shape = none fillcolor = red image="NOT.png"];
+	OI306 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I306 -> OI306 [arrowhead=none color = red tailclip=false]
+	OP.6 -> I306 [color = red];
+	I307 [label = "I307" shape = none fillcolor = red image="NOT.png"];
+	OI307 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I307 -> OI307 [arrowhead=none color = red tailclip=false]
+	OP.7 -> I307 [color = red];
+	I310 [label = "I310" shape = none fillcolor = red image="NOT.png"];
+	OI310 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I310 -> OI310 [arrowhead=none color = red tailclip=false]
+	OC.6 -> I310 [color = red];
+	I311 [label = "I311" shape = none fillcolor = red image="NOT.png"];
+	OI311 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I311 -> OI311 [arrowhead=none color = red tailclip=false]
+	OC.7 -> I311 [color = red];
+	I73.3 [label = "I73.3" shape = none fillcolor = orange image="AND.png"];
+	OI73.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I73.3 -> OI73.3 [arrowhead=none color = orange tailclip=false]
+	OI69 -> I73.3 [color = orange];
+	OI73.2 -> I73.3 [color = orange];
+	I73.4 [label = "I73.4" shape = none fillcolor = orange image="AND.png"];
+	OI73.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I73.4 -> OI73.4 [arrowhead=none color = orange tailclip=false]
+	OX.3 -> I73.4 [color = orange];
+	OI73.1 -> I73.4 [color = orange];
+	I7.3 [label = "I7.3" shape = none fillcolor = orange image="AND.png"];
+	OI7.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I7.3 -> OI7.3 [arrowhead=none color = orange tailclip=false]
+	OI66 -> I7.3 [color = orange];
+	OI7.2 -> I7.3 [color = orange];
+	I7.4 [label = "I7.4" shape = none fillcolor = orange image="AND.png"];
+	OI7.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I7.4 -> OI7.4 [arrowhead=none color = orange tailclip=false]
+	OX.2 -> I7.4 [color = orange];
+	OI7.1 -> I7.4 [color = orange];
+	I88.3 [label = "I88.3" shape = none fillcolor = orange image="AND.png"];
+	OI88.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I88.3 -> OI88.3 [arrowhead=none color = orange tailclip=false]
+	OX.1 -> I88.3 [color = orange];
+	OI88.2 -> I88.3 [color = orange];
+	I88.4 [label = "I88.4" shape = none fillcolor = orange image="AND.png"];
+	OI88.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I88.4 -> OI88.4 [arrowhead=none color = orange tailclip=false]
+	OP.0 -> I88.4 [color = orange];
+	OI88.1 -> I88.4 [color = orange];
+	I105.3 [label = "I105.3" shape = none fillcolor = orange image="AND.png"];
+	OI105.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I105.3 -> OI105.3 [arrowhead=none color = orange tailclip=false]
+	OI163 -> I105.3 [color = orange];
+	OI105.2 -> I105.3 [color = orange];
+	I105.4 [label = "I105.4" shape = none fillcolor = orange image="AND.png"];
+	OI105.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I105.4 -> OI105.4 [arrowhead=none color = orange tailclip=false]
+	OX.6 -> I105.4 [color = orange];
+	OI105.1 -> I105.4 [color = orange];
+	I182.3 [label = "I182.3" shape = none fillcolor = orange image="AND.png"];
+	OI182.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I182.3 -> OI182.3 [arrowhead=none color = orange tailclip=false]
+	OX.5 -> I182.3 [color = orange];
+	OI182.2 -> I182.3 [color = orange];
+	I182.4 [label = "I182.4" shape = none fillcolor = orange image="AND.png"];
+	OI182.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I182.4 -> OI182.4 [arrowhead=none color = orange tailclip=false]
+	OI1.2 -> I182.4 [color = orange];
+	OI182.1 -> I182.4 [color = orange];
+	I191.1 [label = "I191.1" shape = none fillcolor = orange image="AND.png"];
+	OI191.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I191.1 -> OI191.1 [arrowhead=none color = orange tailclip=false]
+	OI164 -> I191.1 [color = orange];
+	OX.6 -> I191.1 [color = orange];
+	I1.2 [label = "I1.2" shape = none fillcolor = orange image="AND.png"];
+	OI1.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I1.2 -> OI1.2 [arrowhead=none color = orange tailclip=false]
+	OI2.1 -> I1.2 [color = orange];
+	OP.0 -> I1.2 [color = orange];
+	P.5 [label = "P.5" shape = none fillcolor = orange image="AND.png"];
+	OP.5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.5 -> OP.5 [arrowhead=none color = orange tailclip=false]
+	OI209.1 -> P.5 [color = orange];
+	OI205.2 -> P.5 [color = orange];
+	P.6 [label = "P.6" shape = none fillcolor = orange image="AND.png"];
+	OP.6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.6 -> OP.6 [arrowhead=none color = orange tailclip=false]
+	OI209.1 -> P.6 [color = orange];
+	OI206.2 -> P.6 [color = orange];
+	P.7 [label = "P.7" shape = none fillcolor = orange image="AND.png"];
+	OP.7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.7 -> OP.7 [arrowhead=none color = orange tailclip=false]
+	OI209.1 -> P.7 [color = orange];
+	OI207.2 -> P.7 [color = orange];
+	P.8 [label = "P.8" shape = none fillcolor = orange image="AND.png"];
+	OP.8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.8 -> OP.8 [arrowhead=none color = orange tailclip=false]
+	OI209.1 -> P.8 [color = orange];
+	OI208.2 -> P.8 [color = orange];
+	I295.1 [label = "I295.1" shape = none fillcolor = orange image="AND.png"];
+	OI295.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I295.1 -> OI295.1 [arrowhead=none color = orange tailclip=false]
+	OP.1 -> I295.1 [color = orange];
+	OC.1 -> I295.1 [color = orange];
+	I295.2 [label = "I295.2" shape = none fillcolor = orange image="AND.png"];
+	OI295.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I295.2 -> OI295.2 [arrowhead=none color = orange tailclip=false]
+	OP.0 -> I295.2 [color = orange];
+	OC.0 -> I295.2 [color = orange];
+	I319.1 [label = "I319.1" shape = none fillcolor = orange image="AND.png"];
+	OI319.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I319.1 -> OI319.1 [arrowhead=none color = orange tailclip=false]
+	OP.5 -> I319.1 [color = orange];
+	OC.5 -> I319.1 [color = orange];
+	I319.2 [label = "I319.2" shape = none fillcolor = orange image="AND.png"];
+	OI319.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I319.2 -> OI319.2 [arrowhead=none color = orange tailclip=false]
+	OP.4 -> I319.2 [color = orange];
+	OC.4 -> I319.2 [color = orange];
+	I270.3 [label = "I270.3" shape = none fillcolor = orange image="AND.png"];
+	OI270.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I270.3 -> OI270.3 [arrowhead=none color = orange tailclip=false]
+	OP.8 -> I270.3 [color = orange];
+	OC.8 -> I270.3 [color = orange];
+	I70.1 [label = "I70.1" shape = none fillcolor = pink image="OR.png"];
+	OI70.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I70.1 -> OI70.1 [arrowhead=none color = pink tailclip=false]
+	OI68 -> I70.1 [color = pink];
+	OX.4 -> I70.1 [color = pink];
+	OI50 -> I70.1 [color = pink];
+	I13 [label = "I13" shape = none fillcolor = pink image="OR.png"];
+	I13 -> OI13 [arrowhead=none color = black]
+	OI73.3 -> I13 [color = pink];
+	OI73.4 -> I13 [color = pink];
+	I15 [label = "I15" shape = none fillcolor = pink image="OR.png"];
+	I15 -> OI15 [arrowhead=none color = black]
+	OI88.3 -> I15 [color = pink];
+	OI88.4 -> I15 [color = pink];
+	I95.1 [label = "I95.1" shape = none fillcolor = pink image="OR.png"];
+	OI95.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I95.1 -> OI95.1 [arrowhead=none color = pink tailclip=false]
+	OI64 -> I95.1 [color = pink];
+	OI50 -> I95.1 [color = pink];
+	OI48 -> I95.1 [color = pink];
+	I167.1 [label = "I167.1" shape = none fillcolor = pink image="OR.png"];
+	OI167.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I167.1 -> OI167.1 [arrowhead=none color = pink tailclip=false]
+	OI165 -> I167.1 [color = pink];
+	OX.8 -> I167.1 [color = pink];
+	OI148 -> I167.1 [color = pink];
+	I170.1 [label = "I170.1" shape = none fillcolor = pink image="OR.png"];
+	OI170.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I170.1 -> OI170.1 [arrowhead=none color = pink tailclip=false]
+	OI165 -> I170.1 [color = pink];
+	OX.7 -> I170.1 [color = pink];
+	I113 [label = "I113" shape = none fillcolor = pink image="OR.png"];
+	I113 -> OI113 [arrowhead=none color = black]
+	OI182.3 -> I113 [color = pink];
+	OI182.4 -> I113 [color = pink];
+	I188.1 [label = "I188.1" shape = none fillcolor = pink image="OR.png"];
+	OI188.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I188.1 -> OI188.1 [arrowhead=none color = pink tailclip=false]
+	OI163 -> I188.1 [color = pink];
+	OI149 -> I188.1 [color = pink];
+	OI148 -> I188.1 [color = pink];
+	I291.1 [label = "I291.1" shape = none fillcolor = pink image="OR.png"];
+	OI291.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I291.1 -> OI291.1 [arrowhead=none color = pink tailclip=false]
+	OI283 -> I291.1 [color = pink];
+	OI287 -> I291.1 [color = pink];
+	I291.2 [label = "I291.2" shape = none fillcolor = pink image="OR.png"];
+	OI291.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I291.2 -> OI291.2 [arrowhead=none color = pink tailclip=false]
+	OI282 -> I291.2 [color = pink];
+	OI286 -> I291.2 [color = pink];
+	I315.1 [label = "I315.1" shape = none fillcolor = pink image="OR.png"];
+	OI315.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I315.1 -> OI315.1 [arrowhead=none color = pink tailclip=false]
+	OI307 -> I315.1 [color = pink];
+	OI311 -> I315.1 [color = pink];
+	I315.2 [label = "I315.2" shape = none fillcolor = pink image="OR.png"];
+	OI315.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I315.2 -> OI315.2 [arrowhead=none color = pink tailclip=false]
+	OI306 -> I315.2 [color = pink];
+	OI310 -> I315.2 [color = pink];
+	I270.2 [label = "I270.2" shape = none fillcolor = pink image="OR.png"];
+	OI270.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I270.2 -> OI270.2 [arrowhead=none color = pink tailclip=false]
+	OI269.1 -> I270.2 [color = pink];
+	OI269.2 -> I270.2 [color = pink];
+	Z [label = "Z" shape = none fillcolor = pink image="OR.png"];
+	Z -> OZ [arrowhead=none color = black]
+	OI270.2 -> Z [color = pink];
+	OI270.3 -> Z [color = pink];
+	I12 [label = "I12" shape = none fillcolor = blue image="NAND.png"];
+	I12 -> OI12 [arrowhead=none color = black]
+	OI70.1 -> I12 [color = blue];
+	OI62 -> I12 [color = blue];
+	I62 [label = "I62" shape = none fillcolor = blue image="NAND.png"];
+	OI62 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I62 -> OI62 [arrowhead=none color = blue tailclip=false]
+	OI95.1 -> I62 [color = blue];
+	OX.4 -> I62 [color = blue];
+	I64 [label = "I64" shape = none fillcolor = blue image="NAND.png"];
+	OI64 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I64 -> OI64 [arrowhead=none color = blue tailclip=false]
+	OX.1 -> I64 [color = blue];
+	OX.2 -> I64 [color = blue];
+	I66 [label = "I66" shape = none fillcolor = blue image="NAND.png"];
+	OI66 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I66 -> OI66 [arrowhead=none color = blue tailclip=false]
+	OX.1 -> I66 [color = blue];
+	OP.0 -> I66 [color = blue];
+	I110 [label = "I110" shape = none fillcolor = blue image="NAND.png"];
+	I110 -> OI110 [arrowhead=none color = black]
+	OI167.1 -> I110 [color = blue];
+	OI159 -> I110 [color = blue];
+	I111 [label = "I111" shape = none fillcolor = blue image="NAND.png"];
+	I111 -> OI111 [arrowhead=none color = black]
+	OI170.1 -> I111 [color = blue];
+	OI161 -> I111 [color = blue];
+	I159 [label = "I159" shape = none fillcolor = blue image="NAND.png"];
+	OI159 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I159 -> OI159 [arrowhead=none color = blue tailclip=false]
+	OI188.1 -> I159 [color = blue];
+	OX.8 -> I159 [color = blue];
+	I163 [label = "I163" shape = none fillcolor = blue image="NAND.png"];
+	OI163 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I163 -> OI163 [arrowhead=none color = blue tailclip=false]
+	OX.5 -> I163 [color = blue];
+	OI1.2 -> I163 [color = blue];
+	I165 [label = "I165" shape = none fillcolor = blue image="NAND.png"];
+	OI165 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I165 -> OI165 [arrowhead=none color = blue tailclip=false]
+	OI164 -> I165 [color = blue];
+	OX.6 -> I165 [color = blue];
+	I222 [label = "I222" shape = none fillcolor = blue image="NAND.png"];
+	OI222 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I222 -> OI222 [arrowhead=none color = blue tailclip=false]
+	OI225 -> I222 [color = blue];
+	OI214 -> I222 [color = blue];
+	I224 [label = "I224" shape = none fillcolor = blue image="NAND.png"];
+	OI224 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I224 -> OI224 [arrowhead=none color = blue tailclip=false]
+	OI213 -> I224 [color = blue];
+	OP.0 -> I224 [color = blue];
+	I249 [label = "I249" shape = none fillcolor = blue image="NAND.png"];
+	OI249 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I249 -> OI249 [arrowhead=none color = blue tailclip=false]
+	OI252 -> I249 [color = blue];
+	OI242 -> I249 [color = blue];
+	I251 [label = "I251" shape = none fillcolor = blue image="NAND.png"];
+	OI251 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I251 -> OI251 [arrowhead=none color = blue tailclip=false]
+	OI241 -> I251 [color = blue];
+	OP.0 -> I251 [color = blue];
+	I269.1 [label = "I269.1" shape = none fillcolor = blue image="NAND.png"];
+	OI269.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I269.1 -> OI269.1 [arrowhead=none color = blue tailclip=false]
+	OI291.1 -> I269.1 [color = blue];
+	OI291.2 -> I269.1 [color = blue];
+	OI290 -> I269.1 [color = blue];
+	I269.2 [label = "I269.2" shape = none fillcolor = blue image="NAND.png"];
+	OI269.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I269.2 -> OI269.2 [arrowhead=none color = blue tailclip=false]
+	OI315.1 -> I269.2 [color = blue];
+	OI315.2 -> I269.2 [color = blue];
+	OI314 -> I269.2 [color = blue];
+	I14 [label = "I14" shape = none fillcolor = seagreen image="NOR.png"];
+	I14 -> OI14 [arrowhead=none color = black]
+	OI7.3 -> I14 [color = seagreen];
+	OI7.4 -> I14 [color = seagreen];
+	I2.1 [label = "I2.1" shape = none fillcolor = seagreen image="NOR.png"];
+	OI2.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I2.1 -> OI2.1 [arrowhead=none color = seagreen tailclip=false]
+	OI64 -> I2.1 [color = seagreen];
+	OI49 -> I2.1 [color = seagreen];
+	OI50 -> I2.1 [color = seagreen];
+	I69 [label = "I69" shape = none fillcolor = seagreen image="NOR.png"];
+	OI69 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I69 -> OI69 [arrowhead=none color = seagreen tailclip=false]
+	OI64 -> I69 [color = seagreen];
+	OI48 -> I69 [color = seagreen];
+	I112 [label = "I112" shape = none fillcolor = seagreen image="NOR.png"];
+	I112 -> OI112 [arrowhead=none color = black]
+	OI105.3 -> I112 [color = seagreen];
+	OI105.4 -> I112 [color = seagreen];
+	I162 [label = "I162" shape = none fillcolor = seagreen image="NOR.png"];
+	OI162 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I162 -> OI162 [arrowhead=none color = seagreen tailclip=false]
+	OI148 -> I162 [color = seagreen];
+	OI191.1 -> I162 [color = seagreen];
+	P.1 [label = "P.1" shape = none fillcolor = seagreen image="NOR.png"];
+	OP.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.1 -> OP.1 [arrowhead=none color = seagreen tailclip=false]
+	OI212 -> P.1 [color = seagreen];
+	OI213 -> P.1 [color = seagreen];
+	P.2 [label = "P.2" shape = none fillcolor = seagreen image="NOR.png"];
+	OP.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.2 -> OP.2 [arrowhead=none color = seagreen tailclip=false]
+	OI214 -> P.2 [color = seagreen];
+	OI224 -> P.2 [color = seagreen];
+	P.3 [label = "P.3" shape = none fillcolor = seagreen image="NOR.png"];
+	OP.3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.3 -> OP.3 [arrowhead=none color = seagreen tailclip=false]
+	OI215 -> P.3 [color = seagreen];
+	OI222 -> P.3 [color = seagreen];
+	P.4 [label = "P.4" shape = none fillcolor = seagreen image="NOR.png"];
+	OP.4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P.4 -> OP.4 [arrowhead=none color = seagreen tailclip=false]
+	OX.3 -> P.4 [color = seagreen];
+	OI222 -> P.4 [color = seagreen];
+	OI216 -> P.4 [color = seagreen];
+	I209.1 [label = "I209.1" shape = none fillcolor = seagreen image="NOR.png"];
+	OI209.1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I209.1 -> OI209.1 [arrowhead=none color = seagreen tailclip=false]
+	OX.4 -> I209.1 [color = seagreen];
+	OX.2 -> I209.1 [color = seagreen];
+	OX.3 -> I209.1 [color = seagreen];
+	OX.1 -> I209.1 [color = seagreen];
+	I205.2 [label = "I205.2" shape = none fillcolor = seagreen image="NOR.png"];
+	OI205.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I205.2 -> OI205.2 [arrowhead=none color = seagreen tailclip=false]
+	OI240 -> I205.2 [color = seagreen];
+	OI241 -> I205.2 [color = seagreen];
+	I206.2 [label = "I206.2" shape = none fillcolor = seagreen image="NOR.png"];
+	OI206.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I206.2 -> OI206.2 [arrowhead=none color = seagreen tailclip=false]
+	OI242 -> I206.2 [color = seagreen];
+	OI251 -> I206.2 [color = seagreen];
+	I207.2 [label = "I207.2" shape = none fillcolor = seagreen image="NOR.png"];
+	OI207.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I207.2 -> OI207.2 [arrowhead=none color = seagreen tailclip=false]
+	OI243 -> I207.2 [color = seagreen];
+	OI249 -> I207.2 [color = seagreen];
+	I208.2 [label = "I208.2" shape = none fillcolor = seagreen image="NOR.png"];
+	OI208.2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I208.2 -> OI208.2 [arrowhead=none color = seagreen tailclip=false]
+	OX.7 -> I208.2 [color = seagreen];
+	OI249 -> I208.2 [color = seagreen];
+	OI244 -> I208.2 [color = seagreen];
+	I290 [label = "I290" shape = none fillcolor = seagreen image="NOR.png"];
+	OI290 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I290 -> OI290 [arrowhead=none color = seagreen tailclip=false]
+	OI295.1 -> I290 [color = seagreen];
+	OI295.2 -> I290 [color = seagreen];
+	I314 [label = "I314" shape = none fillcolor = seagreen image="NOR.png"];
+	OI314 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I314 -> OI314 [arrowhead=none color = seagreen tailclip=false]
+	OI319.1 -> I314 [color = seagreen];
+	OI319.2 -> I314 [color = seagreen];
+}

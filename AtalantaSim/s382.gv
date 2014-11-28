@@ -1,0 +1,862 @@
+digraph a
+{
+	//24 Inputs
+	//27 Outputs
+	//158 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"s382" [color = invis]
+	FM [label = "INPUT(FM)" shape = cds style = filled fillcolor = white]
+	OFM [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FM -> OFM [arrowhead=none]
+	TEST [label = "INPUT(TEST)" shape = cds style = filled fillcolor = white]
+	OTEST [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TEST -> OTEST [arrowhead=none]
+	CLR [label = "INPUT(CLR)" shape = cds style = filled fillcolor = white]
+	OCLR [label = "", fixedsize="false", width=0, height=0, shape=none]
+	CLR -> OCLR [arrowhead=none]
+	TESTL [label = "INPUT(TESTL)" shape = cds style = filled fillcolor = white]
+	OTESTL [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTL -> OTESTL [arrowhead=none]
+	FML [label = "INPUT(FML)" shape = cds style = filled fillcolor = white]
+	OFML [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FML -> OFML [arrowhead=none]
+	OLATCH_Y2L [label = "INPUT(OLATCH_Y2L)" shape = cds style = filled fillcolor = white]
+	OOLATCH_Y2L [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCH_Y2L -> OOLATCH_Y2L [arrowhead=none]
+	OLATCHVUC_6 [label = "INPUT(OLATCHVUC_6)" shape = cds style = filled fillcolor = white]
+	OOLATCHVUC_6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCHVUC_6 -> OOLATCHVUC_6 [arrowhead=none]
+	OLATCHVUC_5 [label = "INPUT(OLATCHVUC_5)" shape = cds style = filled fillcolor = white]
+	OOLATCHVUC_5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCHVUC_5 -> OOLATCHVUC_5 [arrowhead=none]
+	OLATCH_R1L [label = "INPUT(OLATCH_R1L)" shape = cds style = filled fillcolor = white]
+	OOLATCH_R1L [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCH_R1L -> OOLATCH_R1L [arrowhead=none]
+	OLATCH_G2L [label = "INPUT(OLATCH_G2L)" shape = cds style = filled fillcolor = white]
+	OOLATCH_G2L [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCH_G2L -> OOLATCH_G2L [arrowhead=none]
+	OLATCH_G1L [label = "INPUT(OLATCH_G1L)" shape = cds style = filled fillcolor = white]
+	OOLATCH_G1L [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCH_G1L -> OOLATCH_G1L [arrowhead=none]
+	OLATCH_FEL [label = "INPUT(OLATCH_FEL)" shape = cds style = filled fillcolor = white]
+	OOLATCH_FEL [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCH_FEL -> OOLATCH_FEL [arrowhead=none]
+	C3_Q3 [label = "INPUT(C3_Q3)" shape = cds style = filled fillcolor = white]
+	OC3_Q3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q3 -> OC3_Q3 [arrowhead=none]
+	C3_Q2 [label = "INPUT(C3_Q2)" shape = cds style = filled fillcolor = white]
+	OC3_Q2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q2 -> OC3_Q2 [arrowhead=none]
+	C3_Q1 [label = "INPUT(C3_Q1)" shape = cds style = filled fillcolor = white]
+	OC3_Q1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q1 -> OC3_Q1 [arrowhead=none]
+	C3_Q0 [label = "INPUT(C3_Q0)" shape = cds style = filled fillcolor = white]
+	OC3_Q0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q0 -> OC3_Q0 [arrowhead=none]
+	UC_16 [label = "INPUT(UC_16)" shape = cds style = filled fillcolor = white]
+	OUC_16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_16 -> OUC_16 [arrowhead=none]
+	UC_17 [label = "INPUT(UC_17)" shape = cds style = filled fillcolor = white]
+	OUC_17 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_17 -> OUC_17 [arrowhead=none]
+	UC_18 [label = "INPUT(UC_18)" shape = cds style = filled fillcolor = white]
+	OUC_18 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_18 -> OUC_18 [arrowhead=none]
+	UC_19 [label = "INPUT(UC_19)" shape = cds style = filled fillcolor = white]
+	OUC_19 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_19 -> OUC_19 [arrowhead=none]
+	UC_8 [label = "INPUT(UC_8)" shape = cds style = filled fillcolor = white]
+	OUC_8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_8 -> OUC_8 [arrowhead=none]
+	UC_9 [label = "INPUT(UC_9)" shape = cds style = filled fillcolor = white]
+	OUC_9 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_9 -> OUC_9 [arrowhead=none]
+	UC_10 [label = "INPUT(UC_10)" shape = cds style = filled fillcolor = white]
+	OUC_10 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_10 -> OUC_10 [arrowhead=none]
+	UC_11 [label = "INPUT(UC_11)" shape = cds style = filled fillcolor = white]
+	OUC_11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_11 -> OUC_11 [arrowhead=none]
+	OGRN1 [label = "OUTPUT(GRN1)" shape = cds style = filled fillcolor = yellow]
+	OGRN2 [label = "OUTPUT(GRN2)" shape = cds style = filled fillcolor = yellow]
+	ORED1 [label = "OUTPUT(RED1)" shape = cds style = filled fillcolor = yellow]
+	OYLW2 [label = "OUTPUT(YLW2)" shape = cds style = filled fillcolor = yellow]
+	ORED2 [label = "OUTPUT(RED2)" shape = cds style = filled fillcolor = yellow]
+	OYLW1 [label = "OUTPUT(YLW1)" shape = cds style = filled fillcolor = yellow]
+	OTCOMB_FE_BF [label = "OUTPUT(TCOMB_FE_BF)" shape = cds style = filled fillcolor = yellow]
+	OFMLVINLATCHVCDAD [label = "OUTPUT(FMLVINLATCHVCDAD)" shape = cds style = filled fillcolor = yellow]
+	OTESTLVINLATCHVCDAD [label = "OUTPUT(TESTLVINLATCHVCDAD)" shape = cds style = filled fillcolor = yellow]
+	OTCOMB_RA1 [label = "OUTPUT(TCOMB_RA1)" shape = cds style = filled fillcolor = yellow]
+	OUC_11VD [label = "OUTPUT(UC_11VD)" shape = cds style = filled fillcolor = yellow]
+	OTCOMB_GA2 [label = "OUTPUT(TCOMB_GA2)" shape = cds style = filled fillcolor = yellow]
+	OTCOMB_YA2 [label = "OUTPUT(TCOMB_YA2)" shape = cds style = filled fillcolor = yellow]
+	OTCOMB_GA1 [label = "OUTPUT(TCOMB_GA1)" shape = cds style = filled fillcolor = yellow]
+	OUC_8VD [label = "OUTPUT(UC_8VD)" shape = cds style = filled fillcolor = yellow]
+	OUC_9VD [label = "OUTPUT(UC_9VD)" shape = cds style = filled fillcolor = yellow]
+	OUC_10VD [label = "OUTPUT(UC_10VD)" shape = cds style = filled fillcolor = yellow]
+	OUC_16VD [label = "OUTPUT(UC_16VD)" shape = cds style = filled fillcolor = yellow]
+	OUC_17VD [label = "OUTPUT(UC_17VD)" shape = cds style = filled fillcolor = yellow]
+	OUC_18VD [label = "OUTPUT(UC_18VD)" shape = cds style = filled fillcolor = yellow]
+	OUC_19VD [label = "OUTPUT(UC_19VD)" shape = cds style = filled fillcolor = yellow]
+	OY1C [label = "OUTPUT(Y1C)" shape = cds style = filled fillcolor = yellow]
+	OR2C [label = "OUTPUT(R2C)" shape = cds style = filled fillcolor = yellow]
+	OC3_Q3VD [label = "OUTPUT(C3_Q3VD)" shape = cds style = filled fillcolor = yellow]
+	OC3_Q2VD [label = "OUTPUT(C3_Q2VD)" shape = cds style = filled fillcolor = yellow]
+	OC3_Q1VD [label = "OUTPUT(C3_Q1VD)" shape = cds style = filled fillcolor = yellow]
+	OC3_Q0VD [label = "OUTPUT(C3_Q0VD)" shape = cds style = filled fillcolor = yellow]
+	TESTLVINLATCHN [label = "TESTLVINLATCHN" shape = none fillcolor = red image="NOT.png"];
+	OTESTLVINLATCHN [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTLVINLATCHN -> OTESTLVINLATCHN [arrowhead=none color = red tailclip=false]
+	OTESTL -> TESTLVINLATCHN [color = red];
+	FMLVINLATCHN [label = "FMLVINLATCHN" shape = none fillcolor = red image="NOT.png"];
+	OFMLVINLATCHN [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMLVINLATCHN -> OFMLVINLATCHN [arrowhead=none color = red tailclip=false]
+	OFML -> FMLVINLATCHN [color = red];
+	OLATCH_Y1L [label = "OLATCH_Y1L" shape = none fillcolor = red image="NOT.png"];
+	OOLATCH_Y1L [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCH_Y1L -> OOLATCH_Y1L [arrowhead=none color = red tailclip=false]
+	OOLATCHVUC_6 -> OLATCH_Y1L [color = red];
+	OLATCH_R2L [label = "OLATCH_R2L" shape = none fillcolor = red image="NOT.png"];
+	OOLATCH_R2L [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OLATCH_R2L -> OOLATCH_R2L [arrowhead=none color = red tailclip=false]
+	OOLATCHVUC_5 -> OLATCH_R2L [color = red];
+	UC_23 [label = "UC_23" shape = none fillcolor = red image="NOT.png"];
+	OUC_23 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_23 -> OUC_23 [arrowhead=none color = red tailclip=false]
+	OC3_Q3 -> UC_23 [color = red];
+	UC_24 [label = "UC_24" shape = none fillcolor = red image="NOT.png"];
+	OUC_24 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_24 -> OUC_24 [arrowhead=none color = red tailclip=false]
+	OC3_Q2 -> UC_24 [color = red];
+	UC_25 [label = "UC_25" shape = none fillcolor = red image="NOT.png"];
+	OUC_25 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_25 -> OUC_25 [arrowhead=none color = red tailclip=false]
+	OC3_Q1 -> UC_25 [color = red];
+	UC_26 [label = "UC_26" shape = none fillcolor = red image="NOT.png"];
+	OUC_26 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_26 -> OUC_26 [arrowhead=none color = red tailclip=false]
+	OC3_Q0 -> UC_26 [color = red];
+	UC_20 [label = "UC_20" shape = none fillcolor = red image="NOT.png"];
+	OUC_20 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_20 -> OUC_20 [arrowhead=none color = red tailclip=false]
+	OUC_16 -> UC_20 [color = red];
+	C2_QN2 [label = "C2_QN2" shape = none fillcolor = red image="NOT.png"];
+	OC2_QN2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C2_QN2 -> OC2_QN2 [arrowhead=none color = red tailclip=false]
+	OUC_17 -> C2_QN2 [color = red];
+	UC_21 [label = "UC_21" shape = none fillcolor = red image="NOT.png"];
+	OUC_21 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_21 -> OUC_21 [arrowhead=none color = red tailclip=false]
+	OUC_18 -> UC_21 [color = red];
+	UC_22 [label = "UC_22" shape = none fillcolor = red image="NOT.png"];
+	OUC_22 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_22 -> OUC_22 [arrowhead=none color = red tailclip=false]
+	OUC_19 -> UC_22 [color = red];
+	UC_12 [label = "UC_12" shape = none fillcolor = red image="NOT.png"];
+	OUC_12 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_12 -> OUC_12 [arrowhead=none color = red tailclip=false]
+	OUC_8 -> UC_12 [color = red];
+	UC_13 [label = "UC_13" shape = none fillcolor = red image="NOT.png"];
+	OUC_13 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_13 -> OUC_13 [arrowhead=none color = red tailclip=false]
+	OUC_9 -> UC_13 [color = red];
+	UC_14 [label = "UC_14" shape = none fillcolor = red image="NOT.png"];
+	OUC_14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_14 -> OUC_14 [arrowhead=none color = red tailclip=false]
+	OUC_10 -> UC_14 [color = red];
+	UC_15 [label = "UC_15" shape = none fillcolor = red image="NOT.png"];
+	OUC_15 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_15 -> OUC_15 [arrowhead=none color = red tailclip=false]
+	OUC_11 -> UC_15 [color = red];
+	FMBVIR1 [label = "FMBVIR1" shape = none fillcolor = red image="NOT.png"];
+	OFMBVIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMBVIR1 -> OFMBVIR1 [arrowhead=none color = red tailclip=false]
+	OFM -> FMBVIR1 [color = red];
+	CLRBVIR1 [label = "CLRBVIR1" shape = none fillcolor = red image="NOT.png"];
+	OCLRBVIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	CLRBVIR1 -> OCLRBVIR1 [arrowhead=none color = red tailclip=false]
+	OCLR -> CLRBVIR1 [color = red];
+	TCOMBVNFM [label = "TCOMBVNFM" shape = none fillcolor = red image="NOT.png"];
+	OTCOMBVNFM [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNFM -> OTCOMBVNFM [arrowhead=none color = red tailclip=false]
+	OFML -> TCOMBVNFM [color = red];
+	TESTBVIR1 [label = "TESTBVIR1" shape = none fillcolor = red image="NOT.png"];
+	OTESTBVIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTBVIR1 -> OTESTBVIR1 [arrowhead=none color = red tailclip=false]
+	OTEST -> TESTBVIR1 [color = red];
+	TCOMBVNQA [label = "TCOMBVNQA" shape = none fillcolor = red image="NOT.png"];
+	OTCOMBVNQA [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNQA -> OTCOMBVNQA [arrowhead=none color = red tailclip=false]
+	OC3_Q0 -> TCOMBVNQA [color = red];
+	TCOMBVNQB [label = "TCOMBVNQB" shape = none fillcolor = red image="NOT.png"];
+	OTCOMBVNQB [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNQB -> OTCOMBVNQB [arrowhead=none color = red tailclip=false]
+	OC3_Q1 -> TCOMBVNQB [color = red];
+	TCOMBVNQC [label = "TCOMBVNQC" shape = none fillcolor = red image="NOT.png"];
+	OTCOMBVNQC [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNQC -> OTCOMBVNQC [arrowhead=none color = red tailclip=false]
+	OC3_Q2 -> TCOMBVNQC [color = red];
+	TCOMBVNQD [label = "TCOMBVNQD" shape = none fillcolor = red image="NOT.png"];
+	OTCOMBVNQD [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNQD -> OTCOMBVNQD [arrowhead=none color = red tailclip=false]
+	OC3_Q3 -> TCOMBVNQD [color = red];
+	UC_11VUC_0 [label = "UC_11VUC_0" shape = none fillcolor = red image="NOT.png"];
+	OUC_11VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_11VUC_0 -> OUC_11VUC_0 [arrowhead=none color = red tailclip=false]
+	OUC_11 -> UC_11VUC_0 [color = red];
+	OUTVG1VIR1 [label = "OUTVG1VIR1" shape = none fillcolor = green image="BUF.png"];
+	OOUTVG1VIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OUTVG1VIR1 -> OOUTVG1VIR1 [arrowhead=none color = green tailclip=false]
+	OOLATCH_G1L -> OUTVG1VIR1 [color = green];
+	OUTVG2VIR1 [label = "OUTVG2VIR1" shape = none fillcolor = green image="BUF.png"];
+	OOUTVG2VIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OUTVG2VIR1 -> OOUTVG2VIR1 [arrowhead=none color = green tailclip=false]
+	OOLATCH_G2L -> OUTVG2VIR1 [color = green];
+	TCOMBVNFEL [label = "TCOMBVNFEL" shape = none fillcolor = red image="NOT.png"];
+	OTCOMBVNFEL [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNFEL -> OTCOMBVNFEL [arrowhead=none color = red tailclip=false]
+	OOLATCH_FEL -> TCOMBVNFEL [color = red];
+	OUTVR1VIR1 [label = "OUTVR1VIR1" shape = none fillcolor = green image="BUF.png"];
+	OOUTVR1VIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OUTVR1VIR1 -> OOUTVR1VIR1 [arrowhead=none color = green tailclip=false]
+	OOLATCH_R1L -> OUTVR1VIR1 [color = green];
+	OUTVY2VIR1 [label = "OUTVY2VIR1" shape = none fillcolor = green image="BUF.png"];
+	OOUTVY2VIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OUTVY2VIR1 -> OOUTVY2VIR1 [arrowhead=none color = green tailclip=false]
+	OOLATCH_Y2L -> OUTVY2VIR1 [color = green];
+	FMB [label = "FMB" shape = none fillcolor = red image="NOT.png"];
+	OFMB [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMB -> OFMB [arrowhead=none color = red tailclip=false]
+	OFMBVIR1 -> FMB [color = red];
+	CLRB [label = "CLRB" shape = none fillcolor = red image="NOT.png"];
+	OCLRB [label = "", fixedsize="false", width=0, height=0, shape=none]
+	CLRB -> OCLRB [arrowhead=none color = red tailclip=false]
+	OCLRBVIR1 -> CLRB [color = red];
+	TESTB [label = "TESTB" shape = none fillcolor = red image="NOT.png"];
+	OTESTB [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTB -> OTESTB [arrowhead=none color = red tailclip=false]
+	OTESTBVIR1 -> TESTB [color = red];
+	UC_11VZ [label = "UC_11VZ" shape = none fillcolor = red image="NOT.png"];
+	OUC_11VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_11VZ -> OUC_11VZ [arrowhead=none color = red tailclip=false]
+	OUC_11VUC_0 -> UC_11VZ [color = red];
+	C1VCO0 [label = "C1VCO0" shape = none fillcolor = red image="NOT.png"];
+	OC1VCO0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C1VCO0 -> OC1VCO0 [arrowhead=none color = red tailclip=false]
+	OUC_15 -> C1VCO0 [color = red];
+	GRN1 [label = "GRN1" shape = none fillcolor = green image="BUF.png"];
+	GRN1 -> OGRN1 [arrowhead=none color = black]
+	OOUTVG1VIR1 -> GRN1 [color = green];
+	GRN2 [label = "GRN2" shape = none fillcolor = green image="BUF.png"];
+	GRN2 -> OGRN2 [arrowhead=none color = black]
+	OOUTVG2VIR1 -> GRN2 [color = green];
+	RED1 [label = "RED1" shape = none fillcolor = green image="BUF.png"];
+	RED1 -> ORED1 [arrowhead=none color = black]
+	OOUTVR1VIR1 -> RED1 [color = green];
+	YLW2 [label = "YLW2" shape = none fillcolor = green image="BUF.png"];
+	YLW2 -> OYLW2 [arrowhead=none color = black]
+	OOUTVY2VIR1 -> YLW2 [color = green];
+	OUTVR2VIR1 [label = "OUTVR2VIR1" shape = none fillcolor = green image="BUF.png"];
+	OOUTVR2VIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OUTVR2VIR1 -> OOUTVR2VIR1 [arrowhead=none color = green tailclip=false]
+	OOLATCH_R2L -> OUTVR2VIR1 [color = green];
+	OUTVY1VIR1 [label = "OUTVY1VIR1" shape = none fillcolor = green image="BUF.png"];
+	OOUTVY1VIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OUTVY1VIR1 -> OOUTVY1VIR1 [arrowhead=none color = green tailclip=false]
+	OOLATCH_Y1L -> OUTVY1VIR1 [color = green];
+	FMLVINMUXVIR1 [label = "FMLVINMUXVIR1" shape = none fillcolor = red image="NOT.png"];
+	OFMLVINMUXVIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMLVINMUXVIR1 -> OFMLVINMUXVIR1 [arrowhead=none color = red tailclip=false]
+	OFMB -> FMLVINMUXVIR1 [color = red];
+	TESTLVINLATCHVCDN [label = "TESTLVINLATCHVCDN" shape = none fillcolor = red image="NOT.png"];
+	OTESTLVINLATCHVCDN [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTLVINLATCHVCDN -> OTESTLVINLATCHVCDN [arrowhead=none color = red tailclip=false]
+	OCLRB -> TESTLVINLATCHVCDN [color = red];
+	FMLVINLATCHVCDN [label = "FMLVINLATCHVCDN" shape = none fillcolor = red image="NOT.png"];
+	OFMLVINLATCHVCDN [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMLVINLATCHVCDN -> OFMLVINLATCHVCDN [arrowhead=none color = red tailclip=false]
+	OCLRB -> FMLVINLATCHVCDN [color = red];
+	TCOMBVNCLR [label = "TCOMBVNCLR" shape = none fillcolor = red image="NOT.png"];
+	OTCOMBVNCLR [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNCLR -> OTCOMBVNCLR [arrowhead=none color = red tailclip=false]
+	OCLRB -> TCOMBVNCLR [color = red];
+	TESTLVINMUXVIR1 [label = "TESTLVINMUXVIR1" shape = none fillcolor = red image="NOT.png"];
+	OTESTLVINMUXVIR1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTLVINMUXVIR1 -> OTESTLVINMUXVIR1 [arrowhead=none color = red tailclip=false]
+	OTESTB -> TESTLVINMUXVIR1 [color = red];
+	RED2 [label = "RED2" shape = none fillcolor = green image="BUF.png"];
+	RED2 -> ORED2 [arrowhead=none color = black]
+	OOUTVR2VIR1 -> RED2 [color = green];
+	YLW1 [label = "YLW1" shape = none fillcolor = green image="BUF.png"];
+	YLW1 -> OYLW1 [arrowhead=none color = black]
+	OOUTVY1VIR1 -> YLW1 [color = green];
+	C2VINHN [label = "C2VINHN" shape = none fillcolor = red image="NOT.png"];
+	OC2VINHN [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C2VINHN -> OC2VINHN [arrowhead=none color = red tailclip=false]
+	OCTST -> C2VINHN [color = red];
+	UC_8VZ [label = "UC_8VZ" shape = none fillcolor = pink image="OR.png"];
+	OUC_8VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_8VZ -> OUC_8VZ [arrowhead=none color = pink tailclip=false]
+	OUC_8VZV1NF -> UC_8VZ [color = pink];
+	CO2 [label = "CO2" shape = none fillcolor = red image="NOT.png"];
+	OCO2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	CO2 -> OCO2 [arrowhead=none color = red tailclip=false]
+	OC2_CO -> CO2 [color = red];
+	FMLVINMUX [label = "FMLVINMUX" shape = none fillcolor = red image="NOT.png"];
+	OFMLVINMUX [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMLVINMUX -> OFMLVINMUX [arrowhead=none color = red tailclip=false]
+	OFMLVINMUXVND1 -> FMLVINMUX [color = red];
+	TESTLVINMUX [label = "TESTLVINMUX" shape = none fillcolor = red image="NOT.png"];
+	OTESTLVINMUX [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTLVINMUX -> OTESTLVINMUX [arrowhead=none color = red tailclip=false]
+	OTESTLVINMUXVND1 -> TESTLVINMUX [color = red];
+	I84 [label = "I84" shape = none fillcolor = red image="NOT.png"];
+	OI84 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I84 -> OI84 [arrowhead=none color = red tailclip=false]
+	OTCOMB_FE -> I84 [color = red];
+	FEN [label = "FEN" shape = none fillcolor = red image="NOT.png"];
+	OFEN [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FEN -> OFEN [arrowhead=none color = red tailclip=false]
+	OTCOMB_FE -> FEN [color = red];
+	UC_16VZ [label = "UC_16VZ" shape = none fillcolor = pink image="OR.png"];
+	OUC_16VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_16VZ -> OUC_16VZ [arrowhead=none color = pink tailclip=false]
+	OUC_16VZV1NF -> UC_16VZ [color = pink];
+	C3VINHN [label = "C3VINHN" shape = none fillcolor = red image="NOT.png"];
+	OC3VINHN [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3VINHN -> OC3VINHN [arrowhead=none color = red tailclip=false]
+	OCO2 -> C3VINHN [color = red];
+	TCOMB_FE_BF [label = "TCOMB_FE_BF" shape = none fillcolor = red image="NOT.png"];
+	TCOMB_FE_BF -> OTCOMB_FE_BF [arrowhead=none color = black]
+	OI84 -> TCOMB_FE_BF [color = red];
+	C3_Q3VZ [label = "C3_Q3VZ" shape = none fillcolor = pink image="OR.png"];
+	OC3_Q3VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q3VZ -> OC3_Q3VZ [arrowhead=none color = pink tailclip=false]
+	OC3_Q3VZV1NF -> C3_Q3VZ [color = pink];
+	TCOMB_GA1VAD1NF [label = "TCOMB_GA1VAD1NF" shape = none fillcolor = orange image="AND.png"];
+	OTCOMB_GA1VAD1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_GA1VAD1NF -> OTCOMB_GA1VAD1NF [arrowhead=none color = orange tailclip=false]
+	OTCOMBVNODE6 -> TCOMB_GA1VAD1NF [color = orange];
+	OOLATCH_FEL -> TCOMB_GA1VAD1NF [color = orange];
+	TCOMB_GA2VAD4NF [label = "TCOMB_GA2VAD4NF" shape = none fillcolor = orange image="AND.png"];
+	OTCOMB_GA2VAD4NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_GA2VAD4NF -> OTCOMB_GA2VAD4NF [arrowhead=none color = orange tailclip=false]
+	OOLATCH_FEL -> TCOMB_GA2VAD4NF [color = orange];
+	OTCOMBVNCLR -> TCOMB_GA2VAD4NF [color = orange];
+	TCOMB_GA2VAD3NF [label = "TCOMB_GA2VAD3NF" shape = none fillcolor = orange image="AND.png"];
+	OTCOMB_GA2VAD3NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_GA2VAD3NF -> OTCOMB_GA2VAD3NF [arrowhead=none color = orange tailclip=false]
+	OC3_Q2 -> TCOMB_GA2VAD3NF [color = orange];
+	OTCOMBVNCLR -> TCOMB_GA2VAD3NF [color = orange];
+	TCOMB_GA2VAD2NF [label = "TCOMB_GA2VAD2NF" shape = none fillcolor = orange image="AND.png"];
+	OTCOMB_GA2VAD2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_GA2VAD2NF -> OTCOMB_GA2VAD2NF [arrowhead=none color = orange tailclip=false]
+	OC3_Q0 -> TCOMB_GA2VAD2NF [color = orange];
+	OC3_Q1 -> TCOMB_GA2VAD2NF [color = orange];
+	OTCOMBVNCLR -> TCOMB_GA2VAD2NF [color = orange];
+	TCOMB_GA2VAD1NF [label = "TCOMB_GA2VAD1NF" shape = none fillcolor = orange image="AND.png"];
+	OTCOMB_GA2VAD1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_GA2VAD1NF -> OTCOMB_GA2VAD1NF [arrowhead=none color = orange tailclip=false]
+	OTCOMBVNQA -> TCOMB_GA2VAD1NF [color = orange];
+	OC3_Q3 -> TCOMB_GA2VAD1NF [color = orange];
+	OTCOMBVNCLR -> TCOMB_GA2VAD1NF [color = orange];
+	R2CVAD1NF [label = "R2CVAD1NF" shape = none fillcolor = orange image="AND.png"];
+	OR2CVAD1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	R2CVAD1NF -> OR2CVAD1NF [arrowhead=none color = orange tailclip=false]
+	OTCOMB_FE -> R2CVAD1NF [color = orange];
+	OC2_QN2 -> R2CVAD1NF [color = orange];
+	FMLVINLATCHVCDAD [label = "FMLVINLATCHVCDAD" shape = none fillcolor = orange image="AND.png"];
+	FMLVINLATCHVCDAD -> OFMLVINLATCHVCDAD [arrowhead=none color = black]
+	OFMLVINLATCHVCDN -> FMLVINLATCHVCDAD [color = orange];
+	OFMLVINMUX -> FMLVINLATCHVCDAD [color = orange];
+	Y1CVAD1NF [label = "Y1CVAD1NF" shape = none fillcolor = orange image="AND.png"];
+	OY1CVAD1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y1CVAD1NF -> OY1CVAD1NF [arrowhead=none color = orange tailclip=false]
+	OTCOMB_YA1 -> Y1CVAD1NF [color = orange];
+	OC2_QN2 -> Y1CVAD1NF [color = orange];
+	TESTLVINLATCHVCDAD [label = "TESTLVINLATCHVCDAD" shape = none fillcolor = orange image="AND.png"];
+	TESTLVINLATCHVCDAD -> OTESTLVINLATCHVCDAD [arrowhead=none color = black]
+	OTESTLVINLATCHVCDN -> TESTLVINLATCHVCDAD [color = orange];
+	OTESTLVINMUX -> TESTLVINLATCHVCDAD [color = orange];
+	Y1CVAD2NF [label = "Y1CVAD2NF" shape = none fillcolor = orange image="AND.png"];
+	OY1CVAD2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y1CVAD2NF -> OY1CVAD2NF [arrowhead=none color = orange tailclip=false]
+	OFEN -> Y1CVAD2NF [color = orange];
+	OTCOMB_YA1 -> Y1CVAD2NF [color = orange];
+	R2CVAD2NF [label = "R2CVAD2NF" shape = none fillcolor = orange image="AND.png"];
+	OR2CVAD2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	R2CVAD2NF -> OR2CVAD2NF [arrowhead=none color = orange tailclip=false]
+	OFEN -> R2CVAD2NF [color = orange];
+	OTCOMB_RA2 -> R2CVAD2NF [color = orange];
+	TCOMB_RA1V2NF [label = "TCOMB_RA1V2NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMB_RA1V2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_RA1V2NF -> OTCOMB_RA1V2NF [arrowhead=none color = pink tailclip=false]
+	OC3_Q2 -> TCOMB_RA1V2NF [color = pink];
+	OC3_Q3 -> TCOMB_RA1V2NF [color = pink];
+	OOLATCH_FEL -> TCOMB_RA1V2NF [color = pink];
+	TCOMBVNODE8V1NF [label = "TCOMBVNODE8V1NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMBVNODE8V1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE8V1NF -> OTCOMBVNODE8V1NF [arrowhead=none color = pink tailclip=false]
+	OC3_Q0 -> TCOMBVNODE8V1NF [color = pink];
+	OC3_Q1 -> TCOMBVNODE8V1NF [color = pink];
+	OTCOMBVNFM -> TCOMBVNODE8V1NF [color = pink];
+	TCOMB_RA1V1NF [label = "TCOMB_RA1V1NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMB_RA1V1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_RA1V1NF -> OTCOMB_RA1V1NF [arrowhead=none color = pink tailclip=false]
+	OTCOMBVNQA -> TCOMB_RA1V1NF [color = pink];
+	OC3_Q1 -> TCOMB_RA1V1NF [color = pink];
+	OC3_Q2 -> TCOMB_RA1V1NF [color = pink];
+	OOLATCH_FEL -> TCOMB_RA1V1NF [color = pink];
+	TCOMBVNODE8V2NF [label = "TCOMBVNODE8V2NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMBVNODE8V2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE8V2NF -> OTCOMBVNODE8V2NF [arrowhead=none color = pink tailclip=false]
+	OTCOMBVNQD -> TCOMBVNODE8V2NF [color = pink];
+	OTCOMBVNFM -> TCOMBVNODE8V2NF [color = pink];
+	FMLVINMUXV1NF [label = "FMLVINMUXV1NF" shape = none fillcolor = pink image="OR.png"];
+	OFMLVINMUXV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMLVINMUXV1NF -> OFMLVINMUXV1NF [arrowhead=none color = pink tailclip=false]
+	OFMB -> FMLVINMUXV1NF [color = pink];
+	OFML -> FMLVINMUXV1NF [color = pink];
+	TCOMB_RA2V3NF [label = "TCOMB_RA2V3NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMB_RA2V3NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_RA2V3NF -> OTCOMB_RA2V3NF [arrowhead=none color = pink tailclip=false]
+	OTCOMBVNQC -> TCOMB_RA2V3NF [color = pink];
+	OCLRB -> TCOMB_RA2V3NF [color = pink];
+	TCOMB_RA2V1NF [label = "TCOMB_RA2V1NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMB_RA2V1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_RA2V1NF -> OTCOMB_RA2V1NF [arrowhead=none color = pink tailclip=false]
+	OC3_Q0 -> TCOMB_RA2V1NF [color = pink];
+	OC3_Q1 -> TCOMB_RA2V1NF [color = pink];
+	OTCOMBVNQD -> TCOMB_RA2V1NF [color = pink];
+	OCLRB -> TCOMB_RA2V1NF [color = pink];
+	TCOMBVNODE4V2NF [label = "TCOMBVNODE4V2NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMBVNODE4V2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE4V2NF -> OTCOMBVNODE4V2NF [arrowhead=none color = pink tailclip=false]
+	OC3_Q2 -> TCOMBVNODE4V2NF [color = pink];
+	OTCOMBVNQD -> TCOMBVNODE4V2NF [color = pink];
+	OCLRB -> TCOMBVNODE4V2NF [color = pink];
+	TCOMBVNODE4V1NF [label = "TCOMBVNODE4V1NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMBVNODE4V1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE4V1NF -> OTCOMBVNODE4V1NF [arrowhead=none color = pink tailclip=false]
+	OTCOMBVNQC -> TCOMBVNODE4V1NF [color = pink];
+	OC3_Q3 -> TCOMBVNODE4V1NF [color = pink];
+	OTCOMBVNFM -> TCOMBVNODE4V1NF [color = pink];
+	OCLRB -> TCOMBVNODE4V1NF [color = pink];
+	TESTLVINMUXV1NF [label = "TESTLVINMUXV1NF" shape = none fillcolor = pink image="OR.png"];
+	OTESTLVINMUXV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTLVINMUXV1NF -> OTESTLVINMUXV1NF [arrowhead=none color = pink tailclip=false]
+	OTESTB -> TESTLVINMUXV1NF [color = pink];
+	OTESTL -> TESTLVINMUXV1NF [color = pink];
+	TCOMBVNODE16V1NF [label = "TCOMBVNODE16V1NF" shape = none fillcolor = pink image="OR.png"];
+	OTCOMBVNODE16V1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE16V1NF -> OTCOMBVNODE16V1NF [arrowhead=none color = pink tailclip=false]
+	OTCOMBVNODE18 -> TCOMBVNODE16V1NF [color = pink];
+	OFML -> TCOMBVNODE16V1NF [color = pink];
+	OC3_Q3 -> TCOMBVNODE16V1NF [color = pink];
+	OTCOMBVNQC -> TCOMBVNODE16V1NF [color = pink];
+	UC_8VZV1NF [label = "UC_8VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OUC_8VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_8VZV1NF -> OUC_8VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC1VCO2 -> UC_8VZV1NF [color = pink];
+	OUC_8 -> UC_8VZV1NF [color = pink];
+	UC_9VZV1NF [label = "UC_9VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OUC_9VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_9VZV1NF -> OUC_9VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC1VCO1 -> UC_9VZV1NF [color = pink];
+	OUC_9 -> UC_9VZV1NF [color = pink];
+	UC_10VZV1NF [label = "UC_10VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OUC_10VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_10VZV1NF -> OUC_10VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC1VCO0 -> UC_10VZV1NF [color = pink];
+	OUC_10 -> UC_10VZV1NF [color = pink];
+	FMLVINMUXV2NF [label = "FMLVINMUXV2NF" shape = none fillcolor = pink image="OR.png"];
+	OFMLVINMUXV2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMLVINMUXV2NF -> OFMLVINMUXV2NF [arrowhead=none color = pink tailclip=false]
+	OFMLVINMUXVIR1 -> FMLVINMUXV2NF [color = pink];
+	OFMLVINLATCHN -> FMLVINMUXV2NF [color = pink];
+	TESTLVINMUXV2NF [label = "TESTLVINMUXV2NF" shape = none fillcolor = pink image="OR.png"];
+	OTESTLVINMUXV2NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTLVINMUXV2NF -> OTESTLVINMUXV2NF [arrowhead=none color = pink tailclip=false]
+	OTESTLVINMUXVIR1 -> TESTLVINMUXV2NF [color = pink];
+	OTESTLVINLATCHN -> TESTLVINMUXV2NF [color = pink];
+	UC_16VZV1NF [label = "UC_16VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OUC_16VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_16VZV1NF -> OUC_16VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC2VCO2 -> UC_16VZV1NF [color = pink];
+	OUC_16 -> UC_16VZV1NF [color = pink];
+	UC_17VZV1NF [label = "UC_17VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OUC_17VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_17VZV1NF -> OUC_17VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC2VCO1 -> UC_17VZV1NF [color = pink];
+	OUC_17 -> UC_17VZV1NF [color = pink];
+	UC_18VZV1NF [label = "UC_18VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OUC_18VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_18VZV1NF -> OUC_18VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC2VCO0 -> UC_18VZV1NF [color = pink];
+	OUC_18 -> UC_18VZV1NF [color = pink];
+	UC_19VZV1NF [label = "UC_19VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OUC_19VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_19VZV1NF -> OUC_19VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC2VINHN -> UC_19VZV1NF [color = pink];
+	OUC_19 -> UC_19VZV1NF [color = pink];
+	C3_Q3VZV1NF [label = "C3_Q3VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OC3_Q3VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q3VZV1NF -> OC3_Q3VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC3VCO2 -> C3_Q3VZV1NF [color = pink];
+	OC3_Q3 -> C3_Q3VZV1NF [color = pink];
+	C3_Q2VZV1NF [label = "C3_Q2VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OC3_Q2VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q2VZV1NF -> OC3_Q2VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC3VCO1 -> C3_Q2VZV1NF [color = pink];
+	OC3_Q2 -> C3_Q2VZV1NF [color = pink];
+	C3_Q1VZV1NF [label = "C3_Q1VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OC3_Q1VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q1VZV1NF -> OC3_Q1VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC3VCO0 -> C3_Q1VZV1NF [color = pink];
+	OC3_Q1 -> C3_Q1VZV1NF [color = pink];
+	C3_Q0VZV1NF [label = "C3_Q0VZV1NF" shape = none fillcolor = pink image="OR.png"];
+	OC3_Q0VZV1NF [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q0VZV1NF -> OC3_Q0VZV1NF [arrowhead=none color = pink tailclip=false]
+	OC3VINHN -> C3_Q0VZV1NF [color = pink];
+	OC3_Q0 -> C3_Q0VZV1NF [color = pink];
+	TCOMBVNODE18 [label = "TCOMBVNODE18" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE18 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE18 -> OTCOMBVNODE18 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNQB -> TCOMBVNODE18 [color = blue];
+	OC3_Q0 -> TCOMBVNODE18 [color = blue];
+	TCOMBVNODE6 [label = "TCOMBVNODE6" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE6 -> OTCOMBVNODE6 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNFM -> TCOMBVNODE6 [color = blue];
+	OTCOMBVNQD -> TCOMBVNODE6 [color = blue];
+	OTCOMBVNQB -> TCOMBVNODE6 [color = blue];
+	OC3_Q0 -> TCOMBVNODE6 [color = blue];
+	UC_9VUC_0 [label = "UC_9VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OUC_9VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_9VUC_0 -> OUC_9VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC1VCO1 -> UC_9VUC_0 [color = blue];
+	OUC_9 -> UC_9VUC_0 [color = blue];
+	UC_10VUC_0 [label = "UC_10VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OUC_10VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_10VUC_0 -> OUC_10VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC1VCO0 -> UC_10VUC_0 [color = blue];
+	OUC_10 -> UC_10VUC_0 [color = blue];
+	TCOMB_RA2 [label = "TCOMB_RA2" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMB_RA2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_RA2 -> OTCOMB_RA2 [arrowhead=none color = blue tailclip=false]
+	OTCOMB_RA2V3NF -> TCOMB_RA2 [color = blue];
+	OTCOMB_RA2V1NF -> TCOMB_RA2 [color = blue];
+	TCOMBVNODE4 [label = "TCOMBVNODE4" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE4 -> OTCOMBVNODE4 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNODE4V2NF -> TCOMBVNODE4 [color = blue];
+	OTCOMBVNODE4V1NF -> TCOMBVNODE4 [color = blue];
+	TCOMBVNODE14 [label = "TCOMBVNODE14" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE14 -> OTCOMBVNODE14 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNODE15 -> TCOMBVNODE14 [color = blue];
+	OTCOMBVNQA -> TCOMBVNODE14 [color = blue];
+	TCOMBVNODE12 [label = "TCOMBVNODE12" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE12 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE12 -> OTCOMBVNODE12 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNCLR -> TCOMBVNODE12 [color = blue];
+	OTCOMBVNFEL -> TCOMBVNODE12 [color = blue];
+	OTCOMBVNQC -> TCOMBVNODE12 [color = blue];
+	OC3_Q1 -> TCOMBVNODE12 [color = blue];
+	TCOMBVNODE8 [label = "TCOMBVNODE8" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE8 -> OTCOMBVNODE8 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNCLR -> TCOMBVNODE8 [color = blue];
+	OC3_Q2 -> TCOMBVNODE8 [color = blue];
+	OTCOMBVNODE8V2NF -> TCOMBVNODE8 [color = blue];
+	OTCOMBVNODE8V1NF -> TCOMBVNODE8 [color = blue];
+	TCOMB_RA1 [label = "TCOMB_RA1" shape = none fillcolor = blue image="NAND.png"];
+	TCOMB_RA1 -> OTCOMB_RA1 [arrowhead=none color = black]
+	OTCOMBVNCLR -> TCOMB_RA1 [color = blue];
+	OTCOMB_RA1V2NF -> TCOMB_RA1 [color = blue];
+	OTCOMB_RA1V1NF -> TCOMB_RA1 [color = blue];
+	TCOMBVNODE16 [label = "TCOMBVNODE16" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE16 -> OTCOMBVNODE16 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNODE19 -> TCOMBVNODE16 [color = blue];
+	OTCOMBVNODE16V1NF -> TCOMBVNODE16 [color = blue];
+	UC_9VZ [label = "UC_9VZ" shape = none fillcolor = blue image="NAND.png"];
+	OUC_9VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_9VZ -> OUC_9VZ [arrowhead=none color = blue tailclip=false]
+	OUC_9VZV1NF -> UC_9VZ [color = blue];
+	OUC_9VUC_0 -> UC_9VZ [color = blue];
+	UC_10VZ [label = "UC_10VZ" shape = none fillcolor = blue image="NAND.png"];
+	OUC_10VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_10VZ -> OUC_10VZ [arrowhead=none color = blue tailclip=false]
+	OUC_10VZV1NF -> UC_10VZ [color = blue];
+	OUC_10VUC_0 -> UC_10VZ [color = blue];
+	FMLVINMUXVND1 [label = "FMLVINMUXVND1" shape = none fillcolor = blue image="NAND.png"];
+	OFMLVINMUXVND1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	FMLVINMUXVND1 -> OFMLVINMUXVND1 [arrowhead=none color = blue tailclip=false]
+	OFMLVINMUXV2NF -> FMLVINMUXVND1 [color = blue];
+	OFMLVINMUXV1NF -> FMLVINMUXVND1 [color = blue];
+	TCOMBVNODE3 [label = "TCOMBVNODE3" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMBVNODE3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE3 -> OTCOMBVNODE3 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNODE4 -> TCOMBVNODE3 [color = blue];
+	OTCOMBVNQB -> TCOMBVNODE3 [color = blue];
+	OTCOMBVNQA -> TCOMBVNODE3 [color = blue];
+	TESTLVINMUXVND1 [label = "TESTLVINMUXVND1" shape = none fillcolor = blue image="NAND.png"];
+	OTESTLVINMUXVND1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TESTLVINMUXVND1 -> OTESTLVINMUXVND1 [arrowhead=none color = blue tailclip=false]
+	OTESTLVINMUXV2NF -> TESTLVINMUXVND1 [color = blue];
+	OTESTLVINMUXV1NF -> TESTLVINMUXVND1 [color = blue];
+	TCOMB_FE [label = "TCOMB_FE" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMB_FE [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_FE -> OTCOMB_FE [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNODE16 -> TCOMB_FE [color = blue];
+	OTCOMBVNODE14 -> TCOMB_FE [color = blue];
+	UC_17VUC_0 [label = "UC_17VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OUC_17VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_17VUC_0 -> OUC_17VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC2VCO1 -> UC_17VUC_0 [color = blue];
+	OUC_17 -> UC_17VUC_0 [color = blue];
+	UC_18VUC_0 [label = "UC_18VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OUC_18VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_18VUC_0 -> OUC_18VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC2VCO0 -> UC_18VUC_0 [color = blue];
+	OUC_18 -> UC_18VUC_0 [color = blue];
+	UC_19VUC_0 [label = "UC_19VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OUC_19VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_19VUC_0 -> OUC_19VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC2VINHN -> UC_19VUC_0 [color = blue];
+	OUC_19 -> UC_19VUC_0 [color = blue];
+	TCOMB_YA1 [label = "TCOMB_YA1" shape = none fillcolor = blue image="NAND.png"];
+	OTCOMB_YA1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMB_YA1 -> OTCOMB_YA1 [arrowhead=none color = blue tailclip=false]
+	OTCOMBVNODE16 -> TCOMB_YA1 [color = blue];
+	OTCOMBVNODE3 -> TCOMB_YA1 [color = blue];
+	UC_17VZ [label = "UC_17VZ" shape = none fillcolor = blue image="NAND.png"];
+	OUC_17VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_17VZ -> OUC_17VZ [arrowhead=none color = blue tailclip=false]
+	OUC_17VZV1NF -> UC_17VZ [color = blue];
+	OUC_17VUC_0 -> UC_17VZ [color = blue];
+	UC_18VZ [label = "UC_18VZ" shape = none fillcolor = blue image="NAND.png"];
+	OUC_18VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_18VZ -> OUC_18VZ [arrowhead=none color = blue tailclip=false]
+	OUC_18VZV1NF -> UC_18VZ [color = blue];
+	OUC_18VUC_0 -> UC_18VZ [color = blue];
+	UC_19VZ [label = "UC_19VZ" shape = none fillcolor = blue image="NAND.png"];
+	OUC_19VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_19VZ -> OUC_19VZ [arrowhead=none color = blue tailclip=false]
+	OUC_19VZV1NF -> UC_19VZ [color = blue];
+	OUC_19VUC_0 -> UC_19VZ [color = blue];
+	C3_Q2VUC_0 [label = "C3_Q2VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OC3_Q2VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q2VUC_0 -> OC3_Q2VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC3VCO1 -> C3_Q2VUC_0 [color = blue];
+	OC3_Q2 -> C3_Q2VUC_0 [color = blue];
+	C3_Q1VUC_0 [label = "C3_Q1VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OC3_Q1VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q1VUC_0 -> OC3_Q1VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC3VCO0 -> C3_Q1VUC_0 [color = blue];
+	OC3_Q1 -> C3_Q1VUC_0 [color = blue];
+	C3_Q0VUC_0 [label = "C3_Q0VUC_0" shape = none fillcolor = blue image="NAND.png"];
+	OC3_Q0VUC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q0VUC_0 -> OC3_Q0VUC_0 [arrowhead=none color = blue tailclip=false]
+	OC3VINHN -> C3_Q0VUC_0 [color = blue];
+	OC3_Q0 -> C3_Q0VUC_0 [color = blue];
+	C3_Q2VZ [label = "C3_Q2VZ" shape = none fillcolor = blue image="NAND.png"];
+	OC3_Q2VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q2VZ -> OC3_Q2VZ [arrowhead=none color = blue tailclip=false]
+	OC3_Q2VZV1NF -> C3_Q2VZ [color = blue];
+	OC3_Q2VUC_0 -> C3_Q2VZ [color = blue];
+	C3_Q1VZ [label = "C3_Q1VZ" shape = none fillcolor = blue image="NAND.png"];
+	OC3_Q1VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q1VZ -> OC3_Q1VZ [arrowhead=none color = blue tailclip=false]
+	OC3_Q1VZV1NF -> C3_Q1VZ [color = blue];
+	OC3_Q1VUC_0 -> C3_Q1VZ [color = blue];
+	C3_Q0VZ [label = "C3_Q0VZ" shape = none fillcolor = blue image="NAND.png"];
+	OC3_Q0VZ [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3_Q0VZ -> OC3_Q0VZ [arrowhead=none color = blue tailclip=false]
+	OC3_Q0VZV1NF -> C3_Q0VZ [color = blue];
+	OC3_Q0VUC_0 -> C3_Q0VZ [color = blue];
+	C3VCIA [label = "C3VCIA" shape = none fillcolor = seagreen image="NOR.png"];
+	OC3VCIA [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3VCIA -> OC3VCIA [arrowhead=none color = seagreen tailclip=false]
+	OC3_Q2 -> C3VCIA [color = seagreen];
+	OC3_Q1 -> C3VCIA [color = seagreen];
+	OC3_Q0 -> C3VCIA [color = seagreen];
+	C1VCIA [label = "C1VCIA" shape = none fillcolor = seagreen image="NOR.png"];
+	OC1VCIA [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C1VCIA -> OC1VCIA [arrowhead=none color = seagreen tailclip=false]
+	OUC_9 -> C1VCIA [color = seagreen];
+	OUC_10 -> C1VCIA [color = seagreen];
+	OUC_11 -> C1VCIA [color = seagreen];
+	C2VCIA [label = "C2VCIA" shape = none fillcolor = seagreen image="NOR.png"];
+	OC2VCIA [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C2VCIA -> OC2VCIA [arrowhead=none color = seagreen tailclip=false]
+	OUC_17 -> C2VCIA [color = seagreen];
+	OUC_18 -> C2VCIA [color = seagreen];
+	OUC_19 -> C2VCIA [color = seagreen];
+	C1_CO [label = "C1_CO" shape = none fillcolor = seagreen image="NOR.png"];
+	OC1_CO [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C1_CO -> OC1_CO [arrowhead=none color = seagreen tailclip=false]
+	OC1VCIA -> C1_CO [color = seagreen];
+	OUC_12 -> C1_CO [color = seagreen];
+	C1VCO2 [label = "C1VCO2" shape = none fillcolor = seagreen image="NOR.png"];
+	OC1VCO2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C1VCO2 -> OC1VCO2 [arrowhead=none color = seagreen tailclip=false]
+	OUC_13 -> C1VCO2 [color = seagreen];
+	OUC_14 -> C1VCO2 [color = seagreen];
+	OUC_15 -> C1VCO2 [color = seagreen];
+	C1VCO1 [label = "C1VCO1" shape = none fillcolor = seagreen image="NOR.png"];
+	OC1VCO1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C1VCO1 -> OC1VCO1 [arrowhead=none color = seagreen tailclip=false]
+	OUC_14 -> C1VCO1 [color = seagreen];
+	OUC_15 -> C1VCO1 [color = seagreen];
+	TCOMBVNODE19 [label = "TCOMBVNODE19" shape = none fillcolor = seagreen image="NOR.png"];
+	OTCOMBVNODE19 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE19 -> OTCOMBVNODE19 [arrowhead=none color = seagreen tailclip=false]
+	OCLRB -> TCOMBVNODE19 [color = seagreen];
+	OTCOMBVNFEL -> TCOMBVNODE19 [color = seagreen];
+	TCOMBVNODE15 [label = "TCOMBVNODE15" shape = none fillcolor = seagreen image="NOR.png"];
+	OTCOMBVNODE15 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	TCOMBVNODE15 -> OTCOMBVNODE15 [arrowhead=none color = seagreen tailclip=false]
+	OCLRB -> TCOMBVNODE15 [color = seagreen];
+	OTCOMBVNFM -> TCOMBVNODE15 [color = seagreen];
+	OTCOMBVNQC -> TCOMBVNODE15 [color = seagreen];
+	OC3_Q1 -> TCOMBVNODE15 [color = seagreen];
+	CTST [label = "CTST" shape = none fillcolor = seagreen image="NOR.png"];
+	OCTST [label = "", fixedsize="false", width=0, height=0, shape=none]
+	CTST -> OCTST [arrowhead=none color = seagreen tailclip=false]
+	OC1_CO -> CTST [color = seagreen];
+	OTESTL -> CTST [color = seagreen];
+	UC_11VD [label = "UC_11VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_11VD -> OUC_11VD [arrowhead=none color = black]
+	OCLRB -> UC_11VD [color = seagreen];
+	OUC_11VZ -> UC_11VD [color = seagreen];
+	OC1_CO -> UC_11VD [color = seagreen];
+	C2VCO2 [label = "C2VCO2" shape = none fillcolor = seagreen image="NOR.png"];
+	OC2VCO2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C2VCO2 -> OC2VCO2 [arrowhead=none color = seagreen tailclip=false]
+	OCTST -> C2VCO2 [color = seagreen];
+	OC2_QN2 -> C2VCO2 [color = seagreen];
+	OUC_21 -> C2VCO2 [color = seagreen];
+	OUC_22 -> C2VCO2 [color = seagreen];
+	C2VCO1 [label = "C2VCO1" shape = none fillcolor = seagreen image="NOR.png"];
+	OC2VCO1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C2VCO1 -> OC2VCO1 [arrowhead=none color = seagreen tailclip=false]
+	OCTST -> C2VCO1 [color = seagreen];
+	OUC_21 -> C2VCO1 [color = seagreen];
+	OUC_22 -> C2VCO1 [color = seagreen];
+	C2_CO [label = "C2_CO" shape = none fillcolor = seagreen image="NOR.png"];
+	OC2_CO [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C2_CO -> OC2_CO [arrowhead=none color = seagreen tailclip=false]
+	OC2VCIA -> C2_CO [color = seagreen];
+	OCTST -> C2_CO [color = seagreen];
+	OUC_20 -> C2_CO [color = seagreen];
+	C2VCO0 [label = "C2VCO0" shape = none fillcolor = seagreen image="NOR.png"];
+	OC2VCO0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C2VCO0 -> OC2VCO0 [arrowhead=none color = seagreen tailclip=false]
+	OCTST -> C2VCO0 [color = seagreen];
+	OUC_22 -> C2VCO0 [color = seagreen];
+	TCOMB_GA2 [label = "TCOMB_GA2" shape = none fillcolor = seagreen image="NOR.png"];
+	TCOMB_GA2 -> OTCOMB_GA2 [arrowhead=none color = black]
+	OTCOMB_GA2VAD4NF -> TCOMB_GA2 [color = seagreen];
+	OTCOMB_GA2VAD3NF -> TCOMB_GA2 [color = seagreen];
+	OTCOMB_GA2VAD2NF -> TCOMB_GA2 [color = seagreen];
+	OTCOMB_GA2VAD1NF -> TCOMB_GA2 [color = seagreen];
+	TCOMB_YA2 [label = "TCOMB_YA2" shape = none fillcolor = seagreen image="NOR.png"];
+	TCOMB_YA2 -> OTCOMB_YA2 [arrowhead=none color = black]
+	OTCOMBVNODE12 -> TCOMB_YA2 [color = seagreen];
+	OTCOMBVNQA -> TCOMB_YA2 [color = seagreen];
+	TCOMB_GA1 [label = "TCOMB_GA1" shape = none fillcolor = seagreen image="NOR.png"];
+	TCOMB_GA1 -> OTCOMB_GA1 [arrowhead=none color = black]
+	OTCOMBVNODE8 -> TCOMB_GA1 [color = seagreen];
+	OTCOMB_GA1VAD1NF -> TCOMB_GA1 [color = seagreen];
+	UC_8VD [label = "UC_8VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_8VD -> OUC_8VD [arrowhead=none color = black]
+	OCLRB -> UC_8VD [color = seagreen];
+	OUC_8VZ -> UC_8VD [color = seagreen];
+	OC1_CO -> UC_8VD [color = seagreen];
+	UC_9VD [label = "UC_9VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_9VD -> OUC_9VD [arrowhead=none color = black]
+	OCLRB -> UC_9VD [color = seagreen];
+	OUC_9VZ -> UC_9VD [color = seagreen];
+	OC1_CO -> UC_9VD [color = seagreen];
+	UC_10VD [label = "UC_10VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_10VD -> OUC_10VD [arrowhead=none color = black]
+	OCLRB -> UC_10VD [color = seagreen];
+	OUC_10VZ -> UC_10VD [color = seagreen];
+	OC1_CO -> UC_10VD [color = seagreen];
+	C3VCO2 [label = "C3VCO2" shape = none fillcolor = seagreen image="NOR.png"];
+	OC3VCO2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3VCO2 -> OC3VCO2 [arrowhead=none color = seagreen tailclip=false]
+	OCO2 -> C3VCO2 [color = seagreen];
+	OUC_24 -> C3VCO2 [color = seagreen];
+	OUC_25 -> C3VCO2 [color = seagreen];
+	OUC_26 -> C3VCO2 [color = seagreen];
+	C3VCO1 [label = "C3VCO1" shape = none fillcolor = seagreen image="NOR.png"];
+	OC3VCO1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3VCO1 -> OC3VCO1 [arrowhead=none color = seagreen tailclip=false]
+	OCO2 -> C3VCO1 [color = seagreen];
+	OUC_25 -> C3VCO1 [color = seagreen];
+	OUC_26 -> C3VCO1 [color = seagreen];
+	UC_27 [label = "UC_27" shape = none fillcolor = seagreen image="NOR.png"];
+	OUC_27 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	UC_27 -> OUC_27 [arrowhead=none color = seagreen tailclip=false]
+	OC3VCIA -> UC_27 [color = seagreen];
+	OCO2 -> UC_27 [color = seagreen];
+	OUC_23 -> UC_27 [color = seagreen];
+	C3VCO0 [label = "C3VCO0" shape = none fillcolor = seagreen image="NOR.png"];
+	OC3VCO0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C3VCO0 -> OC3VCO0 [arrowhead=none color = seagreen tailclip=false]
+	OCO2 -> C3VCO0 [color = seagreen];
+	OUC_26 -> C3VCO0 [color = seagreen];
+	UC_16VD [label = "UC_16VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_16VD -> OUC_16VD [arrowhead=none color = black]
+	OCLRB -> UC_16VD [color = seagreen];
+	OUC_16VZ -> UC_16VD [color = seagreen];
+	OC2_CO -> UC_16VD [color = seagreen];
+	UC_17VD [label = "UC_17VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_17VD -> OUC_17VD [arrowhead=none color = black]
+	OCLRB -> UC_17VD [color = seagreen];
+	OUC_17VZ -> UC_17VD [color = seagreen];
+	OC2_CO -> UC_17VD [color = seagreen];
+	UC_18VD [label = "UC_18VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_18VD -> OUC_18VD [arrowhead=none color = black]
+	OCLRB -> UC_18VD [color = seagreen];
+	OUC_18VZ -> UC_18VD [color = seagreen];
+	OC2_CO -> UC_18VD [color = seagreen];
+	UC_19VD [label = "UC_19VD" shape = none fillcolor = seagreen image="NOR.png"];
+	UC_19VD -> OUC_19VD [arrowhead=none color = black]
+	OCLRB -> UC_19VD [color = seagreen];
+	OUC_19VZ -> UC_19VD [color = seagreen];
+	OC2_CO -> UC_19VD [color = seagreen];
+	Y1C [label = "Y1C" shape = none fillcolor = seagreen image="NOR.png"];
+	Y1C -> OY1C [arrowhead=none color = black]
+	OY1CVAD2NF -> Y1C [color = seagreen];
+	OY1CVAD1NF -> Y1C [color = seagreen];
+	R2C [label = "R2C" shape = none fillcolor = seagreen image="NOR.png"];
+	R2C -> OR2C [arrowhead=none color = black]
+	OR2CVAD2NF -> R2C [color = seagreen];
+	OR2CVAD1NF -> R2C [color = seagreen];
+	C3_Q3VD [label = "C3_Q3VD" shape = none fillcolor = seagreen image="NOR.png"];
+	C3_Q3VD -> OC3_Q3VD [arrowhead=none color = black]
+	OCLRB -> C3_Q3VD [color = seagreen];
+	OC3_Q3VZ -> C3_Q3VD [color = seagreen];
+	OUC_27 -> C3_Q3VD [color = seagreen];
+	C3_Q2VD [label = "C3_Q2VD" shape = none fillcolor = seagreen image="NOR.png"];
+	C3_Q2VD -> OC3_Q2VD [arrowhead=none color = black]
+	OCLRB -> C3_Q2VD [color = seagreen];
+	OC3_Q2VZ -> C3_Q2VD [color = seagreen];
+	OUC_27 -> C3_Q2VD [color = seagreen];
+	C3_Q1VD [label = "C3_Q1VD" shape = none fillcolor = seagreen image="NOR.png"];
+	C3_Q1VD -> OC3_Q1VD [arrowhead=none color = black]
+	OCLRB -> C3_Q1VD [color = seagreen];
+	OC3_Q1VZ -> C3_Q1VD [color = seagreen];
+	OUC_27 -> C3_Q1VD [color = seagreen];
+	C3_Q0VD [label = "C3_Q0VD" shape = none fillcolor = seagreen image="NOR.png"];
+	C3_Q0VD -> OC3_Q0VD [arrowhead=none color = black]
+	OCLRB -> C3_Q0VD [color = seagreen];
+	OC3_Q0VZ -> C3_Q0VD [color = seagreen];
+	OUC_27 -> C3_Q0VD [color = seagreen];
+}

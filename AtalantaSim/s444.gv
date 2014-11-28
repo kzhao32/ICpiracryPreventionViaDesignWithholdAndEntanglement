@@ -1,0 +1,977 @@
+digraph a
+{
+	//24 Inputs
+	//27 Outputs
+	//181 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"s444" [color = invis]
+	G0 [label = "INPUT(G0)" shape = cds style = filled fillcolor = white]
+	OG0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G0 -> OG0 [arrowhead=none]
+	G1 [label = "INPUT(G1)" shape = cds style = filled fillcolor = white]
+	OG1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G1 -> OG1 [arrowhead=none]
+	G2 [label = "INPUT(G2)" shape = cds style = filled fillcolor = white]
+	OG2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G2 -> OG2 [arrowhead=none]
+	G11 [label = "INPUT(G11)" shape = cds style = filled fillcolor = white]
+	OG11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G11 -> OG11 [arrowhead=none]
+	G12 [label = "INPUT(G12)" shape = cds style = filled fillcolor = white]
+	OG12 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G12 -> OG12 [arrowhead=none]
+	G13 [label = "INPUT(G13)" shape = cds style = filled fillcolor = white]
+	OG13 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G13 -> OG13 [arrowhead=none]
+	G14 [label = "INPUT(G14)" shape = cds style = filled fillcolor = white]
+	OG14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G14 -> OG14 [arrowhead=none]
+	G15 [label = "INPUT(G15)" shape = cds style = filled fillcolor = white]
+	OG15 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G15 -> OG15 [arrowhead=none]
+	G16 [label = "INPUT(G16)" shape = cds style = filled fillcolor = white]
+	OG16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G16 -> OG16 [arrowhead=none]
+	G17 [label = "INPUT(G17)" shape = cds style = filled fillcolor = white]
+	OG17 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G17 -> OG17 [arrowhead=none]
+	G18 [label = "INPUT(G18)" shape = cds style = filled fillcolor = white]
+	OG18 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G18 -> OG18 [arrowhead=none]
+	G19 [label = "INPUT(G19)" shape = cds style = filled fillcolor = white]
+	OG19 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G19 -> OG19 [arrowhead=none]
+	G20 [label = "INPUT(G20)" shape = cds style = filled fillcolor = white]
+	OG20 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G20 -> OG20 [arrowhead=none]
+	G21 [label = "INPUT(G21)" shape = cds style = filled fillcolor = white]
+	OG21 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G21 -> OG21 [arrowhead=none]
+	G22 [label = "INPUT(G22)" shape = cds style = filled fillcolor = white]
+	OG22 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G22 -> OG22 [arrowhead=none]
+	G23 [label = "INPUT(G23)" shape = cds style = filled fillcolor = white]
+	OG23 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G23 -> OG23 [arrowhead=none]
+	G24 [label = "INPUT(G24)" shape = cds style = filled fillcolor = white]
+	OG24 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G24 -> OG24 [arrowhead=none]
+	G25 [label = "INPUT(G25)" shape = cds style = filled fillcolor = white]
+	OG25 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G25 -> OG25 [arrowhead=none]
+	G26 [label = "INPUT(G26)" shape = cds style = filled fillcolor = white]
+	OG26 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G26 -> OG26 [arrowhead=none]
+	G27 [label = "INPUT(G27)" shape = cds style = filled fillcolor = white]
+	OG27 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G27 -> OG27 [arrowhead=none]
+	G28 [label = "INPUT(G28)" shape = cds style = filled fillcolor = white]
+	OG28 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G28 -> OG28 [arrowhead=none]
+	G29 [label = "INPUT(G29)" shape = cds style = filled fillcolor = white]
+	OG29 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G29 -> OG29 [arrowhead=none]
+	G30 [label = "INPUT(G30)" shape = cds style = filled fillcolor = white]
+	OG30 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G30 -> OG30 [arrowhead=none]
+	G31 [label = "INPUT(G31)" shape = cds style = filled fillcolor = white]
+	OG31 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G31 -> OG31 [arrowhead=none]
+	OG119 [label = "OUTPUT(G119)" shape = cds style = filled fillcolor = yellow]
+	OG167 [label = "OUTPUT(G167)" shape = cds style = filled fillcolor = yellow]
+	OG168 [label = "OUTPUT(G168)" shape = cds style = filled fillcolor = yellow]
+	OG107 [label = "OUTPUT(G107)" shape = cds style = filled fillcolor = yellow]
+	OG108 [label = "OUTPUT(G108)" shape = cds style = filled fillcolor = yellow]
+	OG118 [label = "OUTPUT(G118)" shape = cds style = filled fillcolor = yellow]
+	OG162BF [label = "OUTPUT(G162BF)" shape = cds style = filled fillcolor = yellow]
+	OG155 [label = "OUTPUT(G155)" shape = cds style = filled fillcolor = yellow]
+	OG101 [label = "OUTPUT(G101)" shape = cds style = filled fillcolor = yellow]
+	OG111 [label = "OUTPUT(G111)" shape = cds style = filled fillcolor = yellow]
+	OG109 [label = "OUTPUT(G109)" shape = cds style = filled fillcolor = yellow]
+	OG110 [label = "OUTPUT(G110)" shape = cds style = filled fillcolor = yellow]
+	OG114 [label = "OUTPUT(G114)" shape = cds style = filled fillcolor = yellow]
+	OG37 [label = "OUTPUT(G37)" shape = cds style = filled fillcolor = yellow]
+	OG41 [label = "OUTPUT(G41)" shape = cds style = filled fillcolor = yellow]
+	OG45 [label = "OUTPUT(G45)" shape = cds style = filled fillcolor = yellow]
+	OG49 [label = "OUTPUT(G49)" shape = cds style = filled fillcolor = yellow]
+	OG112 [label = "OUTPUT(G112)" shape = cds style = filled fillcolor = yellow]
+	OG113 [label = "OUTPUT(G113)" shape = cds style = filled fillcolor = yellow]
+	OG58 [label = "OUTPUT(G58)" shape = cds style = filled fillcolor = yellow]
+	OG62 [label = "OUTPUT(G62)" shape = cds style = filled fillcolor = yellow]
+	OG66 [label = "OUTPUT(G66)" shape = cds style = filled fillcolor = yellow]
+	OG70 [label = "OUTPUT(G70)" shape = cds style = filled fillcolor = yellow]
+	OG80 [label = "OUTPUT(G80)" shape = cds style = filled fillcolor = yellow]
+	OG84 [label = "OUTPUT(G84)" shape = cds style = filled fillcolor = yellow]
+	OG88 [label = "OUTPUT(G88)" shape = cds style = filled fillcolor = yellow]
+	OG92 [label = "OUTPUT(G92)" shape = cds style = filled fillcolor = yellow]
+	I372 [label = "I372" shape = none fillcolor = red image="NOT.png"];
+	OI372 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I372 -> OI372 [arrowhead=none color = red tailclip=false]
+	OG0 -> I372 [color = red];
+	I382 [label = "I382" shape = none fillcolor = red image="NOT.png"];
+	OI382 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I382 -> OI382 [arrowhead=none color = red tailclip=false]
+	OG1 -> I382 [color = red];
+	I318 [label = "I318" shape = none fillcolor = red image="NOT.png"];
+	OI318 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I318 -> OI318 [arrowhead=none color = red tailclip=false]
+	OG2 -> I318 [color = red];
+	G34 [label = "G34" shape = none fillcolor = red image="NOT.png"];
+	OG34 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G34 -> OG34 [arrowhead=none color = red tailclip=false]
+	OG11 -> G34 [color = red];
+	I180 [label = "I180" shape = none fillcolor = red image="NOT.png"];
+	OI180 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I180 -> OI180 [arrowhead=none color = red tailclip=false]
+	OG11 -> I180 [color = red];
+	G35 [label = "G35" shape = none fillcolor = red image="NOT.png"];
+	OG35 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G35 -> OG35 [arrowhead=none color = red tailclip=false]
+	OG12 -> G35 [color = red];
+	G77 [label = "G77" shape = none fillcolor = red image="NOT.png"];
+	OG77 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G77 -> OG77 [arrowhead=none color = red tailclip=false]
+	OG20 -> G77 [color = red];
+	G135 [label = "G135" shape = none fillcolor = red image="NOT.png"];
+	OG135 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G135 -> OG135 [arrowhead=none color = red tailclip=false]
+	OG20 -> G135 [color = red];
+	G36 [label = "G36" shape = none fillcolor = red image="NOT.png"];
+	OG36 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G36 -> OG36 [arrowhead=none color = red tailclip=false]
+	OG13 -> G36 [color = red];
+	G78 [label = "G78" shape = none fillcolor = red image="NOT.png"];
+	OG78 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G78 -> OG78 [arrowhead=none color = red tailclip=false]
+	OG21 -> G78 [color = red];
+	G144 [label = "G144" shape = none fillcolor = red image="NOT.png"];
+	OG144 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G144 -> OG144 [arrowhead=none color = red tailclip=false]
+	OG21 -> G144 [color = red];
+	G32 [label = "G32" shape = none fillcolor = red image="NOT.png"];
+	OG32 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G32 -> OG32 [arrowhead=none color = red tailclip=false]
+	OG14 -> G32 [color = red];
+	G74 [label = "G74" shape = none fillcolor = red image="NOT.png"];
+	OG74 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G74 -> OG74 [arrowhead=none color = red tailclip=false]
+	OG22 -> G74 [color = red];
+	G142 [label = "G142" shape = none fillcolor = red image="NOT.png"];
+	OG142 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G142 -> OG142 [arrowhead=none color = red tailclip=false]
+	OG22 -> G142 [color = red];
+	I392 [label = "I392" shape = none fillcolor = red image="NOT.png"];
+	OI392 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I392 -> OI392 [arrowhead=none color = red tailclip=false]
+	OG30 -> I392 [color = red];
+	G55 [label = "G55" shape = none fillcolor = red image="NOT.png"];
+	OG55 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G55 -> OG55 [arrowhead=none color = red tailclip=false]
+	OG15 -> G55 [color = red];
+	G102 [label = "G102" shape = none fillcolor = red image="NOT.png"];
+	OG102 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G102 -> OG102 [arrowhead=none color = red tailclip=false]
+	OG23 -> G102 [color = red];
+	G136 [label = "G136" shape = none fillcolor = red image="NOT.png"];
+	OG136 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G136 -> OG136 [arrowhead=none color = red tailclip=false]
+	OG23 -> G136 [color = red];
+	G156 [label = "G156" shape = none fillcolor = red image="NOT.png"];
+	OG156 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G156 -> OG156 [arrowhead=none color = red tailclip=false]
+	OG31 -> G156 [color = red];
+	G56 [label = "G56" shape = none fillcolor = red image="NOT.png"];
+	OG56 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G56 -> OG56 [arrowhead=none color = red tailclip=false]
+	OG16 -> G56 [color = red];
+	G143 [label = "G143" shape = none fillcolor = red image="NOT.png"];
+	OG143 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G143 -> OG143 [arrowhead=none color = red tailclip=false]
+	OG24 -> G143 [color = red];
+	G161 [label = "G161" shape = none fillcolor = red image="NOT.png"];
+	OG161 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G161 -> OG161 [arrowhead=none color = red tailclip=false]
+	OG17 -> G161 [color = red];
+	I321 [label = "I321" shape = none fillcolor = red image="NOT.png"];
+	OI321 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I321 -> OI321 [arrowhead=none color = red tailclip=false]
+	OG25 -> I321 [color = red];
+	G53 [label = "G53" shape = none fillcolor = red image="NOT.png"];
+	OG53 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G53 -> OG53 [arrowhead=none color = red tailclip=false]
+	OG18 -> G53 [color = red];
+	I324 [label = "I324" shape = none fillcolor = red image="NOT.png"];
+	OI324 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I324 -> OI324 [arrowhead=none color = red tailclip=false]
+	OG26 -> I324 [color = red];
+	G76 [label = "G76" shape = none fillcolor = red image="NOT.png"];
+	OG76 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G76 -> OG76 [arrowhead=none color = red tailclip=false]
+	OG19 -> G76 [color = red];
+	G150 [label = "G150" shape = none fillcolor = red image="NOT.png"];
+	OG150 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G150 -> OG150 [arrowhead=none color = red tailclip=false]
+	OG19 -> G150 [color = red];
+	I336 [label = "I336" shape = none fillcolor = red image="NOT.png"];
+	OI336 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I336 -> OI336 [arrowhead=none color = red tailclip=false]
+	OG27 -> I336 [color = red];
+	G119 [label = "G119" shape = none fillcolor = red image="NOT.png"];
+	G119 -> OG119 [arrowhead=none color = black]
+	OG28 -> G119 [color = red];
+	G167 [label = "G167" shape = none fillcolor = red image="NOT.png"];
+	G167 -> OG167 [arrowhead=none color = black]
+	OG29 -> G167 [color = red];
+	G152 [label = "G152" shape = none fillcolor = red image="NOT.png"];
+	OG152 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G152 -> OG152 [arrowhead=none color = red tailclip=false]
+	OI372 -> G152 [color = red];
+	G160 [label = "G160" shape = none fillcolor = red image="NOT.png"];
+	OG160 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G160 -> OG160 [arrowhead=none color = red tailclip=false]
+	OI382 -> G160 [color = red];
+	G106 [label = "G106" shape = none fillcolor = red image="NOT.png"];
+	OG106 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G106 -> OG106 [arrowhead=none color = red tailclip=false]
+	OI318 -> G106 [color = red];
+	G43 [label = "G43" shape = none fillcolor = red image="NOT.png"];
+	OG43 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G43 -> OG43 [arrowhead=none color = red tailclip=false]
+	OG34 -> G43 [color = red];
+	I182 [label = "I182" shape = none fillcolor = red image="NOT.png"];
+	OI182 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I182 -> OI182 [arrowhead=none color = red tailclip=false]
+	OI180 -> I182 [color = red];
+	G168 [label = "G168" shape = none fillcolor = red image="NOT.png"];
+	G168 -> OG168 [arrowhead=none color = black]
+	OI392 -> G168 [color = red];
+	G107 [label = "G107" shape = none fillcolor = red image="NOT.png"];
+	G107 -> OG107 [arrowhead=none color = black]
+	OI321 -> G107 [color = red];
+	G108 [label = "G108" shape = none fillcolor = red image="NOT.png"];
+	G108 -> OG108 [arrowhead=none color = black]
+	OI324 -> G108 [color = red];
+	G118 [label = "G118" shape = none fillcolor = red image="NOT.png"];
+	G118 -> OG118 [arrowhead=none color = black]
+	OI336 -> G118 [color = red];
+	G99 [label = "G99" shape = none fillcolor = red image="NOT.png"];
+	OG99 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G99 -> OG99 [arrowhead=none color = red tailclip=false]
+	OG152 -> G99 [color = red];
+	G139 [label = "G139" shape = none fillcolor = red image="NOT.png"];
+	OG139 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G139 -> OG139 [arrowhead=none color = red tailclip=false]
+	OG152 -> G139 [color = red];
+	G153 [label = "G153" shape = none fillcolor = red image="NOT.png"];
+	OG153 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G153 -> OG153 [arrowhead=none color = red tailclip=false]
+	OG152 -> G153 [color = red];
+	G157 [label = "G157" shape = none fillcolor = red image="NOT.png"];
+	OG157 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G157 -> OG157 [arrowhead=none color = red tailclip=false]
+	OG160 -> G157 [color = red];
+	G103 [label = "G103" shape = none fillcolor = red image="NOT.png"];
+	OG103 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G103 -> OG103 [arrowhead=none color = red tailclip=false]
+	OG106 -> G103 [color = red];
+	G38 [label = "G38" shape = none fillcolor = red image="NOT.png"];
+	OG38 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G38 -> OG38 [arrowhead=none color = red tailclip=false]
+	OG40 -> G38 [color = red];
+	G60 [label = "G60" shape = none fillcolor = red image="NOT.png"];
+	OG60 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G60 -> OG60 [arrowhead=none color = red tailclip=false]
+	OG57 -> G60 [color = red];
+	G79 [label = "G79" shape = none fillcolor = red image="NOT.png"];
+	OG79 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G79 -> OG79 [arrowhead=none color = red tailclip=false]
+	OG97 -> G79 [color = red];
+	G42 [label = "G42" shape = none fillcolor = red image="NOT.png"];
+	OG42 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G42 -> OG42 [arrowhead=none color = red tailclip=false]
+	OG44 -> G42 [color = red];
+	G46 [label = "G46" shape = none fillcolor = red image="NOT.png"];
+	OG46 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G46 -> OG46 [arrowhead=none color = red tailclip=false]
+	OG48 -> G46 [color = red];
+	I105 [label = "I105" shape = none fillcolor = red image="NOT.png"];
+	OI105 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I105 -> OI105 [arrowhead=none color = red tailclip=false]
+	OG162 -> I105 [color = red];
+	G166 [label = "G166" shape = none fillcolor = red image="NOT.png"];
+	OG166 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G166 -> OG166 [arrowhead=none color = red tailclip=false]
+	OG162 -> G166 [color = red];
+	G50 [label = "G50" shape = none fillcolor = red image="NOT.png"];
+	OG50 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G50 -> OG50 [arrowhead=none color = red tailclip=false]
+	OG52 -> G50 [color = red];
+	G82 [label = "G82" shape = none fillcolor = red image="NOT.png"];
+	OG82 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G82 -> OG82 [arrowhead=none color = red tailclip=false]
+	OG79 -> G82 [color = red];
+	G162BF [label = "G162BF" shape = none fillcolor = red image="NOT.png"];
+	G162BF -> OG162BF [arrowhead=none color = black]
+	OI105 -> G162BF [color = red];
+	G59 [label = "G59" shape = none fillcolor = red image="NOT.png"];
+	OG59 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G59 -> OG59 [arrowhead=none color = red tailclip=false]
+	OG61 -> G59 [color = red];
+	G63 [label = "G63" shape = none fillcolor = red image="NOT.png"];
+	OG63 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G63 -> OG63 [arrowhead=none color = red tailclip=false]
+	OG65 -> G63 [color = red];
+	G67 [label = "G67" shape = none fillcolor = red image="NOT.png"];
+	OG67 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G67 -> OG67 [arrowhead=none color = red tailclip=false]
+	OG69 -> G67 [color = red];
+	G71 [label = "G71" shape = none fillcolor = red image="NOT.png"];
+	OG71 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G71 -> OG71 [arrowhead=none color = red tailclip=false]
+	OG73 -> G71 [color = red];
+	G81 [label = "G81" shape = none fillcolor = red image="NOT.png"];
+	OG81 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G81 -> OG81 [arrowhead=none color = red tailclip=false]
+	OG83 -> G81 [color = red];
+	G85 [label = "G85" shape = none fillcolor = red image="NOT.png"];
+	OG85 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G85 -> OG85 [arrowhead=none color = red tailclip=false]
+	OG87 -> G85 [color = red];
+	G89 [label = "G89" shape = none fillcolor = red image="NOT.png"];
+	OG89 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G89 -> OG89 [arrowhead=none color = red tailclip=false]
+	OG91 -> G89 [color = red];
+	G94 [label = "G94" shape = none fillcolor = red image="NOT.png"];
+	OG94 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G94 -> OG94 [arrowhead=none color = red tailclip=false]
+	OG96 -> G94 [color = red];
+	G122 [label = "G122" shape = none fillcolor = orange image="AND.png"];
+	OG122 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G122 -> OG122 [arrowhead=none color = orange tailclip=false]
+	OG24 -> G122 [color = orange];
+	OG121 -> G122 [color = orange];
+	G124 [label = "G124" shape = none fillcolor = orange image="AND.png"];
+	OG124 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G124 -> OG124 [arrowhead=none color = orange tailclip=false]
+	OG139 -> G124 [color = orange];
+	OG22 -> G124 [color = orange];
+	OG150 -> G124 [color = orange];
+	G125 [label = "G125" shape = none fillcolor = orange image="AND.png"];
+	OG125 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G125 -> OG125 [arrowhead=none color = orange tailclip=false]
+	OG139 -> G125 [color = orange];
+	OG20 -> G125 [color = orange];
+	OG19 -> G125 [color = orange];
+	G126 [label = "G126" shape = none fillcolor = orange image="AND.png"];
+	OG126 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G126 -> OG126 [arrowhead=none color = orange tailclip=false]
+	OG139 -> G126 [color = orange];
+	OG21 -> G126 [color = orange];
+	G127 [label = "G127" shape = none fillcolor = orange image="AND.png"];
+	OG127 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G127 -> OG127 [arrowhead=none color = orange tailclip=false]
+	OG139 -> G127 [color = orange];
+	OG24 -> G127 [color = orange];
+	G154 [label = "G154" shape = none fillcolor = orange image="AND.png"];
+	OG154 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G154 -> OG154 [arrowhead=none color = orange tailclip=false]
+	OG158 -> G154 [color = orange];
+	OG159 -> G154 [color = orange];
+	G100 [label = "G100" shape = none fillcolor = orange image="AND.png"];
+	OG100 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G100 -> OG100 [arrowhead=none color = orange tailclip=false]
+	OG104 -> G100 [color = orange];
+	OG105 -> G100 [color = orange];
+	G155 [label = "G155" shape = none fillcolor = orange image="AND.png"];
+	G155 -> OG155 [arrowhead=none color = black]
+	OG154 -> G155 [color = orange];
+	OG153 -> G155 [color = orange];
+	G101 [label = "G101" shape = none fillcolor = orange image="AND.png"];
+	G101 -> OG101 [arrowhead=none color = black]
+	OG100 -> G101 [color = orange];
+	OG99 -> G101 [color = orange];
+	G115 [label = "G115" shape = none fillcolor = orange image="AND.png"];
+	OG115 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G115 -> OG115 [arrowhead=none color = orange tailclip=false]
+	OG161 -> G115 [color = orange];
+	OG117 -> G115 [color = orange];
+	OG162 -> G115 [color = orange];
+	G163 [label = "G163" shape = none fillcolor = orange image="AND.png"];
+	OG163 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G163 -> OG163 [arrowhead=none color = orange tailclip=false]
+	OG161 -> G163 [color = orange];
+	OG165 -> G163 [color = orange];
+	OG162 -> G163 [color = orange];
+	G116 [label = "G116" shape = none fillcolor = orange image="AND.png"];
+	OG116 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G116 -> OG116 [arrowhead=none color = orange tailclip=false]
+	OG117 -> G116 [color = orange];
+	OG166 -> G116 [color = orange];
+	G164 [label = "G164" shape = none fillcolor = orange image="AND.png"];
+	OG164 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G164 -> OG164 [arrowhead=none color = orange tailclip=false]
+	OG165 -> G164 [color = orange];
+	OG166 -> G164 [color = orange];
+	G141 [label = "G141" shape = none fillcolor = pink image="OR.png"];
+	OG141 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G141 -> OG141 [arrowhead=none color = pink tailclip=false]
+	OG24 -> G141 [color = pink];
+	OG22 -> G141 [color = pink];
+	OG21 -> G141 [color = pink];
+	G137 [label = "G137" shape = none fillcolor = pink image="OR.png"];
+	OG137 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G137 -> OG137 [arrowhead=none color = pink tailclip=false]
+	OG136 -> G137 [color = pink];
+	OG20 -> G137 [color = pink];
+	OG19 -> G137 [color = pink];
+	G138 [label = "G138" shape = none fillcolor = pink image="OR.png"];
+	OG138 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G138 -> OG138 [arrowhead=none color = pink tailclip=false]
+	OG136 -> G138 [color = pink];
+	OG142 -> G138 [color = pink];
+	G140 [label = "G140" shape = none fillcolor = pink image="OR.png"];
+	OG140 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G140 -> OG140 [arrowhead=none color = pink tailclip=false]
+	OG24 -> G140 [color = pink];
+	OG21 -> G140 [color = pink];
+	OG20 -> G140 [color = pink];
+	OG150 -> G140 [color = pink];
+	G133 [label = "G133" shape = none fillcolor = pink image="OR.png"];
+	OG133 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G133 -> OG133 [arrowhead=none color = pink tailclip=false]
+	OG152 -> G133 [color = pink];
+	OG136 -> G133 [color = pink];
+	OG22 -> G133 [color = pink];
+	OG144 -> G133 [color = pink];
+	G134 [label = "G134" shape = none fillcolor = pink image="OR.png"];
+	OG134 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G134 -> OG134 [arrowhead=none color = pink tailclip=false]
+	OG152 -> G134 [color = pink];
+	OG142 -> G134 [color = pink];
+	OG21 -> G134 [color = pink];
+	G145 [label = "G145" shape = none fillcolor = pink image="OR.png"];
+	OG145 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G145 -> OG145 [arrowhead=none color = pink tailclip=false]
+	OG152 -> G145 [color = pink];
+	OG142 -> G145 [color = pink];
+	OG20 -> G145 [color = pink];
+	OG19 -> G145 [color = pink];
+	G146 [label = "G146" shape = none fillcolor = pink image="OR.png"];
+	OG146 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G146 -> OG146 [arrowhead=none color = pink tailclip=false]
+	OG152 -> G146 [color = pink];
+	OG143 -> G146 [color = pink];
+	G147 [label = "G147" shape = none fillcolor = pink image="OR.png"];
+	OG147 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G147 -> OG147 [arrowhead=none color = pink tailclip=false]
+	OG152 -> G147 [color = pink];
+	OG144 -> G147 [color = pink];
+	G158 [label = "G158" shape = none fillcolor = pink image="OR.png"];
+	OG158 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G158 -> OG158 [arrowhead=none color = pink tailclip=false]
+	OG31 -> G158 [color = pink];
+	OG160 -> G158 [color = pink];
+	G104 [label = "G104" shape = none fillcolor = pink image="OR.png"];
+	OG104 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G104 -> OG104 [arrowhead=none color = pink tailclip=false]
+	OG23 -> G104 [color = pink];
+	OG106 -> G104 [color = pink];
+	G131 [label = "G131" shape = none fillcolor = pink image="OR.png"];
+	OG131 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G131 -> OG131 [arrowhead=none color = pink tailclip=false]
+	OG144 -> G131 [color = pink];
+	OG22 -> G131 [color = pink];
+	OG23 -> G131 [color = pink];
+	OG129 -> G131 [color = pink];
+	G159 [label = "G159" shape = none fillcolor = pink image="OR.png"];
+	OG159 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G159 -> OG159 [arrowhead=none color = pink tailclip=false]
+	OG156 -> G159 [color = pink];
+	OG157 -> G159 [color = pink];
+	G105 [label = "G105" shape = none fillcolor = pink image="OR.png"];
+	OG105 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G105 -> OG105 [arrowhead=none color = pink tailclip=false]
+	OG102 -> G105 [color = pink];
+	OG103 -> G105 [color = pink];
+	I181 [label = "I181" shape = none fillcolor = blue image="NAND.png"];
+	OI181 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I181 -> OI181 [arrowhead=none color = blue tailclip=false]
+	OG11 -> I181 [color = blue];
+	OI180 -> I181 [color = blue];
+	G129 [label = "G129" shape = none fillcolor = blue image="NAND.png"];
+	OG129 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G129 -> OG129 [arrowhead=none color = blue tailclip=false]
+	OG19 -> G129 [color = blue];
+	OG135 -> G129 [color = blue];
+	G121 [label = "G121" shape = none fillcolor = blue image="NAND.png"];
+	OG121 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G121 -> OG121 [arrowhead=none color = blue tailclip=false]
+	OG19 -> G121 [color = blue];
+	OG135 -> G121 [color = blue];
+	OG142 -> G121 [color = blue];
+	OG136 -> G121 [color = blue];
+	I190 [label = "I190" shape = none fillcolor = blue image="NAND.png"];
+	OI190 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I190 -> OI190 [arrowhead=none color = blue tailclip=false]
+	OG12 -> I190 [color = blue];
+	OG43 -> I190 [color = blue];
+	G40 [label = "G40" shape = none fillcolor = blue image="NAND.png"];
+	OG40 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G40 -> OG40 [arrowhead=none color = blue tailclip=false]
+	OI181 -> G40 [color = blue];
+	OI182 -> G40 [color = blue];
+	I200 [label = "I200" shape = none fillcolor = blue image="NAND.png"];
+	OI200 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I200 -> OI200 [arrowhead=none color = blue tailclip=false]
+	OG13 -> I200 [color = blue];
+	OG47 -> I200 [color = blue];
+	I210 [label = "I210" shape = none fillcolor = blue image="NAND.png"];
+	OI210 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I210 -> OI210 [arrowhead=none color = blue tailclip=false]
+	OG14 -> I210 [color = blue];
+	OG51 -> I210 [color = blue];
+	G120 [label = "G120" shape = none fillcolor = blue image="NAND.png"];
+	OG120 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G120 -> OG120 [arrowhead=none color = blue tailclip=false]
+	OG150 -> G120 [color = blue];
+	OG128 -> G120 [color = blue];
+	G132 [label = "G132" shape = none fillcolor = blue image="NAND.png"];
+	OG132 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G132 -> OG132 [arrowhead=none color = blue tailclip=false]
+	OG133 -> G132 [color = blue];
+	OG134 -> G132 [color = blue];
+	G111 [label = "G111" shape = none fillcolor = blue image="NAND.png"];
+	G111 -> OG111 [arrowhead=none color = black]
+	OG140 -> G111 [color = blue];
+	OG141 -> G111 [color = blue];
+	OG139 -> G111 [color = blue];
+	G123 [label = "G123" shape = none fillcolor = blue image="NAND.png"];
+	OG123 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G123 -> OG123 [arrowhead=none color = blue tailclip=false]
+	OG137 -> G123 [color = blue];
+	OG138 -> G123 [color = blue];
+	OG21 -> G123 [color = blue];
+	OG139 -> G123 [color = blue];
+	G151 [label = "G151" shape = none fillcolor = blue image="NAND.png"];
+	OG151 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G151 -> OG151 [arrowhead=none color = blue tailclip=false]
+	OG20 -> G151 [color = blue];
+	OG144 -> G151 [color = blue];
+	OG143 -> G151 [color = blue];
+	OG139 -> G151 [color = blue];
+	G117 [label = "G117" shape = none fillcolor = blue image="NAND.png"];
+	OG117 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G117 -> OG117 [arrowhead=none color = blue tailclip=false]
+	OG145 -> G117 [color = blue];
+	OG146 -> G117 [color = blue];
+	OG147 -> G117 [color = blue];
+	I191 [label = "I191" shape = none fillcolor = blue image="NAND.png"];
+	OI191 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I191 -> OI191 [arrowhead=none color = blue tailclip=false]
+	OG12 -> I191 [color = blue];
+	OI190 -> I191 [color = blue];
+	I192 [label = "I192" shape = none fillcolor = blue image="NAND.png"];
+	OI192 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I192 -> OI192 [arrowhead=none color = blue tailclip=false]
+	OG43 -> I192 [color = blue];
+	OI190 -> I192 [color = blue];
+	I201 [label = "I201" shape = none fillcolor = blue image="NAND.png"];
+	OI201 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I201 -> OI201 [arrowhead=none color = blue tailclip=false]
+	OG13 -> I201 [color = blue];
+	OI200 -> I201 [color = blue];
+	I202 [label = "I202" shape = none fillcolor = blue image="NAND.png"];
+	OI202 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I202 -> OI202 [arrowhead=none color = blue tailclip=false]
+	OG47 -> I202 [color = blue];
+	OI200 -> I202 [color = blue];
+	G149 [label = "G149" shape = none fillcolor = blue image="NAND.png"];
+	OG149 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G149 -> OG149 [arrowhead=none color = blue tailclip=false]
+	OG131 -> G149 [color = blue];
+	OG130 -> G149 [color = blue];
+	I211 [label = "I211" shape = none fillcolor = blue image="NAND.png"];
+	OI211 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I211 -> OI211 [arrowhead=none color = blue tailclip=false]
+	OG14 -> I211 [color = blue];
+	OI210 -> I211 [color = blue];
+	I212 [label = "I212" shape = none fillcolor = blue image="NAND.png"];
+	OI212 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I212 -> OI212 [arrowhead=none color = blue tailclip=false]
+	OG51 -> I212 [color = blue];
+	OI210 -> I212 [color = blue];
+	G148 [label = "G148" shape = none fillcolor = blue image="NAND.png"];
+	OG148 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G148 -> OG148 [arrowhead=none color = blue tailclip=false]
+	OG150 -> G148 [color = blue];
+	OG135 -> G148 [color = blue];
+	OG132 -> G148 [color = blue];
+	G44 [label = "G44" shape = none fillcolor = blue image="NAND.png"];
+	OG44 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G44 -> OG44 [arrowhead=none color = blue tailclip=false]
+	OI191 -> G44 [color = blue];
+	OI192 -> G44 [color = blue];
+	G48 [label = "G48" shape = none fillcolor = blue image="NAND.png"];
+	OG48 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G48 -> OG48 [arrowhead=none color = blue tailclip=false]
+	OI201 -> G48 [color = blue];
+	OI202 -> G48 [color = blue];
+	G162 [label = "G162" shape = none fillcolor = blue image="NAND.png"];
+	OG162 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G162 -> OG162 [arrowhead=none color = blue tailclip=false]
+	OG120 -> G162 [color = blue];
+	OG149 -> G162 [color = blue];
+	G52 [label = "G52" shape = none fillcolor = blue image="NAND.png"];
+	OG52 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G52 -> OG52 [arrowhead=none color = blue tailclip=false]
+	OI211 -> G52 [color = blue];
+	OI212 -> G52 [color = blue];
+	I225 [label = "I225" shape = none fillcolor = blue image="NAND.png"];
+	OI225 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I225 -> OI225 [arrowhead=none color = blue tailclip=false]
+	OG15 -> I225 [color = blue];
+	OG60 -> I225 [color = blue];
+	I235 [label = "I235" shape = none fillcolor = blue image="NAND.png"];
+	OI235 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I235 -> OI235 [arrowhead=none color = blue tailclip=false]
+	OG16 -> I235 [color = blue];
+	OG64 -> I235 [color = blue];
+	I245 [label = "I245" shape = none fillcolor = blue image="NAND.png"];
+	OI245 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I245 -> OI245 [arrowhead=none color = blue tailclip=false]
+	OG17 -> I245 [color = blue];
+	OG68 -> I245 [color = blue];
+	I255 [label = "I255" shape = none fillcolor = blue image="NAND.png"];
+	OI255 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I255 -> OI255 [arrowhead=none color = blue tailclip=false]
+	OG18 -> I255 [color = blue];
+	OG72 -> I255 [color = blue];
+	G165 [label = "G165" shape = none fillcolor = blue image="NAND.png"];
+	OG165 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G165 -> OG165 [arrowhead=none color = blue tailclip=false]
+	OG148 -> G165 [color = blue];
+	OG149 -> G165 [color = blue];
+	I226 [label = "I226" shape = none fillcolor = blue image="NAND.png"];
+	OI226 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I226 -> OI226 [arrowhead=none color = blue tailclip=false]
+	OG15 -> I226 [color = blue];
+	OI225 -> I226 [color = blue];
+	I227 [label = "I227" shape = none fillcolor = blue image="NAND.png"];
+	OI227 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I227 -> OI227 [arrowhead=none color = blue tailclip=false]
+	OG60 -> I227 [color = blue];
+	OI225 -> I227 [color = blue];
+	I236 [label = "I236" shape = none fillcolor = blue image="NAND.png"];
+	OI236 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I236 -> OI236 [arrowhead=none color = blue tailclip=false]
+	OG16 -> I236 [color = blue];
+	OI235 -> I236 [color = blue];
+	I237 [label = "I237" shape = none fillcolor = blue image="NAND.png"];
+	OI237 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I237 -> OI237 [arrowhead=none color = blue tailclip=false]
+	OG64 -> I237 [color = blue];
+	OI235 -> I237 [color = blue];
+	I246 [label = "I246" shape = none fillcolor = blue image="NAND.png"];
+	OI246 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I246 -> OI246 [arrowhead=none color = blue tailclip=false]
+	OG17 -> I246 [color = blue];
+	OI245 -> I246 [color = blue];
+	I247 [label = "I247" shape = none fillcolor = blue image="NAND.png"];
+	OI247 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I247 -> OI247 [arrowhead=none color = blue tailclip=false]
+	OG68 -> I247 [color = blue];
+	OI245 -> I247 [color = blue];
+	I256 [label = "I256" shape = none fillcolor = blue image="NAND.png"];
+	OI256 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I256 -> OI256 [arrowhead=none color = blue tailclip=false]
+	OG18 -> I256 [color = blue];
+	OI255 -> I256 [color = blue];
+	I257 [label = "I257" shape = none fillcolor = blue image="NAND.png"];
+	OI257 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I257 -> OI257 [arrowhead=none color = blue tailclip=false]
+	OG72 -> I257 [color = blue];
+	OI255 -> I257 [color = blue];
+	G61 [label = "G61" shape = none fillcolor = blue image="NAND.png"];
+	OG61 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G61 -> OG61 [arrowhead=none color = blue tailclip=false]
+	OI226 -> G61 [color = blue];
+	OI227 -> G61 [color = blue];
+	G65 [label = "G65" shape = none fillcolor = blue image="NAND.png"];
+	OG65 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G65 -> OG65 [arrowhead=none color = blue tailclip=false]
+	OI236 -> G65 [color = blue];
+	OI237 -> G65 [color = blue];
+	G69 [label = "G69" shape = none fillcolor = blue image="NAND.png"];
+	OG69 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G69 -> OG69 [arrowhead=none color = blue tailclip=false]
+	OI246 -> G69 [color = blue];
+	OI247 -> G69 [color = blue];
+	G73 [label = "G73" shape = none fillcolor = blue image="NAND.png"];
+	OG73 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G73 -> OG73 [arrowhead=none color = blue tailclip=false]
+	OI256 -> G73 [color = blue];
+	OI257 -> G73 [color = blue];
+	I271 [label = "I271" shape = none fillcolor = blue image="NAND.png"];
+	OI271 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I271 -> OI271 [arrowhead=none color = blue tailclip=false]
+	OG19 -> I271 [color = blue];
+	OG82 -> I271 [color = blue];
+	I281 [label = "I281" shape = none fillcolor = blue image="NAND.png"];
+	OI281 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I281 -> OI281 [arrowhead=none color = blue tailclip=false]
+	OG20 -> I281 [color = blue];
+	OG86 -> I281 [color = blue];
+	I291 [label = "I291" shape = none fillcolor = blue image="NAND.png"];
+	OI291 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I291 -> OI291 [arrowhead=none color = blue tailclip=false]
+	OG21 -> I291 [color = blue];
+	OG90 -> I291 [color = blue];
+	I302 [label = "I302" shape = none fillcolor = blue image="NAND.png"];
+	OI302 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I302 -> OI302 [arrowhead=none color = blue tailclip=false]
+	OG22 -> I302 [color = blue];
+	OG95 -> I302 [color = blue];
+	I272 [label = "I272" shape = none fillcolor = blue image="NAND.png"];
+	OI272 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I272 -> OI272 [arrowhead=none color = blue tailclip=false]
+	OG19 -> I272 [color = blue];
+	OI271 -> I272 [color = blue];
+	I273 [label = "I273" shape = none fillcolor = blue image="NAND.png"];
+	OI273 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I273 -> OI273 [arrowhead=none color = blue tailclip=false]
+	OG82 -> I273 [color = blue];
+	OI271 -> I273 [color = blue];
+	I282 [label = "I282" shape = none fillcolor = blue image="NAND.png"];
+	OI282 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I282 -> OI282 [arrowhead=none color = blue tailclip=false]
+	OG20 -> I282 [color = blue];
+	OI281 -> I282 [color = blue];
+	I283 [label = "I283" shape = none fillcolor = blue image="NAND.png"];
+	OI283 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I283 -> OI283 [arrowhead=none color = blue tailclip=false]
+	OG86 -> I283 [color = blue];
+	OI281 -> I283 [color = blue];
+	I292 [label = "I292" shape = none fillcolor = blue image="NAND.png"];
+	OI292 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I292 -> OI292 [arrowhead=none color = blue tailclip=false]
+	OG21 -> I292 [color = blue];
+	OI291 -> I292 [color = blue];
+	I293 [label = "I293" shape = none fillcolor = blue image="NAND.png"];
+	OI293 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I293 -> OI293 [arrowhead=none color = blue tailclip=false]
+	OG90 -> I293 [color = blue];
+	OI291 -> I293 [color = blue];
+	I303 [label = "I303" shape = none fillcolor = blue image="NAND.png"];
+	OI303 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I303 -> OI303 [arrowhead=none color = blue tailclip=false]
+	OG22 -> I303 [color = blue];
+	OI302 -> I303 [color = blue];
+	I304 [label = "I304" shape = none fillcolor = blue image="NAND.png"];
+	OI304 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	I304 -> OI304 [arrowhead=none color = blue tailclip=false]
+	OG95 -> I304 [color = blue];
+	OI302 -> I304 [color = blue];
+	G83 [label = "G83" shape = none fillcolor = blue image="NAND.png"];
+	OG83 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G83 -> OG83 [arrowhead=none color = blue tailclip=false]
+	OI272 -> G83 [color = blue];
+	OI273 -> G83 [color = blue];
+	G87 [label = "G87" shape = none fillcolor = blue image="NAND.png"];
+	OG87 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G87 -> OG87 [arrowhead=none color = blue tailclip=false]
+	OI282 -> G87 [color = blue];
+	OI283 -> G87 [color = blue];
+	G91 [label = "G91" shape = none fillcolor = blue image="NAND.png"];
+	OG91 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G91 -> OG91 [arrowhead=none color = blue tailclip=false]
+	OI292 -> G91 [color = blue];
+	OI293 -> G91 [color = blue];
+	G96 [label = "G96" shape = none fillcolor = blue image="NAND.png"];
+	OG96 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G96 -> OG96 [arrowhead=none color = blue tailclip=false]
+	OI303 -> G96 [color = blue];
+	OI304 -> G96 [color = blue];
+	G33 [label = "G33" shape = none fillcolor = seagreen image="NOR.png"];
+	OG33 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G33 -> OG33 [arrowhead=none color = seagreen tailclip=false]
+	OG11 -> G33 [color = seagreen];
+	OG12 -> G33 [color = seagreen];
+	OG13 -> G33 [color = seagreen];
+	G54 [label = "G54" shape = none fillcolor = seagreen image="NOR.png"];
+	OG54 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G54 -> OG54 [arrowhead=none color = seagreen tailclip=false]
+	OG15 -> G54 [color = seagreen];
+	OG16 -> G54 [color = seagreen];
+	OG17 -> G54 [color = seagreen];
+	G75 [label = "G75" shape = none fillcolor = seagreen image="NOR.png"];
+	OG75 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G75 -> OG75 [arrowhead=none color = seagreen tailclip=false]
+	OG19 -> G75 [color = seagreen];
+	OG20 -> G75 [color = seagreen];
+	OG21 -> G75 [color = seagreen];
+	G47 [label = "G47" shape = none fillcolor = seagreen image="NOR.png"];
+	OG47 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G47 -> OG47 [arrowhead=none color = seagreen tailclip=false]
+	OG34 -> G47 [color = seagreen];
+	OG35 -> G47 [color = seagreen];
+	G51 [label = "G51" shape = none fillcolor = seagreen image="NOR.png"];
+	OG51 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G51 -> OG51 [arrowhead=none color = seagreen tailclip=false]
+	OG34 -> G51 [color = seagreen];
+	OG35 -> G51 [color = seagreen];
+	OG36 -> G51 [color = seagreen];
+	G98 [label = "G98" shape = none fillcolor = seagreen image="NOR.png"];
+	OG98 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G98 -> OG98 [arrowhead=none color = seagreen tailclip=false]
+	OG32 -> G98 [color = seagreen];
+	OG33 -> G98 [color = seagreen];
+	G128 [label = "G128" shape = none fillcolor = seagreen image="NOR.png"];
+	OG128 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G128 -> OG128 [arrowhead=none color = seagreen tailclip=false]
+	OG20 -> G128 [color = seagreen];
+	OG144 -> G128 [color = seagreen];
+	OG136 -> G128 [color = seagreen];
+	OG152 -> G128 [color = seagreen];
+	G130 [label = "G130" shape = none fillcolor = seagreen image="NOR.png"];
+	OG130 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G130 -> OG130 [arrowhead=none color = seagreen tailclip=false]
+	OG143 -> G130 [color = seagreen];
+	OG152 -> G130 [color = seagreen];
+	G57 [label = "G57" shape = none fillcolor = seagreen image="NOR.png"];
+	OG57 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G57 -> OG57 [arrowhead=none color = seagreen tailclip=false]
+	OG31 -> G57 [color = seagreen];
+	OG98 -> G57 [color = seagreen];
+	G64 [label = "G64" shape = none fillcolor = seagreen image="NOR.png"];
+	OG64 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G64 -> OG64 [arrowhead=none color = seagreen tailclip=false]
+	OG55 -> G64 [color = seagreen];
+	OG57 -> G64 [color = seagreen];
+	G68 [label = "G68" shape = none fillcolor = seagreen image="NOR.png"];
+	OG68 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G68 -> OG68 [arrowhead=none color = seagreen tailclip=false]
+	OG55 -> G68 [color = seagreen];
+	OG56 -> G68 [color = seagreen];
+	OG57 -> G68 [color = seagreen];
+	G72 [label = "G72" shape = none fillcolor = seagreen image="NOR.png"];
+	OG72 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G72 -> OG72 [arrowhead=none color = seagreen tailclip=false]
+	OG55 -> G72 [color = seagreen];
+	OG56 -> G72 [color = seagreen];
+	OG161 -> G72 [color = seagreen];
+	OG57 -> G72 [color = seagreen];
+	G97 [label = "G97" shape = none fillcolor = seagreen image="NOR.png"];
+	OG97 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G97 -> OG97 [arrowhead=none color = seagreen tailclip=false]
+	OG53 -> G97 [color = seagreen];
+	OG57 -> G97 [color = seagreen];
+	OG54 -> G97 [color = seagreen];
+	G109 [label = "G109" shape = none fillcolor = seagreen image="NOR.png"];
+	G109 -> OG109 [arrowhead=none color = black]
+	OG122 -> G109 [color = seagreen];
+	OG123 -> G109 [color = seagreen];
+	G110 [label = "G110" shape = none fillcolor = seagreen image="NOR.png"];
+	G110 -> OG110 [arrowhead=none color = black]
+	OG124 -> G110 [color = seagreen];
+	OG125 -> G110 [color = seagreen];
+	OG126 -> G110 [color = seagreen];
+	OG127 -> G110 [color = seagreen];
+	G114 [label = "G114" shape = none fillcolor = seagreen image="NOR.png"];
+	G114 -> OG114 [arrowhead=none color = black]
+	OG150 -> G114 [color = seagreen];
+	OG151 -> G114 [color = seagreen];
+	G37 [label = "G37" shape = none fillcolor = seagreen image="NOR.png"];
+	G37 -> OG37 [arrowhead=none color = black]
+	OG98 -> G37 [color = seagreen];
+	OG38 -> G37 [color = seagreen];
+	OG152 -> G37 [color = seagreen];
+	G86 [label = "G86" shape = none fillcolor = seagreen image="NOR.png"];
+	OG86 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G86 -> OG86 [arrowhead=none color = seagreen tailclip=false]
+	OG76 -> G86 [color = seagreen];
+	OG79 -> G86 [color = seagreen];
+	G90 [label = "G90" shape = none fillcolor = seagreen image="NOR.png"];
+	OG90 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G90 -> OG90 [arrowhead=none color = seagreen tailclip=false]
+	OG76 -> G90 [color = seagreen];
+	OG77 -> G90 [color = seagreen];
+	OG79 -> G90 [color = seagreen];
+	G93 [label = "G93" shape = none fillcolor = seagreen image="NOR.png"];
+	OG93 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G93 -> OG93 [arrowhead=none color = seagreen tailclip=false]
+	OG74 -> G93 [color = seagreen];
+	OG79 -> G93 [color = seagreen];
+	OG75 -> G93 [color = seagreen];
+	G95 [label = "G95" shape = none fillcolor = seagreen image="NOR.png"];
+	OG95 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G95 -> OG95 [arrowhead=none color = seagreen tailclip=false]
+	OG76 -> G95 [color = seagreen];
+	OG77 -> G95 [color = seagreen];
+	OG78 -> G95 [color = seagreen];
+	OG79 -> G95 [color = seagreen];
+	G41 [label = "G41" shape = none fillcolor = seagreen image="NOR.png"];
+	G41 -> OG41 [arrowhead=none color = black]
+	OG98 -> G41 [color = seagreen];
+	OG42 -> G41 [color = seagreen];
+	OG152 -> G41 [color = seagreen];
+	G45 [label = "G45" shape = none fillcolor = seagreen image="NOR.png"];
+	G45 -> OG45 [arrowhead=none color = black]
+	OG98 -> G45 [color = seagreen];
+	OG46 -> G45 [color = seagreen];
+	OG152 -> G45 [color = seagreen];
+	G49 [label = "G49" shape = none fillcolor = seagreen image="NOR.png"];
+	G49 -> OG49 [arrowhead=none color = black]
+	OG98 -> G49 [color = seagreen];
+	OG50 -> G49 [color = seagreen];
+	OG152 -> G49 [color = seagreen];
+	G112 [label = "G112" shape = none fillcolor = seagreen image="NOR.png"];
+	G112 -> OG112 [arrowhead=none color = black]
+	OG115 -> G112 [color = seagreen];
+	OG116 -> G112 [color = seagreen];
+	G113 [label = "G113" shape = none fillcolor = seagreen image="NOR.png"];
+	G113 -> OG113 [arrowhead=none color = black]
+	OG163 -> G113 [color = seagreen];
+	OG164 -> G113 [color = seagreen];
+	G58 [label = "G58" shape = none fillcolor = seagreen image="NOR.png"];
+	G58 -> OG58 [arrowhead=none color = black]
+	OG97 -> G58 [color = seagreen];
+	OG59 -> G58 [color = seagreen];
+	OG152 -> G58 [color = seagreen];
+	G62 [label = "G62" shape = none fillcolor = seagreen image="NOR.png"];
+	G62 -> OG62 [arrowhead=none color = black]
+	OG97 -> G62 [color = seagreen];
+	OG63 -> G62 [color = seagreen];
+	OG152 -> G62 [color = seagreen];
+	G66 [label = "G66" shape = none fillcolor = seagreen image="NOR.png"];
+	G66 -> OG66 [arrowhead=none color = black]
+	OG97 -> G66 [color = seagreen];
+	OG67 -> G66 [color = seagreen];
+	OG152 -> G66 [color = seagreen];
+	G70 [label = "G70" shape = none fillcolor = seagreen image="NOR.png"];
+	G70 -> OG70 [arrowhead=none color = black]
+	OG97 -> G70 [color = seagreen];
+	OG71 -> G70 [color = seagreen];
+	OG152 -> G70 [color = seagreen];
+	G80 [label = "G80" shape = none fillcolor = seagreen image="NOR.png"];
+	G80 -> OG80 [arrowhead=none color = black]
+	OG93 -> G80 [color = seagreen];
+	OG81 -> G80 [color = seagreen];
+	OG152 -> G80 [color = seagreen];
+	G84 [label = "G84" shape = none fillcolor = seagreen image="NOR.png"];
+	G84 -> OG84 [arrowhead=none color = black]
+	OG93 -> G84 [color = seagreen];
+	OG85 -> G84 [color = seagreen];
+	OG152 -> G84 [color = seagreen];
+	G88 [label = "G88" shape = none fillcolor = seagreen image="NOR.png"];
+	G88 -> OG88 [arrowhead=none color = black]
+	OG93 -> G88 [color = seagreen];
+	OG89 -> G88 [color = seagreen];
+	OG152 -> G88 [color = seagreen];
+	G92 [label = "G92" shape = none fillcolor = seagreen image="NOR.png"];
+	G92 -> OG92 [arrowhead=none color = black]
+	OG93 -> G92 [color = seagreen];
+	OG94 -> G92 [color = seagreen];
+	OG152 -> G92 [color = seagreen];
+}

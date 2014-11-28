@@ -1,0 +1,55 @@
+digraph a
+{
+	//5 Inputs
+	//2 Outputs
+	//6 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"c17" [color = invis]
+	1 [label = "INPUT(1)" shape = cds style = filled]
+	O1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	1 -> O1 [arrowhead=none]
+	2 [label = "INPUT(2)" shape = cds style = filled]
+	O2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	2 -> O2 [arrowhead=none]
+	3 [label = "INPUT(3)" shape = cds style = filled]
+	O3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	3 -> O3 [arrowhead=none]
+	6 [label = "INPUT(6)" shape = cds style = filled]
+	O6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	6 -> O6 [arrowhead=none]
+	7 [label = "INPUT(7)" shape = cds style = filled]
+	O7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	7 -> O7 [arrowhead=none]
+	O22 [label = "OUTPUT(22)" shape = cds style = filled fillcolor = yellow]
+	O23 [label = "OUTPUT(23)" shape = cds style = filled fillcolor = yellow]
+	10 [label = "10" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	10 -> O10 [arrowhead=none color = blue tailclip=false]
+	O10 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O1 -> 10 [color = blue];
+	O3 -> 10 [color = blue];
+	11 [label = "11" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	11 -> O11 [arrowhead=none color = blue tailclip=false]
+	O11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O3 -> 11 [color = blue];
+	O6 -> 11 [color = blue];
+	16 [label = "16" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	16 -> O16 [arrowhead=none color = blue tailclip=false]
+	O16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O2 -> 16 [color = blue];
+	O11 -> 16 [color = blue];
+	19 [label = "19" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	19 -> O19 [arrowhead=none color = blue tailclip=false]
+	O19 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O11 -> 19 [color = blue];
+	O7 -> 19 [color = blue];
+	22 [label = "22" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	O10 -> 22 [color = blue];
+	O16 -> 22 [color = blue];
+	23 [label = "23" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	O16 -> 23 [color = blue];
+	O19 -> 23 [color = blue];
+	22 -> O22 [arrowhead=none color = black]
+	23 -> O23 [arrowhead=none color = black]
+}

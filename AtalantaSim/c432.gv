@@ -1,0 +1,934 @@
+digraph a
+{
+	//36 Inputs
+	//7 Outputs
+	//160 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"c432" [color = invis]
+	1 [label = "INPUT(1)" shape = cds style = filled]
+	O1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	1 -> O1 [arrowhead=none]
+	4 [label = "INPUT(4)" shape = cds style = filled]
+	O4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	4 -> O4 [arrowhead=none]
+	8 [label = "INPUT(8)" shape = cds style = filled]
+	O8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	8 -> O8 [arrowhead=none]
+	11 [label = "INPUT(11)" shape = cds style = filled]
+	O11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	11 -> O11 [arrowhead=none]
+	14 [label = "INPUT(14)" shape = cds style = filled]
+	O14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	14 -> O14 [arrowhead=none]
+	17 [label = "INPUT(17)" shape = cds style = filled]
+	O17 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	17 -> O17 [arrowhead=none]
+	21 [label = "INPUT(21)" shape = cds style = filled]
+	O21 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	21 -> O21 [arrowhead=none]
+	24 [label = "INPUT(24)" shape = cds style = filled]
+	O24 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	24 -> O24 [arrowhead=none]
+	27 [label = "INPUT(27)" shape = cds style = filled]
+	O27 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	27 -> O27 [arrowhead=none]
+	30 [label = "INPUT(30)" shape = cds style = filled]
+	O30 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	30 -> O30 [arrowhead=none]
+	34 [label = "INPUT(34)" shape = cds style = filled]
+	O34 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	34 -> O34 [arrowhead=none]
+	37 [label = "INPUT(37)" shape = cds style = filled]
+	O37 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	37 -> O37 [arrowhead=none]
+	40 [label = "INPUT(40)" shape = cds style = filled]
+	O40 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	40 -> O40 [arrowhead=none]
+	43 [label = "INPUT(43)" shape = cds style = filled]
+	O43 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	43 -> O43 [arrowhead=none]
+	47 [label = "INPUT(47)" shape = cds style = filled]
+	O47 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	47 -> O47 [arrowhead=none]
+	50 [label = "INPUT(50)" shape = cds style = filled]
+	O50 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	50 -> O50 [arrowhead=none]
+	53 [label = "INPUT(53)" shape = cds style = filled]
+	O53 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	53 -> O53 [arrowhead=none]
+	56 [label = "INPUT(56)" shape = cds style = filled]
+	O56 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	56 -> O56 [arrowhead=none]
+	60 [label = "INPUT(60)" shape = cds style = filled]
+	O60 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	60 -> O60 [arrowhead=none]
+	63 [label = "INPUT(63)" shape = cds style = filled]
+	O63 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	63 -> O63 [arrowhead=none]
+	66 [label = "INPUT(66)" shape = cds style = filled]
+	O66 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	66 -> O66 [arrowhead=none]
+	69 [label = "INPUT(69)" shape = cds style = filled]
+	O69 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	69 -> O69 [arrowhead=none]
+	73 [label = "INPUT(73)" shape = cds style = filled]
+	O73 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	73 -> O73 [arrowhead=none]
+	76 [label = "INPUT(76)" shape = cds style = filled]
+	O76 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	76 -> O76 [arrowhead=none]
+	79 [label = "INPUT(79)" shape = cds style = filled]
+	O79 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	79 -> O79 [arrowhead=none]
+	82 [label = "INPUT(82)" shape = cds style = filled]
+	O82 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	82 -> O82 [arrowhead=none]
+	86 [label = "INPUT(86)" shape = cds style = filled]
+	O86 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	86 -> O86 [arrowhead=none]
+	89 [label = "INPUT(89)" shape = cds style = filled]
+	O89 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	89 -> O89 [arrowhead=none]
+	92 [label = "INPUT(92)" shape = cds style = filled]
+	O92 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	92 -> O92 [arrowhead=none]
+	95 [label = "INPUT(95)" shape = cds style = filled]
+	O95 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	95 -> O95 [arrowhead=none]
+	99 [label = "INPUT(99)" shape = cds style = filled]
+	O99 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	99 -> O99 [arrowhead=none]
+	102 [label = "INPUT(102)" shape = cds style = filled]
+	O102 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	102 -> O102 [arrowhead=none]
+	105 [label = "INPUT(105)" shape = cds style = filled]
+	O105 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	105 -> O105 [arrowhead=none]
+	108 [label = "INPUT(108)" shape = cds style = filled]
+	O108 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	108 -> O108 [arrowhead=none]
+	112 [label = "INPUT(112)" shape = cds style = filled]
+	O112 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	112 -> O112 [arrowhead=none]
+	115 [label = "INPUT(115)" shape = cds style = filled]
+	O115 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	115 -> O115 [arrowhead=none]
+	O223 [label = "OUTPUT(223)" shape = cds style = filled fillcolor = yellow]
+	O329 [label = "OUTPUT(329)" shape = cds style = filled fillcolor = yellow]
+	O370 [label = "OUTPUT(370)" shape = cds style = filled fillcolor = yellow]
+	O421 [label = "OUTPUT(421)" shape = cds style = filled fillcolor = yellow]
+	O430 [label = "OUTPUT(430)" shape = cds style = filled fillcolor = yellow]
+	O431 [label = "OUTPUT(431)" shape = cds style = filled fillcolor = yellow]
+	O432 [label = "OUTPUT(432)" shape = cds style = filled fillcolor = yellow]
+	118 [label = "118" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	118 -> O118 [arrowhead=none color = red tailclip=false]
+	O118 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O1 -> 118 [color = red];
+	119 [label = "119" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	119 -> O119 [arrowhead=none color = red tailclip=false]
+	O119 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O4 -> 119 [color = red];
+	122 [label = "122" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	122 -> O122 [arrowhead=none color = red tailclip=false]
+	O122 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O11 -> 122 [color = red];
+	123 [label = "123" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	123 -> O123 [arrowhead=none color = red tailclip=false]
+	O123 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O17 -> 123 [color = red];
+	126 [label = "126" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	126 -> O126 [arrowhead=none color = red tailclip=false]
+	O126 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O24 -> 126 [color = red];
+	127 [label = "127" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	127 -> O127 [arrowhead=none color = red tailclip=false]
+	O127 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O30 -> 127 [color = red];
+	130 [label = "130" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	130 -> O130 [arrowhead=none color = red tailclip=false]
+	O130 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O37 -> 130 [color = red];
+	131 [label = "131" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	131 -> O131 [arrowhead=none color = red tailclip=false]
+	O131 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O43 -> 131 [color = red];
+	134 [label = "134" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	134 -> O134 [arrowhead=none color = red tailclip=false]
+	O134 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O50 -> 134 [color = red];
+	135 [label = "135" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	135 -> O135 [arrowhead=none color = red tailclip=false]
+	O135 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O56 -> 135 [color = red];
+	138 [label = "138" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	138 -> O138 [arrowhead=none color = red tailclip=false]
+	O138 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O63 -> 138 [color = red];
+	139 [label = "139" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	139 -> O139 [arrowhead=none color = red tailclip=false]
+	O139 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O69 -> 139 [color = red];
+	142 [label = "142" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	142 -> O142 [arrowhead=none color = red tailclip=false]
+	O142 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O76 -> 142 [color = red];
+	143 [label = "143" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	143 -> O143 [arrowhead=none color = red tailclip=false]
+	O143 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O82 -> 143 [color = red];
+	146 [label = "146" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	146 -> O146 [arrowhead=none color = red tailclip=false]
+	O146 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O89 -> 146 [color = red];
+	147 [label = "147" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	147 -> O147 [arrowhead=none color = red tailclip=false]
+	O147 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O95 -> 147 [color = red];
+	150 [label = "150" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	150 -> O150 [arrowhead=none color = red tailclip=false]
+	O150 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O102 -> 150 [color = red];
+	151 [label = "151" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	151 -> O151 [arrowhead=none color = red tailclip=false]
+	O151 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O108 -> 151 [color = red];
+	154 [label = "154" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	154 -> O154 [arrowhead=none color = blue tailclip=false]
+	O154 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O118 -> 154 [color = blue];
+	O4 -> 154 [color = blue];
+	157 [label = "157" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	157 -> O157 [arrowhead=none color = darkgreen tailclip=false]
+	O157 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O8 -> 157 [color = darkgreen];
+	O119 -> 157 [color = darkgreen];
+	158 [label = "158" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	158 -> O158 [arrowhead=none color = darkgreen tailclip=false]
+	O158 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O14 -> 158 [color = darkgreen];
+	O119 -> 158 [color = darkgreen];
+	159 [label = "159" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	159 -> O159 [arrowhead=none color = blue tailclip=false]
+	O159 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O122 -> 159 [color = blue];
+	O17 -> 159 [color = blue];
+	162 [label = "162" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	162 -> O162 [arrowhead=none color = blue tailclip=false]
+	O162 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O126 -> 162 [color = blue];
+	O30 -> 162 [color = blue];
+	165 [label = "165" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	165 -> O165 [arrowhead=none color = blue tailclip=false]
+	O165 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O130 -> 165 [color = blue];
+	O43 -> 165 [color = blue];
+	168 [label = "168" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	168 -> O168 [arrowhead=none color = blue tailclip=false]
+	O168 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O134 -> 168 [color = blue];
+	O56 -> 168 [color = blue];
+	171 [label = "171" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	171 -> O171 [arrowhead=none color = blue tailclip=false]
+	O171 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O138 -> 171 [color = blue];
+	O69 -> 171 [color = blue];
+	174 [label = "174" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	174 -> O174 [arrowhead=none color = blue tailclip=false]
+	O174 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O142 -> 174 [color = blue];
+	O82 -> 174 [color = blue];
+	177 [label = "177" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	177 -> O177 [arrowhead=none color = blue tailclip=false]
+	O177 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O146 -> 177 [color = blue];
+	O95 -> 177 [color = blue];
+	180 [label = "180" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	180 -> O180 [arrowhead=none color = blue tailclip=false]
+	O180 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O150 -> 180 [color = blue];
+	O108 -> 180 [color = blue];
+	183 [label = "183" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	183 -> O183 [arrowhead=none color = darkgreen tailclip=false]
+	O183 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O21 -> 183 [color = darkgreen];
+	O123 -> 183 [color = darkgreen];
+	184 [label = "184" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	184 -> O184 [arrowhead=none color = darkgreen tailclip=false]
+	O184 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O27 -> 184 [color = darkgreen];
+	O123 -> 184 [color = darkgreen];
+	185 [label = "185" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	185 -> O185 [arrowhead=none color = darkgreen tailclip=false]
+	O185 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O34 -> 185 [color = darkgreen];
+	O127 -> 185 [color = darkgreen];
+	186 [label = "186" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	186 -> O186 [arrowhead=none color = darkgreen tailclip=false]
+	O186 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O40 -> 186 [color = darkgreen];
+	O127 -> 186 [color = darkgreen];
+	187 [label = "187" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	187 -> O187 [arrowhead=none color = darkgreen tailclip=false]
+	O187 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O47 -> 187 [color = darkgreen];
+	O131 -> 187 [color = darkgreen];
+	188 [label = "188" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	188 -> O188 [arrowhead=none color = darkgreen tailclip=false]
+	O188 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O53 -> 188 [color = darkgreen];
+	O131 -> 188 [color = darkgreen];
+	189 [label = "189" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	189 -> O189 [arrowhead=none color = darkgreen tailclip=false]
+	O189 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O60 -> 189 [color = darkgreen];
+	O135 -> 189 [color = darkgreen];
+	190 [label = "190" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	190 -> O190 [arrowhead=none color = darkgreen tailclip=false]
+	O190 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O66 -> 190 [color = darkgreen];
+	O135 -> 190 [color = darkgreen];
+	191 [label = "191" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	191 -> O191 [arrowhead=none color = darkgreen tailclip=false]
+	O191 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O73 -> 191 [color = darkgreen];
+	O139 -> 191 [color = darkgreen];
+	192 [label = "192" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	192 -> O192 [arrowhead=none color = darkgreen tailclip=false]
+	O192 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O79 -> 192 [color = darkgreen];
+	O139 -> 192 [color = darkgreen];
+	193 [label = "193" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	193 -> O193 [arrowhead=none color = darkgreen tailclip=false]
+	O193 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O86 -> 193 [color = darkgreen];
+	O143 -> 193 [color = darkgreen];
+	194 [label = "194" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	194 -> O194 [arrowhead=none color = darkgreen tailclip=false]
+	O194 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O92 -> 194 [color = darkgreen];
+	O143 -> 194 [color = darkgreen];
+	195 [label = "195" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	195 -> O195 [arrowhead=none color = darkgreen tailclip=false]
+	O195 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O99 -> 195 [color = darkgreen];
+	O147 -> 195 [color = darkgreen];
+	196 [label = "196" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	196 -> O196 [arrowhead=none color = darkgreen tailclip=false]
+	O196 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O105 -> 196 [color = darkgreen];
+	O147 -> 196 [color = darkgreen];
+	197 [label = "197" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	197 -> O197 [arrowhead=none color = darkgreen tailclip=false]
+	O197 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O112 -> 197 [color = darkgreen];
+	O151 -> 197 [color = darkgreen];
+	198 [label = "198" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	198 -> O198 [arrowhead=none color = darkgreen tailclip=false]
+	O198 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O115 -> 198 [color = darkgreen];
+	O151 -> 198 [color = darkgreen];
+	199 [label = "199" shape = none fillcolor = orange fontcolor = black image="AND.png"];
+	199 -> O199 [arrowhead=none color = orange tailclip=false]
+	O199 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O154 -> 199 [color = orange];
+	O159 -> 199 [color = orange];
+	O162 -> 199 [color = orange];
+	O165 -> 199 [color = orange];
+	O168 -> 199 [color = orange];
+	O171 -> 199 [color = orange];
+	O174 -> 199 [color = orange];
+	O177 -> 199 [color = orange];
+	O180 -> 199 [color = orange];
+	203 [label = "203" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	203 -> O203 [arrowhead=none color = red tailclip=false]
+	O203 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O199 -> 203 [color = red];
+	213 [label = "213" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	213 -> O213 [arrowhead=none color = red tailclip=false]
+	O213 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O199 -> 213 [color = red];
+	223 [label = "223" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	O199 -> 223 [color = red];
+	224 [label = "224" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	224 -> O224 [arrowhead=none color = cyan tailclip=false]
+	O224 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 224 [color = cyan];
+	O154 -> 224 [color = cyan];
+	227 [label = "227" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	227 -> O227 [arrowhead=none color = cyan tailclip=false]
+	O227 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 227 [color = cyan];
+	O159 -> 227 [color = cyan];
+	230 [label = "230" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	230 -> O230 [arrowhead=none color = cyan tailclip=false]
+	O230 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 230 [color = cyan];
+	O162 -> 230 [color = cyan];
+	233 [label = "233" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	233 -> O233 [arrowhead=none color = cyan tailclip=false]
+	O233 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 233 [color = cyan];
+	O165 -> 233 [color = cyan];
+	236 [label = "236" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	236 -> O236 [arrowhead=none color = cyan tailclip=false]
+	O236 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 236 [color = cyan];
+	O168 -> 236 [color = cyan];
+	239 [label = "239" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	239 -> O239 [arrowhead=none color = cyan tailclip=false]
+	O239 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 239 [color = cyan];
+	O171 -> 239 [color = cyan];
+	242 [label = "242" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	242 -> O242 [arrowhead=none color = blue tailclip=false]
+	O242 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O1 -> 242 [color = blue];
+	O213 -> 242 [color = blue];
+	243 [label = "243" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	243 -> O243 [arrowhead=none color = cyan tailclip=false]
+	O243 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 243 [color = cyan];
+	O174 -> 243 [color = cyan];
+	246 [label = "246" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	246 -> O246 [arrowhead=none color = blue tailclip=false]
+	O246 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 246 [color = blue];
+	O11 -> 246 [color = blue];
+	247 [label = "247" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	247 -> O247 [arrowhead=none color = cyan tailclip=false]
+	O247 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 247 [color = cyan];
+	O177 -> 247 [color = cyan];
+	250 [label = "250" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	250 -> O250 [arrowhead=none color = blue tailclip=false]
+	O250 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 250 [color = blue];
+	O24 -> 250 [color = blue];
+	251 [label = "251" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	251 -> O251 [arrowhead=none color = cyan tailclip=false]
+	O251 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O203 -> 251 [color = cyan];
+	O180 -> 251 [color = cyan];
+	254 [label = "254" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	254 -> O254 [arrowhead=none color = blue tailclip=false]
+	O254 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 254 [color = blue];
+	O37 -> 254 [color = blue];
+	255 [label = "255" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	255 -> O255 [arrowhead=none color = blue tailclip=false]
+	O255 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 255 [color = blue];
+	O50 -> 255 [color = blue];
+	256 [label = "256" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	256 -> O256 [arrowhead=none color = blue tailclip=false]
+	O256 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 256 [color = blue];
+	O63 -> 256 [color = blue];
+	257 [label = "257" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	257 -> O257 [arrowhead=none color = blue tailclip=false]
+	O257 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 257 [color = blue];
+	O76 -> 257 [color = blue];
+	258 [label = "258" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	258 -> O258 [arrowhead=none color = blue tailclip=false]
+	O258 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 258 [color = blue];
+	O89 -> 258 [color = blue];
+	259 [label = "259" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	259 -> O259 [arrowhead=none color = blue tailclip=false]
+	O259 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O213 -> 259 [color = blue];
+	O102 -> 259 [color = blue];
+	260 [label = "260" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	260 -> O260 [arrowhead=none color = blue tailclip=false]
+	O260 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O224 -> 260 [color = blue];
+	O157 -> 260 [color = blue];
+	263 [label = "263" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	263 -> O263 [arrowhead=none color = blue tailclip=false]
+	O263 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O224 -> 263 [color = blue];
+	O158 -> 263 [color = blue];
+	264 [label = "264" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	264 -> O264 [arrowhead=none color = blue tailclip=false]
+	O264 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O227 -> 264 [color = blue];
+	O183 -> 264 [color = blue];
+	267 [label = "267" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	267 -> O267 [arrowhead=none color = blue tailclip=false]
+	O267 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O230 -> 267 [color = blue];
+	O185 -> 267 [color = blue];
+	270 [label = "270" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	270 -> O270 [arrowhead=none color = blue tailclip=false]
+	O270 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O233 -> 270 [color = blue];
+	O187 -> 270 [color = blue];
+	273 [label = "273" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	273 -> O273 [arrowhead=none color = blue tailclip=false]
+	O273 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O236 -> 273 [color = blue];
+	O189 -> 273 [color = blue];
+	276 [label = "276" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	276 -> O276 [arrowhead=none color = blue tailclip=false]
+	O276 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O239 -> 276 [color = blue];
+	O191 -> 276 [color = blue];
+	279 [label = "279" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	279 -> O279 [arrowhead=none color = blue tailclip=false]
+	O279 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O243 -> 279 [color = blue];
+	O193 -> 279 [color = blue];
+	282 [label = "282" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	282 -> O282 [arrowhead=none color = blue tailclip=false]
+	O282 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O247 -> 282 [color = blue];
+	O195 -> 282 [color = blue];
+	285 [label = "285" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	285 -> O285 [arrowhead=none color = blue tailclip=false]
+	O285 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O251 -> 285 [color = blue];
+	O197 -> 285 [color = blue];
+	288 [label = "288" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	288 -> O288 [arrowhead=none color = blue tailclip=false]
+	O288 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O227 -> 288 [color = blue];
+	O184 -> 288 [color = blue];
+	289 [label = "289" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	289 -> O289 [arrowhead=none color = blue tailclip=false]
+	O289 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O230 -> 289 [color = blue];
+	O186 -> 289 [color = blue];
+	290 [label = "290" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	290 -> O290 [arrowhead=none color = blue tailclip=false]
+	O290 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O233 -> 290 [color = blue];
+	O188 -> 290 [color = blue];
+	291 [label = "291" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	291 -> O291 [arrowhead=none color = blue tailclip=false]
+	O291 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O236 -> 291 [color = blue];
+	O190 -> 291 [color = blue];
+	292 [label = "292" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	292 -> O292 [arrowhead=none color = blue tailclip=false]
+	O292 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O239 -> 292 [color = blue];
+	O192 -> 292 [color = blue];
+	293 [label = "293" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	293 -> O293 [arrowhead=none color = blue tailclip=false]
+	O293 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O243 -> 293 [color = blue];
+	O194 -> 293 [color = blue];
+	294 [label = "294" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	294 -> O294 [arrowhead=none color = blue tailclip=false]
+	O294 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O247 -> 294 [color = blue];
+	O196 -> 294 [color = blue];
+	295 [label = "295" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	295 -> O295 [arrowhead=none color = blue tailclip=false]
+	O295 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O251 -> 295 [color = blue];
+	O198 -> 295 [color = blue];
+	296 [label = "296" shape = none fillcolor = orange fontcolor = black image="AND.png"];
+	296 -> O296 [arrowhead=none color = orange tailclip=false]
+	O296 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O260 -> 296 [color = orange];
+	O264 -> 296 [color = orange];
+	O267 -> 296 [color = orange];
+	O270 -> 296 [color = orange];
+	O273 -> 296 [color = orange];
+	O276 -> 296 [color = orange];
+	O279 -> 296 [color = orange];
+	O282 -> 296 [color = orange];
+	O285 -> 296 [color = orange];
+	300 [label = "300" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	300 -> O300 [arrowhead=none color = red tailclip=false]
+	O300 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O263 -> 300 [color = red];
+	301 [label = "301" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	301 -> O301 [arrowhead=none color = red tailclip=false]
+	O301 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O288 -> 301 [color = red];
+	302 [label = "302" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	302 -> O302 [arrowhead=none color = red tailclip=false]
+	O302 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O289 -> 302 [color = red];
+	303 [label = "303" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	303 -> O303 [arrowhead=none color = red tailclip=false]
+	O303 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O290 -> 303 [color = red];
+	304 [label = "304" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	304 -> O304 [arrowhead=none color = red tailclip=false]
+	O304 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O291 -> 304 [color = red];
+	305 [label = "305" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	305 -> O305 [arrowhead=none color = red tailclip=false]
+	O305 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O292 -> 305 [color = red];
+	306 [label = "306" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	306 -> O306 [arrowhead=none color = red tailclip=false]
+	O306 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O293 -> 306 [color = red];
+	307 [label = "307" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	307 -> O307 [arrowhead=none color = red tailclip=false]
+	O307 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O294 -> 307 [color = red];
+	308 [label = "308" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	308 -> O308 [arrowhead=none color = red tailclip=false]
+	O308 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O295 -> 308 [color = red];
+	309 [label = "309" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	309 -> O309 [arrowhead=none color = red tailclip=false]
+	O309 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O296 -> 309 [color = red];
+	319 [label = "319" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	319 -> O319 [arrowhead=none color = red tailclip=false]
+	O319 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O296 -> 319 [color = red];
+	329 [label = "329" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	O296 -> 329 [color = red];
+	330 [label = "330" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	330 -> O330 [arrowhead=none color = cyan tailclip=false]
+	O330 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 330 [color = cyan];
+	O260 -> 330 [color = cyan];
+	331 [label = "331" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	331 -> O331 [arrowhead=none color = cyan tailclip=false]
+	O331 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 331 [color = cyan];
+	O264 -> 331 [color = cyan];
+	332 [label = "332" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	332 -> O332 [arrowhead=none color = cyan tailclip=false]
+	O332 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 332 [color = cyan];
+	O267 -> 332 [color = cyan];
+	333 [label = "333" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	333 -> O333 [arrowhead=none color = cyan tailclip=false]
+	O333 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 333 [color = cyan];
+	O270 -> 333 [color = cyan];
+	334 [label = "334" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	334 -> O334 [arrowhead=none color = blue tailclip=false]
+	O334 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O8 -> 334 [color = blue];
+	O319 -> 334 [color = blue];
+	335 [label = "335" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	335 -> O335 [arrowhead=none color = cyan tailclip=false]
+	O335 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 335 [color = cyan];
+	O273 -> 335 [color = cyan];
+	336 [label = "336" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	336 -> O336 [arrowhead=none color = blue tailclip=false]
+	O336 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 336 [color = blue];
+	O21 -> 336 [color = blue];
+	337 [label = "337" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	337 -> O337 [arrowhead=none color = cyan tailclip=false]
+	O337 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 337 [color = cyan];
+	O276 -> 337 [color = cyan];
+	338 [label = "338" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	338 -> O338 [arrowhead=none color = blue tailclip=false]
+	O338 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 338 [color = blue];
+	O34 -> 338 [color = blue];
+	339 [label = "339" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	339 -> O339 [arrowhead=none color = cyan tailclip=false]
+	O339 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 339 [color = cyan];
+	O279 -> 339 [color = cyan];
+	340 [label = "340" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	340 -> O340 [arrowhead=none color = blue tailclip=false]
+	O340 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 340 [color = blue];
+	O47 -> 340 [color = blue];
+	341 [label = "341" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	341 -> O341 [arrowhead=none color = cyan tailclip=false]
+	O341 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 341 [color = cyan];
+	O282 -> 341 [color = cyan];
+	342 [label = "342" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	342 -> O342 [arrowhead=none color = blue tailclip=false]
+	O342 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 342 [color = blue];
+	O60 -> 342 [color = blue];
+	343 [label = "343" shape = none fillcolor = cyan fontcolor = black image="XOR.png"];
+	343 -> O343 [arrowhead=none color = cyan tailclip=false]
+	O343 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O309 -> 343 [color = cyan];
+	O285 -> 343 [color = cyan];
+	344 [label = "344" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	344 -> O344 [arrowhead=none color = blue tailclip=false]
+	O344 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 344 [color = blue];
+	O73 -> 344 [color = blue];
+	345 [label = "345" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	345 -> O345 [arrowhead=none color = blue tailclip=false]
+	O345 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 345 [color = blue];
+	O86 -> 345 [color = blue];
+	346 [label = "346" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	346 -> O346 [arrowhead=none color = blue tailclip=false]
+	O346 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 346 [color = blue];
+	O99 -> 346 [color = blue];
+	347 [label = "347" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	347 -> O347 [arrowhead=none color = blue tailclip=false]
+	O347 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O319 -> 347 [color = blue];
+	O112 -> 347 [color = blue];
+	348 [label = "348" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	348 -> O348 [arrowhead=none color = blue tailclip=false]
+	O348 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O330 -> 348 [color = blue];
+	O300 -> 348 [color = blue];
+	349 [label = "349" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	349 -> O349 [arrowhead=none color = blue tailclip=false]
+	O349 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O331 -> 349 [color = blue];
+	O301 -> 349 [color = blue];
+	350 [label = "350" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	350 -> O350 [arrowhead=none color = blue tailclip=false]
+	O350 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O332 -> 350 [color = blue];
+	O302 -> 350 [color = blue];
+	351 [label = "351" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	351 -> O351 [arrowhead=none color = blue tailclip=false]
+	O351 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O333 -> 351 [color = blue];
+	O303 -> 351 [color = blue];
+	352 [label = "352" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	352 -> O352 [arrowhead=none color = blue tailclip=false]
+	O352 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O335 -> 352 [color = blue];
+	O304 -> 352 [color = blue];
+	353 [label = "353" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	353 -> O353 [arrowhead=none color = blue tailclip=false]
+	O353 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O337 -> 353 [color = blue];
+	O305 -> 353 [color = blue];
+	354 [label = "354" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	354 -> O354 [arrowhead=none color = blue tailclip=false]
+	O354 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O339 -> 354 [color = blue];
+	O306 -> 354 [color = blue];
+	355 [label = "355" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	355 -> O355 [arrowhead=none color = blue tailclip=false]
+	O355 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O341 -> 355 [color = blue];
+	O307 -> 355 [color = blue];
+	356 [label = "356" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	356 -> O356 [arrowhead=none color = blue tailclip=false]
+	O356 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O343 -> 356 [color = blue];
+	O308 -> 356 [color = blue];
+	357 [label = "357" shape = none fillcolor = orange fontcolor = black image="AND.png"];
+	357 -> O357 [arrowhead=none color = orange tailclip=false]
+	O357 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O348 -> 357 [color = orange];
+	O349 -> 357 [color = orange];
+	O350 -> 357 [color = orange];
+	O351 -> 357 [color = orange];
+	O352 -> 357 [color = orange];
+	O353 -> 357 [color = orange];
+	O354 -> 357 [color = orange];
+	O355 -> 357 [color = orange];
+	O356 -> 357 [color = orange];
+	360 [label = "360" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	360 -> O360 [arrowhead=none color = red tailclip=false]
+	O360 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O357 -> 360 [color = red];
+	370 [label = "370" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	O357 -> 370 [color = red];
+	371 [label = "371" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	371 -> O371 [arrowhead=none color = blue tailclip=false]
+	O371 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O14 -> 371 [color = blue];
+	O360 -> 371 [color = blue];
+	372 [label = "372" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	372 -> O372 [arrowhead=none color = blue tailclip=false]
+	O372 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 372 [color = blue];
+	O27 -> 372 [color = blue];
+	373 [label = "373" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	373 -> O373 [arrowhead=none color = blue tailclip=false]
+	O373 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 373 [color = blue];
+	O40 -> 373 [color = blue];
+	374 [label = "374" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	374 -> O374 [arrowhead=none color = blue tailclip=false]
+	O374 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 374 [color = blue];
+	O53 -> 374 [color = blue];
+	375 [label = "375" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	375 -> O375 [arrowhead=none color = blue tailclip=false]
+	O375 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 375 [color = blue];
+	O66 -> 375 [color = blue];
+	376 [label = "376" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	376 -> O376 [arrowhead=none color = blue tailclip=false]
+	O376 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 376 [color = blue];
+	O79 -> 376 [color = blue];
+	377 [label = "377" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	377 -> O377 [arrowhead=none color = blue tailclip=false]
+	O377 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 377 [color = blue];
+	O92 -> 377 [color = blue];
+	378 [label = "378" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	378 -> O378 [arrowhead=none color = blue tailclip=false]
+	O378 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 378 [color = blue];
+	O105 -> 378 [color = blue];
+	379 [label = "379" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	379 -> O379 [arrowhead=none color = blue tailclip=false]
+	O379 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O360 -> 379 [color = blue];
+	O115 -> 379 [color = blue];
+	380 [label = "380" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	380 -> O380 [arrowhead=none color = blue tailclip=false]
+	O380 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O4 -> 380 [color = blue];
+	O242 -> 380 [color = blue];
+	O334 -> 380 [color = blue];
+	O371 -> 380 [color = blue];
+	381 [label = "381" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	381 -> O381 [arrowhead=none color = blue tailclip=false]
+	O381 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O246 -> 381 [color = blue];
+	O336 -> 381 [color = blue];
+	O372 -> 381 [color = blue];
+	O17 -> 381 [color = blue];
+	386 [label = "386" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	386 -> O386 [arrowhead=none color = blue tailclip=false]
+	O386 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O250 -> 386 [color = blue];
+	O338 -> 386 [color = blue];
+	O373 -> 386 [color = blue];
+	O30 -> 386 [color = blue];
+	393 [label = "393" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	393 -> O393 [arrowhead=none color = blue tailclip=false]
+	O393 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O254 -> 393 [color = blue];
+	O340 -> 393 [color = blue];
+	O374 -> 393 [color = blue];
+	O43 -> 393 [color = blue];
+	399 [label = "399" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	399 -> O399 [arrowhead=none color = blue tailclip=false]
+	O399 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O255 -> 399 [color = blue];
+	O342 -> 399 [color = blue];
+	O375 -> 399 [color = blue];
+	O56 -> 399 [color = blue];
+	404 [label = "404" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	404 -> O404 [arrowhead=none color = blue tailclip=false]
+	O404 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O256 -> 404 [color = blue];
+	O344 -> 404 [color = blue];
+	O376 -> 404 [color = blue];
+	O69 -> 404 [color = blue];
+	407 [label = "407" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	407 -> O407 [arrowhead=none color = blue tailclip=false]
+	O407 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O257 -> 407 [color = blue];
+	O345 -> 407 [color = blue];
+	O377 -> 407 [color = blue];
+	O82 -> 407 [color = blue];
+	411 [label = "411" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	411 -> O411 [arrowhead=none color = blue tailclip=false]
+	O411 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O258 -> 411 [color = blue];
+	O346 -> 411 [color = blue];
+	O378 -> 411 [color = blue];
+	O95 -> 411 [color = blue];
+	414 [label = "414" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	414 -> O414 [arrowhead=none color = blue tailclip=false]
+	O414 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O259 -> 414 [color = blue];
+	O347 -> 414 [color = blue];
+	O379 -> 414 [color = blue];
+	O108 -> 414 [color = blue];
+	415 [label = "415" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	415 -> O415 [arrowhead=none color = red tailclip=false]
+	O415 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O380 -> 415 [color = red];
+	416 [label = "416" shape = none fillcolor = orange fontcolor = black image="AND.png"];
+	416 -> O416 [arrowhead=none color = orange tailclip=false]
+	O416 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O381 -> 416 [color = orange];
+	O386 -> 416 [color = orange];
+	O393 -> 416 [color = orange];
+	O399 -> 416 [color = orange];
+	O404 -> 416 [color = orange];
+	O407 -> 416 [color = orange];
+	O411 -> 416 [color = orange];
+	O414 -> 416 [color = orange];
+	417 [label = "417" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	417 -> O417 [arrowhead=none color = red tailclip=false]
+	O417 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O393 -> 417 [color = red];
+	418 [label = "418" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	418 -> O418 [arrowhead=none color = red tailclip=false]
+	O418 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O404 -> 418 [color = red];
+	419 [label = "419" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	419 -> O419 [arrowhead=none color = red tailclip=false]
+	O419 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O407 -> 419 [color = red];
+	420 [label = "420" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	420 -> O420 [arrowhead=none color = red tailclip=false]
+	O420 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O411 -> 420 [color = red];
+	421 [label = "421" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	O415 -> 421 [color = darkgreen];
+	O416 -> 421 [color = darkgreen];
+	422 [label = "422" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	422 -> O422 [arrowhead=none color = blue tailclip=false]
+	O422 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O386 -> 422 [color = blue];
+	O417 -> 422 [color = blue];
+	425 [label = "425" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	425 -> O425 [arrowhead=none color = blue tailclip=false]
+	O425 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O386 -> 425 [color = blue];
+	O393 -> 425 [color = blue];
+	O418 -> 425 [color = blue];
+	O399 -> 425 [color = blue];
+	428 [label = "428" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	428 -> O428 [arrowhead=none color = blue tailclip=false]
+	O428 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O399 -> 428 [color = blue];
+	O393 -> 428 [color = blue];
+	O419 -> 428 [color = blue];
+	429 [label = "429" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	429 -> O429 [arrowhead=none color = blue tailclip=false]
+	O429 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	O386 -> 429 [color = blue];
+	O393 -> 429 [color = blue];
+	O407 -> 429 [color = blue];
+	O420 -> 429 [color = blue];
+	430 [label = "430" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	O381 -> 430 [color = blue];
+	O386 -> 430 [color = blue];
+	O422 -> 430 [color = blue];
+	O399 -> 430 [color = blue];
+	431 [label = "431" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	O381 -> 431 [color = blue];
+	O386 -> 431 [color = blue];
+	O425 -> 431 [color = blue];
+	O428 -> 431 [color = blue];
+	432 [label = "432" shape = none fillcolor = blue fontcolor = white image="NAND.png"];
+	O381 -> 432 [color = blue];
+	O422 -> 432 [color = blue];
+	O425 -> 432 [color = blue];
+	O429 -> 432 [color = blue];
+	223 -> O223 [arrowhead=none color = black]
+	329 -> O329 [arrowhead=none color = black]
+	370 -> O370 [arrowhead=none color = black]
+	421 -> O421 [arrowhead=none color = black]
+	430 -> O430 [arrowhead=none color = black]
+	431 -> O431 [arrowhead=none color = black]
+	432 -> O432 [arrowhead=none color = black]
+}

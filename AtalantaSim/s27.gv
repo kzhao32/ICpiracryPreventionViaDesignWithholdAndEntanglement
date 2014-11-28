@@ -1,0 +1,83 @@
+digraph a
+{
+	//7 Inputs
+	//4 Outputs
+	//11 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"s27" [color = invis]
+	G0 [label = "INPUT(G0)" shape = cds style = filled fillcolor = white]
+	OG0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G0 -> OG0 [arrowhead=none]
+	G1 [label = "INPUT(G1)" shape = cds style = filled fillcolor = white]
+	OG1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G1 -> OG1 [arrowhead=none]
+	G2 [label = "INPUT(G2)" shape = cds style = filled fillcolor = white]
+	OG2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G2 -> OG2 [arrowhead=none]
+	G3 [label = "INPUT(G3)" shape = cds style = filled fillcolor = white]
+	OG3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G3 -> OG3 [arrowhead=none]
+	G5 [label = "INPUT(G5)" shape = cds style = filled fillcolor = white]
+	OG5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G5 -> OG5 [arrowhead=none]
+	G6 [label = "INPUT(G6)" shape = cds style = filled fillcolor = white]
+	OG6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G6 -> OG6 [arrowhead=none]
+	G7 [label = "INPUT(G7)" shape = cds style = filled fillcolor = white]
+	OG7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G7 -> OG7 [arrowhead=none]
+	OG17 [label = "OUTPUT(G17)" shape = cds style = filled fillcolor = yellow]
+	OG10 [label = "OUTPUT(G10)" shape = cds style = filled fillcolor = yellow]
+	OG11_EXTRA [label = "OUTPUT(G11_EXTRA)" shape = cds style = filled fillcolor = yellow]
+	OG13 [label = "OUTPUT(G13)" shape = cds style = filled fillcolor = yellow]
+	G14 [label = "G14" shape = none fillcolor = red image="NOT.png"];
+	OG14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G14 -> OG14 [arrowhead=none color = red tailclip=false]
+	OG0 -> G14 [color = red];
+	G17 [label = "G17" shape = none fillcolor = red image="NOT.png"];
+	G17 -> OG17 [arrowhead=none color = black]
+	OG11 -> G17 [color = red];
+	G8 [label = "G8" shape = none fillcolor = orange image="AND.png"];
+	OG8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G8 -> OG8 [arrowhead=none color = orange tailclip=false]
+	OG14 -> G8 [color = orange];
+	OG6 -> G8 [color = orange];
+	G15 [label = "G15" shape = none fillcolor = pink image="OR.png"];
+	OG15 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G15 -> OG15 [arrowhead=none color = pink tailclip=false]
+	OG12 -> G15 [color = pink];
+	OG8 -> G15 [color = pink];
+	G16 [label = "G16" shape = none fillcolor = pink image="OR.png"];
+	OG16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G16 -> OG16 [arrowhead=none color = pink tailclip=false]
+	OG3 -> G16 [color = pink];
+	OG8 -> G16 [color = pink];
+	G9 [label = "G9" shape = none fillcolor = blue image="NAND.png"];
+	OG9 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G9 -> OG9 [arrowhead=none color = blue tailclip=false]
+	OG16 -> G9 [color = blue];
+	OG15 -> G9 [color = blue];
+	G10 [label = "G10" shape = none fillcolor = seagreen image="NOR.png"];
+	G10 -> OG10 [arrowhead=none color = black]
+	OG14 -> G10 [color = seagreen];
+	OG11 -> G10 [color = seagreen];
+	G11 [label = "G11" shape = none fillcolor = seagreen image="NOR.png"];
+	OG11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G11 -> OG11 [arrowhead=none color = seagreen tailclip=false]
+	OG5 -> G11 [color = seagreen];
+	OG9 -> G11 [color = seagreen];
+	G12 [label = "G12" shape = none fillcolor = seagreen image="NOR.png"];
+	OG12 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	G12 -> OG12 [arrowhead=none color = seagreen tailclip=false]
+	OG1 -> G12 [color = seagreen];
+	OG7 -> G12 [color = seagreen];
+	G13 [label = "G13" shape = none fillcolor = seagreen image="NOR.png"];
+	G13 -> OG13 [arrowhead=none color = black]
+	OG2 -> G13 [color = seagreen];
+	OG12 -> G13 [color = seagreen];
+	G11_EXTRA [label = "G11_EXTRA" shape = none fillcolor = green image="BUF.png"];
+	G11_EXTRA -> OG11_EXTRA [arrowhead=none color = black]
+	OG11 -> G11_EXTRA [color = green];
+}

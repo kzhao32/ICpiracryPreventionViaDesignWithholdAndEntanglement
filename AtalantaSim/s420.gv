@@ -1,0 +1,1039 @@
+digraph a
+{
+	//35 Inputs
+	//18 Outputs
+	//196 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"s420" [color = invis]
+	X [label = "INPUT(X)" shape = cds style = filled fillcolor = white]
+	OX [label = "", fixedsize="false", width=0, height=0, shape=none]
+	X -> OX [arrowhead=none]
+	CLEAR [label = "INPUT(CLEAR)" shape = cds style = filled fillcolor = white]
+	OCLEAR [label = "", fixedsize="false", width=0, height=0, shape=none]
+	CLEAR -> OCLEAR [arrowhead=none]
+	C_16 [label = "INPUT(C_16)" shape = cds style = filled fillcolor = white]
+	OC_16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_16 -> OC_16 [arrowhead=none]
+	C_15 [label = "INPUT(C_15)" shape = cds style = filled fillcolor = white]
+	OC_15 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_15 -> OC_15 [arrowhead=none]
+	C_14 [label = "INPUT(C_14)" shape = cds style = filled fillcolor = white]
+	OC_14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_14 -> OC_14 [arrowhead=none]
+	C_13 [label = "INPUT(C_13)" shape = cds style = filled fillcolor = white]
+	OC_13 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_13 -> OC_13 [arrowhead=none]
+	C_12 [label = "INPUT(C_12)" shape = cds style = filled fillcolor = white]
+	OC_12 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_12 -> OC_12 [arrowhead=none]
+	C_11 [label = "INPUT(C_11)" shape = cds style = filled fillcolor = white]
+	OC_11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_11 -> OC_11 [arrowhead=none]
+	C_10 [label = "INPUT(C_10)" shape = cds style = filled fillcolor = white]
+	OC_10 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_10 -> OC_10 [arrowhead=none]
+	C_9 [label = "INPUT(C_9)" shape = cds style = filled fillcolor = white]
+	OC_9 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_9 -> OC_9 [arrowhead=none]
+	C_8 [label = "INPUT(C_8)" shape = cds style = filled fillcolor = white]
+	OC_8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_8 -> OC_8 [arrowhead=none]
+	C_7 [label = "INPUT(C_7)" shape = cds style = filled fillcolor = white]
+	OC_7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_7 -> OC_7 [arrowhead=none]
+	C_6 [label = "INPUT(C_6)" shape = cds style = filled fillcolor = white]
+	OC_6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_6 -> OC_6 [arrowhead=none]
+	C_5 [label = "INPUT(C_5)" shape = cds style = filled fillcolor = white]
+	OC_5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_5 -> OC_5 [arrowhead=none]
+	C_4 [label = "INPUT(C_4)" shape = cds style = filled fillcolor = white]
+	OC_4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_4 -> OC_4 [arrowhead=none]
+	C_3 [label = "INPUT(C_3)" shape = cds style = filled fillcolor = white]
+	OC_3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_3 -> OC_3 [arrowhead=none]
+	C_2 [label = "INPUT(C_2)" shape = cds style = filled fillcolor = white]
+	OC_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_2 -> OC_2 [arrowhead=none]
+	C_1 [label = "INPUT(C_1)" shape = cds style = filled fillcolor = white]
+	OC_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_1 -> OC_1 [arrowhead=none]
+	C_0 [label = "INPUT(C_0)" shape = cds style = filled fillcolor = white]
+	OC_0 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C_0 -> OC_0 [arrowhead=none]
+	Y_4 [label = "INPUT(Y_4)" shape = cds style = filled fillcolor = white]
+	OY_4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_4 -> OY_4 [arrowhead=none]
+	Y_3 [label = "INPUT(Y_3)" shape = cds style = filled fillcolor = white]
+	OY_3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_3 -> OY_3 [arrowhead=none]
+	Y_2 [label = "INPUT(Y_2)" shape = cds style = filled fillcolor = white]
+	OY_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_2 -> OY_2 [arrowhead=none]
+	Y_1 [label = "INPUT(Y_1)" shape = cds style = filled fillcolor = white]
+	OY_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_1 -> OY_1 [arrowhead=none]
+	Y_8 [label = "INPUT(Y_8)" shape = cds style = filled fillcolor = white]
+	OY_8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_8 -> OY_8 [arrowhead=none]
+	Y_7 [label = "INPUT(Y_7)" shape = cds style = filled fillcolor = white]
+	OY_7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_7 -> OY_7 [arrowhead=none]
+	Y_6 [label = "INPUT(Y_6)" shape = cds style = filled fillcolor = white]
+	OY_6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_6 -> OY_6 [arrowhead=none]
+	Y_5 [label = "INPUT(Y_5)" shape = cds style = filled fillcolor = white]
+	OY_5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_5 -> OY_5 [arrowhead=none]
+	Y_12 [label = "INPUT(Y_12)" shape = cds style = filled fillcolor = white]
+	OY_12 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_12 -> OY_12 [arrowhead=none]
+	Y_11 [label = "INPUT(Y_11)" shape = cds style = filled fillcolor = white]
+	OY_11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_11 -> OY_11 [arrowhead=none]
+	Y_10 [label = "INPUT(Y_10)" shape = cds style = filled fillcolor = white]
+	OY_10 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_10 -> OY_10 [arrowhead=none]
+	Y_9 [label = "INPUT(Y_9)" shape = cds style = filled fillcolor = white]
+	OY_9 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_9 -> OY_9 [arrowhead=none]
+	Y_16 [label = "INPUT(Y_16)" shape = cds style = filled fillcolor = white]
+	OY_16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_16 -> OY_16 [arrowhead=none]
+	Y_15 [label = "INPUT(Y_15)" shape = cds style = filled fillcolor = white]
+	OY_15 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_15 -> OY_15 [arrowhead=none]
+	Y_14 [label = "INPUT(Y_14)" shape = cds style = filled fillcolor = white]
+	OY_14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_14 -> OY_14 [arrowhead=none]
+	Y_13 [label = "INPUT(Y_13)" shape = cds style = filled fillcolor = white]
+	OY_13 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Y_13 -> OY_13 [arrowhead=none]
+	OII6 [label = "OUTPUT(II6)" shape = cds style = filled fillcolor = yellow]
+	OII3 [label = "OUTPUT(II3)" shape = cds style = filled fillcolor = yellow]
+	OII4 [label = "OUTPUT(II4)" shape = cds style = filled fillcolor = yellow]
+	OII158 [label = "OUTPUT(II158)" shape = cds style = filled fillcolor = yellow]
+	OII155 [label = "OUTPUT(II155)" shape = cds style = filled fillcolor = yellow]
+	OII156 [label = "OUTPUT(II156)" shape = cds style = filled fillcolor = yellow]
+	OII310 [label = "OUTPUT(II310)" shape = cds style = filled fillcolor = yellow]
+	OII307 [label = "OUTPUT(II307)" shape = cds style = filled fillcolor = yellow]
+	OII308 [label = "OUTPUT(II308)" shape = cds style = filled fillcolor = yellow]
+	OII462 [label = "OUTPUT(II462)" shape = cds style = filled fillcolor = yellow]
+	OII459 [label = "OUTPUT(II459)" shape = cds style = filled fillcolor = yellow]
+	OII460 [label = "OUTPUT(II460)" shape = cds style = filled fillcolor = yellow]
+	OZ [label = "OUTPUT(Z)" shape = cds style = filled fillcolor = yellow]
+	OII5 [label = "OUTPUT(II5)" shape = cds style = filled fillcolor = yellow]
+	OII157 [label = "OUTPUT(II157)" shape = cds style = filled fillcolor = yellow]
+	OII309 [label = "OUTPUT(II309)" shape = cds style = filled fillcolor = yellow]
+	OII461 [label = "OUTPUT(II461)" shape = cds style = filled fillcolor = yellow]
+	OW [label = "OUTPUT(W)" shape = cds style = filled fillcolor = yellow]
+	II6 [label = "II6" shape = none fillcolor = red image="NOT.png"];
+	II6 -> OII6 [arrowhead=none color = black]
+	OII104 -> II6 [color = red];
+	II50 [label = "II50" shape = none fillcolor = red image="NOT.png"];
+	OII50 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II50 -> OII50 [arrowhead=none color = red tailclip=false]
+	OII92 -> II50 [color = red];
+	II40 [label = "II40" shape = none fillcolor = red image="NOT.png"];
+	OII40 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II40 -> OII40 [arrowhead=none color = red tailclip=false]
+	OX -> II40 [color = red];
+	II41 [label = "II41" shape = none fillcolor = red image="NOT.png"];
+	OII41 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II41 -> OII41 [arrowhead=none color = red tailclip=false]
+	OY_4 -> II41 [color = red];
+	II42 [label = "II42" shape = none fillcolor = red image="NOT.png"];
+	OII42 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II42 -> OII42 [arrowhead=none color = red tailclip=false]
+	OY_3 -> II42 [color = red];
+	II43 [label = "II43" shape = none fillcolor = red image="NOT.png"];
+	OII43 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II43 -> OII43 [arrowhead=none color = red tailclip=false]
+	OY_2 -> II43 [color = red];
+	II44 [label = "II44" shape = none fillcolor = red image="NOT.png"];
+	OII44 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II44 -> OII44 [arrowhead=none color = red tailclip=false]
+	OY_1 -> II44 [color = red];
+	II3 [label = "II3" shape = none fillcolor = red image="NOT.png"];
+	II3 -> OII3 [arrowhead=none color = black]
+	OII46 -> II3 [color = red];
+	II4 [label = "II4" shape = none fillcolor = red image="NOT.png"];
+	II4 -> OII4 [arrowhead=none color = black]
+	OII47 -> II4 [color = red];
+	II158 [label = "II158" shape = none fillcolor = red image="NOT.png"];
+	II158 -> OII158 [arrowhead=none color = black]
+	OII256 -> II158 [color = red];
+	II202 [label = "II202" shape = none fillcolor = red image="NOT.png"];
+	OII202 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II202 -> OII202 [arrowhead=none color = red tailclip=false]
+	OII244 -> II202 [color = red];
+	II192 [label = "II192" shape = none fillcolor = red image="NOT.png"];
+	OII192 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II192 -> OII192 [arrowhead=none color = red tailclip=false]
+	OII1_1 -> II192 [color = red];
+	II193 [label = "II193" shape = none fillcolor = red image="NOT.png"];
+	OII193 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II193 -> OII193 [arrowhead=none color = red tailclip=false]
+	OY_8 -> II193 [color = red];
+	II194 [label = "II194" shape = none fillcolor = red image="NOT.png"];
+	OII194 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II194 -> OII194 [arrowhead=none color = red tailclip=false]
+	OY_7 -> II194 [color = red];
+	II195 [label = "II195" shape = none fillcolor = red image="NOT.png"];
+	OII195 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II195 -> OII195 [arrowhead=none color = red tailclip=false]
+	OY_6 -> II195 [color = red];
+	II196 [label = "II196" shape = none fillcolor = red image="NOT.png"];
+	OII196 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II196 -> OII196 [arrowhead=none color = red tailclip=false]
+	OY_5 -> II196 [color = red];
+	II155 [label = "II155" shape = none fillcolor = red image="NOT.png"];
+	II155 -> OII155 [arrowhead=none color = black]
+	OII198 -> II155 [color = red];
+	II156 [label = "II156" shape = none fillcolor = red image="NOT.png"];
+	II156 -> OII156 [arrowhead=none color = black]
+	OII199 -> II156 [color = red];
+	II310 [label = "II310" shape = none fillcolor = red image="NOT.png"];
+	II310 -> OII310 [arrowhead=none color = black]
+	OII408 -> II310 [color = red];
+	II354 [label = "II354" shape = none fillcolor = red image="NOT.png"];
+	OII354 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II354 -> OII354 [arrowhead=none color = red tailclip=false]
+	OII396 -> II354 [color = red];
+	II344 [label = "II344" shape = none fillcolor = red image="NOT.png"];
+	OII344 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II344 -> OII344 [arrowhead=none color = red tailclip=false]
+	OII1_2 -> II344 [color = red];
+	II345 [label = "II345" shape = none fillcolor = red image="NOT.png"];
+	OII345 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II345 -> OII345 [arrowhead=none color = red tailclip=false]
+	OY_12 -> II345 [color = red];
+	II346 [label = "II346" shape = none fillcolor = red image="NOT.png"];
+	OII346 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II346 -> OII346 [arrowhead=none color = red tailclip=false]
+	OY_11 -> II346 [color = red];
+	II347 [label = "II347" shape = none fillcolor = red image="NOT.png"];
+	OII347 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II347 -> OII347 [arrowhead=none color = red tailclip=false]
+	OY_10 -> II347 [color = red];
+	II348 [label = "II348" shape = none fillcolor = red image="NOT.png"];
+	OII348 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II348 -> OII348 [arrowhead=none color = red tailclip=false]
+	OY_9 -> II348 [color = red];
+	II307 [label = "II307" shape = none fillcolor = red image="NOT.png"];
+	II307 -> OII307 [arrowhead=none color = black]
+	OII350 -> II307 [color = red];
+	II308 [label = "II308" shape = none fillcolor = red image="NOT.png"];
+	II308 -> OII308 [arrowhead=none color = black]
+	OII351 -> II308 [color = red];
+	II462 [label = "II462" shape = none fillcolor = red image="NOT.png"];
+	II462 -> OII462 [arrowhead=none color = black]
+	OII560 -> II462 [color = red];
+	II506 [label = "II506" shape = none fillcolor = red image="NOT.png"];
+	OII506 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II506 -> OII506 [arrowhead=none color = red tailclip=false]
+	OII548 -> II506 [color = red];
+	II496 [label = "II496" shape = none fillcolor = red image="NOT.png"];
+	OII496 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II496 -> OII496 [arrowhead=none color = red tailclip=false]
+	OII1_3 -> II496 [color = red];
+	II497 [label = "II497" shape = none fillcolor = red image="NOT.png"];
+	OII497 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II497 -> OII497 [arrowhead=none color = red tailclip=false]
+	OY_16 -> II497 [color = red];
+	II498 [label = "II498" shape = none fillcolor = red image="NOT.png"];
+	OII498 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II498 -> OII498 [arrowhead=none color = red tailclip=false]
+	OY_15 -> II498 [color = red];
+	II499 [label = "II499" shape = none fillcolor = red image="NOT.png"];
+	OII499 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II499 -> OII499 [arrowhead=none color = red tailclip=false]
+	OY_14 -> II499 [color = red];
+	II500 [label = "II500" shape = none fillcolor = red image="NOT.png"];
+	OII500 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II500 -> OII500 [arrowhead=none color = red tailclip=false]
+	OY_13 -> II500 [color = red];
+	II459 [label = "II459" shape = none fillcolor = red image="NOT.png"];
+	II459 -> OII459 [arrowhead=none color = black]
+	OII502 -> II459 [color = red];
+	II460 [label = "II460" shape = none fillcolor = red image="NOT.png"];
+	II460 -> OII460 [arrowhead=none color = black]
+	OII503 -> II460 [color = red];
+	II611_1 [label = "II611_1" shape = none fillcolor = red image="NOT.png"];
+	OII611_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II611_1 -> OII611_1 [arrowhead=none color = red tailclip=false]
+	OII645 -> II611_1 [color = red];
+	II622 [label = "II622" shape = none fillcolor = red image="NOT.png"];
+	OII622 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II622 -> OII622 [arrowhead=none color = red tailclip=false]
+	OII645 -> II622 [color = red];
+	II613 [label = "II613" shape = none fillcolor = red image="NOT.png"];
+	OII613 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II613 -> OII613 [arrowhead=none color = red tailclip=false]
+	OY_1 -> II613 [color = red];
+	II614 [label = "II614" shape = none fillcolor = red image="NOT.png"];
+	OII614 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II614 -> OII614 [arrowhead=none color = red tailclip=false]
+	OY_2 -> II614 [color = red];
+	II615 [label = "II615" shape = none fillcolor = red image="NOT.png"];
+	OII615 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II615 -> OII615 [arrowhead=none color = red tailclip=false]
+	OY_3 -> II615 [color = red];
+	P_1 [label = "P_1" shape = none fillcolor = red image="NOT.png"];
+	OP_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_1 -> OP_1 [arrowhead=none color = red tailclip=false]
+	OII618 -> P_1 [color = red];
+	P_3 [label = "P_3" shape = none fillcolor = red image="NOT.png"];
+	OP_3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_3 -> OP_3 [arrowhead=none color = red tailclip=false]
+	OII620 -> P_3 [color = red];
+	P_4 [label = "P_4" shape = none fillcolor = red image="NOT.png"];
+	OP_4 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_4 -> OP_4 [arrowhead=none color = red tailclip=false]
+	OII621 -> P_4 [color = red];
+	II611_2 [label = "II611_2" shape = none fillcolor = red image="NOT.png"];
+	OII611_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II611_2 -> OII611_2 [arrowhead=none color = red tailclip=false]
+	OII708 -> II611_2 [color = red];
+	II682 [label = "II682" shape = none fillcolor = red image="NOT.png"];
+	OII682 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II682 -> OII682 [arrowhead=none color = red tailclip=false]
+	OII708 -> II682 [color = red];
+	II672 [label = "II672" shape = none fillcolor = red image="NOT.png"];
+	OII672 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II672 -> OII672 [arrowhead=none color = red tailclip=false]
+	OY_4 -> II672 [color = red];
+	II673 [label = "II673" shape = none fillcolor = red image="NOT.png"];
+	OII673 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II673 -> OII673 [arrowhead=none color = red tailclip=false]
+	OY_5 -> II673 [color = red];
+	II674 [label = "II674" shape = none fillcolor = red image="NOT.png"];
+	OII674 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II674 -> OII674 [arrowhead=none color = red tailclip=false]
+	OY_6 -> II674 [color = red];
+	II675 [label = "II675" shape = none fillcolor = red image="NOT.png"];
+	OII675 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II675 -> OII675 [arrowhead=none color = red tailclip=false]
+	OY_7 -> II675 [color = red];
+	P_7 [label = "P_7" shape = none fillcolor = red image="NOT.png"];
+	OP_7 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_7 -> OP_7 [arrowhead=none color = red tailclip=false]
+	OII680 -> P_7 [color = red];
+	P_8 [label = "P_8" shape = none fillcolor = red image="NOT.png"];
+	OP_8 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_8 -> OP_8 [arrowhead=none color = red tailclip=false]
+	OII681 -> P_8 [color = red];
+	II721 [label = "II721" shape = none fillcolor = red image="NOT.png"];
+	OII721 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II721 -> OII721 [arrowhead=none color = red tailclip=false]
+	OII720 -> II721 [color = red];
+	II611_3 [label = "II611_3" shape = none fillcolor = red image="NOT.png"];
+	OII611_3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II611_3 -> OII611_3 [arrowhead=none color = red tailclip=false]
+	OII776 -> II611_3 [color = red];
+	II750 [label = "II750" shape = none fillcolor = red image="NOT.png"];
+	OII750 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II750 -> OII750 [arrowhead=none color = red tailclip=false]
+	OII776 -> II750 [color = red];
+	II740 [label = "II740" shape = none fillcolor = red image="NOT.png"];
+	OII740 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II740 -> OII740 [arrowhead=none color = red tailclip=false]
+	OY_8 -> II740 [color = red];
+	II741 [label = "II741" shape = none fillcolor = red image="NOT.png"];
+	OII741 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II741 -> OII741 [arrowhead=none color = red tailclip=false]
+	OY_9 -> II741 [color = red];
+	II742 [label = "II742" shape = none fillcolor = red image="NOT.png"];
+	OII742 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II742 -> OII742 [arrowhead=none color = red tailclip=false]
+	OY_10 -> II742 [color = red];
+	II743 [label = "II743" shape = none fillcolor = red image="NOT.png"];
+	OII743 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II743 -> OII743 [arrowhead=none color = red tailclip=false]
+	OY_11 -> II743 [color = red];
+	P_11 [label = "P_11" shape = none fillcolor = red image="NOT.png"];
+	OP_11 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_11 -> OP_11 [arrowhead=none color = red tailclip=false]
+	OII748 -> P_11 [color = red];
+	P_12 [label = "P_12" shape = none fillcolor = red image="NOT.png"];
+	OP_12 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_12 -> OP_12 [arrowhead=none color = red tailclip=false]
+	OII749 -> P_12 [color = red];
+	II789 [label = "II789" shape = none fillcolor = red image="NOT.png"];
+	OII789 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II789 -> OII789 [arrowhead=none color = red tailclip=false]
+	OII788 -> II789 [color = red];
+	II808 [label = "II808" shape = none fillcolor = red image="NOT.png"];
+	OII808 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II808 -> OII808 [arrowhead=none color = red tailclip=false]
+	OY_12 -> II808 [color = red];
+	II809 [label = "II809" shape = none fillcolor = red image="NOT.png"];
+	OII809 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II809 -> OII809 [arrowhead=none color = red tailclip=false]
+	OY_13 -> II809 [color = red];
+	II810 [label = "II810" shape = none fillcolor = red image="NOT.png"];
+	OII810 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II810 -> OII810 [arrowhead=none color = red tailclip=false]
+	OY_14 -> II810 [color = red];
+	II811 [label = "II811" shape = none fillcolor = red image="NOT.png"];
+	OII811 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II811 -> OII811 [arrowhead=none color = red tailclip=false]
+	OY_15 -> II811 [color = red];
+	II812 [label = "II812" shape = none fillcolor = red image="NOT.png"];
+	OII812 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II812 -> OII812 [arrowhead=none color = red tailclip=false]
+	OY_16 -> II812 [color = red];
+	P_14 [label = "P_14" shape = none fillcolor = red image="NOT.png"];
+	OP_14 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_14 -> OP_14 [arrowhead=none color = red tailclip=false]
+	OII814 -> P_14 [color = red];
+	II884 [label = "II884" shape = none fillcolor = red image="NOT.png"];
+	OII884 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II884 -> OII884 [arrowhead=none color = red tailclip=false]
+	OX -> II884 [color = red];
+	II901 [label = "II901" shape = none fillcolor = red image="NOT.png"];
+	OII901 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II901 -> OII901 [arrowhead=none color = red tailclip=false]
+	OC_0 -> II901 [color = red];
+	Z [label = "Z" shape = none fillcolor = red image="NOT.png"];
+	Z -> OZ [arrowhead=none color = black]
+	OII902 -> Z [color = red];
+	II982 [label = "II982" shape = none fillcolor = red image="NOT.png"];
+	OII982 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II982 -> OII982 [arrowhead=none color = red tailclip=false]
+	OII981 -> II982 [color = red];
+	II990 [label = "II990" shape = none fillcolor = red image="NOT.png"];
+	OII990 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II990 -> OII990 [arrowhead=none color = red tailclip=false]
+	OII989 -> II990 [color = red];
+	II991 [label = "II991" shape = none fillcolor = red image="NOT.png"];
+	OII991 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II991 -> OII991 [arrowhead=none color = red tailclip=false]
+	OII992 -> II991 [color = red];
+	II127_1 [label = "II127_1" shape = none fillcolor = orange image="AND.png"];
+	OII127_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II127_1 -> OII127_1 [arrowhead=none color = orange tailclip=false]
+	OII41 -> II127_1 [color = orange];
+	OY_3 -> II127_1 [color = orange];
+	OII109 -> II127_1 [color = orange];
+	II127_2 [label = "II127_2" shape = none fillcolor = orange image="AND.png"];
+	OII127_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II127_2 -> OII127_2 [arrowhead=none color = orange tailclip=false]
+	OII96 -> II127_2 [color = orange];
+	OII113 -> II127_2 [color = orange];
+	OY_4 -> II127_2 [color = orange];
+	II131_1 [label = "II131_1" shape = none fillcolor = orange image="AND.png"];
+	OII131_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II131_1 -> OII131_1 [arrowhead=none color = orange tailclip=false]
+	OII113 -> II131_1 [color = orange];
+	OII92 -> II131_1 [color = orange];
+	OY_3 -> II131_1 [color = orange];
+	II131_2 [label = "II131_2" shape = none fillcolor = orange image="AND.png"];
+	OII131_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II131_2 -> OII131_2 [arrowhead=none color = orange tailclip=false]
+	OII42 -> II131_2 [color = orange];
+	OII109 -> II131_2 [color = orange];
+	II279_1 [label = "II279_1" shape = none fillcolor = orange image="AND.png"];
+	OII279_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II279_1 -> OII279_1 [arrowhead=none color = orange tailclip=false]
+	OII193 -> II279_1 [color = orange];
+	OY_7 -> II279_1 [color = orange];
+	OII261 -> II279_1 [color = orange];
+	II279_2 [label = "II279_2" shape = none fillcolor = orange image="AND.png"];
+	OII279_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II279_2 -> OII279_2 [arrowhead=none color = orange tailclip=false]
+	OII248 -> II279_2 [color = orange];
+	OII265 -> II279_2 [color = orange];
+	OY_8 -> II279_2 [color = orange];
+	II283_1 [label = "II283_1" shape = none fillcolor = orange image="AND.png"];
+	OII283_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II283_1 -> OII283_1 [arrowhead=none color = orange tailclip=false]
+	OII265 -> II283_1 [color = orange];
+	OII244 -> II283_1 [color = orange];
+	OY_7 -> II283_1 [color = orange];
+	II283_2 [label = "II283_2" shape = none fillcolor = orange image="AND.png"];
+	OII283_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II283_2 -> OII283_2 [arrowhead=none color = orange tailclip=false]
+	OII194 -> II283_2 [color = orange];
+	OII261 -> II283_2 [color = orange];
+	II431_1 [label = "II431_1" shape = none fillcolor = orange image="AND.png"];
+	OII431_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II431_1 -> OII431_1 [arrowhead=none color = orange tailclip=false]
+	OII345 -> II431_1 [color = orange];
+	OY_11 -> II431_1 [color = orange];
+	OII413 -> II431_1 [color = orange];
+	II431_2 [label = "II431_2" shape = none fillcolor = orange image="AND.png"];
+	OII431_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II431_2 -> OII431_2 [arrowhead=none color = orange tailclip=false]
+	OII400 -> II431_2 [color = orange];
+	OII417 -> II431_2 [color = orange];
+	OY_12 -> II431_2 [color = orange];
+	II435_1 [label = "II435_1" shape = none fillcolor = orange image="AND.png"];
+	OII435_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II435_1 -> OII435_1 [arrowhead=none color = orange tailclip=false]
+	OII417 -> II435_1 [color = orange];
+	OII396 -> II435_1 [color = orange];
+	OY_11 -> II435_1 [color = orange];
+	II435_2 [label = "II435_2" shape = none fillcolor = orange image="AND.png"];
+	OII435_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II435_2 -> OII435_2 [arrowhead=none color = orange tailclip=false]
+	OII346 -> II435_2 [color = orange];
+	OII413 -> II435_2 [color = orange];
+	II583_1 [label = "II583_1" shape = none fillcolor = orange image="AND.png"];
+	OII583_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II583_1 -> OII583_1 [arrowhead=none color = orange tailclip=false]
+	OII497 -> II583_1 [color = orange];
+	OY_15 -> II583_1 [color = orange];
+	OII565 -> II583_1 [color = orange];
+	II583_2 [label = "II583_2" shape = none fillcolor = orange image="AND.png"];
+	OII583_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II583_2 -> OII583_2 [arrowhead=none color = orange tailclip=false]
+	OII552 -> II583_2 [color = orange];
+	OII569 -> II583_2 [color = orange];
+	OY_16 -> II583_2 [color = orange];
+	II587_1 [label = "II587_1" shape = none fillcolor = orange image="AND.png"];
+	OII587_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II587_1 -> OII587_1 [arrowhead=none color = orange tailclip=false]
+	OII569 -> II587_1 [color = orange];
+	OII548 -> II587_1 [color = orange];
+	OY_15 -> II587_1 [color = orange];
+	II587_2 [label = "II587_2" shape = none fillcolor = orange image="AND.png"];
+	OII587_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II587_2 -> OII587_2 [arrowhead=none color = orange tailclip=false]
+	OII498 -> II587_2 [color = orange];
+	OII565 -> II587_2 [color = orange];
+	II1001_1 [label = "II1001_1" shape = none fillcolor = orange image="AND.png"];
+	OII1001_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1001_1 -> OII1001_1 [arrowhead=none color = orange tailclip=false]
+	OP_9 -> II1001_1 [color = orange];
+	OC_9 -> II1001_1 [color = orange];
+	II1008_1 [label = "II1008_1" shape = none fillcolor = orange image="AND.png"];
+	OII1008_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1008_1 -> OII1008_1 [arrowhead=none color = orange tailclip=false]
+	OP_3 -> II1008_1 [color = orange];
+	OC_3 -> II1008_1 [color = orange];
+	II1008_2 [label = "II1008_2" shape = none fillcolor = orange image="AND.png"];
+	OII1008_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1008_2 -> OII1008_2 [arrowhead=none color = orange tailclip=false]
+	OP_12 -> II1008_2 [color = orange];
+	OC_12 -> II1008_2 [color = orange];
+	II1012_1 [label = "II1012_1" shape = none fillcolor = orange image="AND.png"];
+	OII1012_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1012_1 -> OII1012_1 [arrowhead=none color = orange tailclip=false]
+	OP_15 -> II1012_1 [color = orange];
+	OC_15 -> II1012_1 [color = orange];
+	II1012_2 [label = "II1012_2" shape = none fillcolor = orange image="AND.png"];
+	OII1012_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1012_2 -> OII1012_2 [arrowhead=none color = orange tailclip=false]
+	OP_16 -> II1012_2 [color = orange];
+	OC_16 -> II1012_2 [color = orange];
+	II1019_1 [label = "II1019_1" shape = none fillcolor = orange image="AND.png"];
+	OII1019_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1019_1 -> OII1019_1 [arrowhead=none color = orange tailclip=false]
+	OP_7 -> II1019_1 [color = orange];
+	OC_7 -> II1019_1 [color = orange];
+	II1019_2 [label = "II1019_2" shape = none fillcolor = orange image="AND.png"];
+	OII1019_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1019_2 -> OII1019_2 [arrowhead=none color = orange tailclip=false]
+	OP_6 -> II1019_2 [color = orange];
+	OC_6 -> II1019_2 [color = orange];
+	II1023_1 [label = "II1023_1" shape = none fillcolor = orange image="AND.png"];
+	OII1023_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1023_1 -> OII1023_1 [arrowhead=none color = orange tailclip=false]
+	OP_8 -> II1023_1 [color = orange];
+	OC_8 -> II1023_1 [color = orange];
+	II1023_2 [label = "II1023_2" shape = none fillcolor = orange image="AND.png"];
+	OII1023_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1023_2 -> OII1023_2 [arrowhead=none color = orange tailclip=false]
+	OP_4 -> II1023_2 [color = orange];
+	OC_4 -> II1023_2 [color = orange];
+	II1028_1 [label = "II1028_1" shape = none fillcolor = orange image="AND.png"];
+	OII1028_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1028_1 -> OII1028_1 [arrowhead=none color = orange tailclip=false]
+	OP_5 -> II1028_1 [color = orange];
+	OC_5 -> II1028_1 [color = orange];
+	II1032_1 [label = "II1032_1" shape = none fillcolor = orange image="AND.png"];
+	OII1032_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1032_1 -> OII1032_1 [arrowhead=none color = orange tailclip=false]
+	OP_2 -> II1032_1 [color = orange];
+	OC_2 -> II1032_1 [color = orange];
+	II1032_2 [label = "II1032_2" shape = none fillcolor = orange image="AND.png"];
+	OII1032_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1032_2 -> OII1032_2 [arrowhead=none color = orange tailclip=false]
+	OP_1 -> II1032_2 [color = orange];
+	OC_1 -> II1032_2 [color = orange];
+	II135_1 [label = "II135_1" shape = none fillcolor = pink image="OR.png"];
+	OII135_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II135_1 -> OII135_1 [arrowhead=none color = pink tailclip=false]
+	OII43 -> II135_1 [color = pink];
+	OII104 -> II135_1 [color = pink];
+	II135_2 [label = "II135_2" shape = none fillcolor = pink image="OR.png"];
+	OII135_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II135_2 -> OII135_2 [arrowhead=none color = pink tailclip=false]
+	OY_2 -> II135_2 [color = pink];
+	OII100 -> II135_2 [color = pink];
+	II287_1 [label = "II287_1" shape = none fillcolor = pink image="OR.png"];
+	OII287_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II287_1 -> OII287_1 [arrowhead=none color = pink tailclip=false]
+	OII195 -> II287_1 [color = pink];
+	OII256 -> II287_1 [color = pink];
+	II287_2 [label = "II287_2" shape = none fillcolor = pink image="OR.png"];
+	OII287_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II287_2 -> OII287_2 [arrowhead=none color = pink tailclip=false]
+	OY_6 -> II287_2 [color = pink];
+	OII252 -> II287_2 [color = pink];
+	II439_1 [label = "II439_1" shape = none fillcolor = pink image="OR.png"];
+	OII439_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II439_1 -> OII439_1 [arrowhead=none color = pink tailclip=false]
+	OII347 -> II439_1 [color = pink];
+	OII408 -> II439_1 [color = pink];
+	II439_2 [label = "II439_2" shape = none fillcolor = pink image="OR.png"];
+	OII439_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II439_2 -> OII439_2 [arrowhead=none color = pink tailclip=false]
+	OY_10 -> II439_2 [color = pink];
+	OII404 -> II439_2 [color = pink];
+	II591_1 [label = "II591_1" shape = none fillcolor = pink image="OR.png"];
+	OII591_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II591_1 -> OII591_1 [arrowhead=none color = pink tailclip=false]
+	OII499 -> II591_1 [color = pink];
+	OII560 -> II591_1 [color = pink];
+	II591_2 [label = "II591_2" shape = none fillcolor = pink image="OR.png"];
+	OII591_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II591_2 -> OII591_2 [arrowhead=none color = pink tailclip=false]
+	OY_14 -> II591_2 [color = pink];
+	OII556 -> II591_2 [color = pink];
+	II1016_1 [label = "II1016_1" shape = none fillcolor = pink image="OR.png"];
+	OII1016_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1016_1 -> OII1016_1 [arrowhead=none color = pink tailclip=false]
+	OII884 -> II1016_1 [color = pink];
+	OII901 -> II1016_1 [color = pink];
+	II5 [label = "II5" shape = none fillcolor = blue image="NAND.png"];
+	II5 -> OII5 [arrowhead=none color = black]
+	OII135_1 -> II5 [color = blue];
+	OII135_2 -> II5 [color = blue];
+	II92 [label = "II92" shape = none fillcolor = blue image="NAND.png"];
+	OII92 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II92 -> OII92 [arrowhead=none color = blue tailclip=false]
+	OY_2 -> II92 [color = blue];
+	OY_1 -> II92 [color = blue];
+	II96 [label = "II96" shape = none fillcolor = blue image="NAND.png"];
+	OII96 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II96 -> OII96 [arrowhead=none color = blue tailclip=false]
+	OY_3 -> II96 [color = blue];
+	OII50 -> II96 [color = blue];
+	II100 [label = "II100" shape = none fillcolor = blue image="NAND.png"];
+	OII100 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II100 -> OII100 [arrowhead=none color = blue tailclip=false]
+	OY_1 -> II100 [color = blue];
+	OII113 -> II100 [color = blue];
+	II104 [label = "II104" shape = none fillcolor = blue image="NAND.png"];
+	OII104 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II104 -> OII104 [arrowhead=none color = blue tailclip=false]
+	OII44 -> II104 [color = blue];
+	OII113 -> II104 [color = blue];
+	II157 [label = "II157" shape = none fillcolor = blue image="NAND.png"];
+	II157 -> OII157 [arrowhead=none color = black]
+	OII287_1 -> II157 [color = blue];
+	OII287_2 -> II157 [color = blue];
+	II244 [label = "II244" shape = none fillcolor = blue image="NAND.png"];
+	OII244 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II244 -> OII244 [arrowhead=none color = blue tailclip=false]
+	OY_6 -> II244 [color = blue];
+	OY_5 -> II244 [color = blue];
+	II248 [label = "II248" shape = none fillcolor = blue image="NAND.png"];
+	OII248 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II248 -> OII248 [arrowhead=none color = blue tailclip=false]
+	OY_7 -> II248 [color = blue];
+	OII202 -> II248 [color = blue];
+	II252 [label = "II252" shape = none fillcolor = blue image="NAND.png"];
+	OII252 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II252 -> OII252 [arrowhead=none color = blue tailclip=false]
+	OY_5 -> II252 [color = blue];
+	OII265 -> II252 [color = blue];
+	II256 [label = "II256" shape = none fillcolor = blue image="NAND.png"];
+	OII256 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II256 -> OII256 [arrowhead=none color = blue tailclip=false]
+	OII196 -> II256 [color = blue];
+	OII265 -> II256 [color = blue];
+	II309 [label = "II309" shape = none fillcolor = blue image="NAND.png"];
+	II309 -> OII309 [arrowhead=none color = black]
+	OII439_1 -> II309 [color = blue];
+	OII439_2 -> II309 [color = blue];
+	II396 [label = "II396" shape = none fillcolor = blue image="NAND.png"];
+	OII396 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II396 -> OII396 [arrowhead=none color = blue tailclip=false]
+	OY_10 -> II396 [color = blue];
+	OY_9 -> II396 [color = blue];
+	II400 [label = "II400" shape = none fillcolor = blue image="NAND.png"];
+	OII400 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II400 -> OII400 [arrowhead=none color = blue tailclip=false]
+	OY_11 -> II400 [color = blue];
+	OII354 -> II400 [color = blue];
+	II404 [label = "II404" shape = none fillcolor = blue image="NAND.png"];
+	OII404 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II404 -> OII404 [arrowhead=none color = blue tailclip=false]
+	OY_9 -> II404 [color = blue];
+	OII417 -> II404 [color = blue];
+	II408 [label = "II408" shape = none fillcolor = blue image="NAND.png"];
+	OII408 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II408 -> OII408 [arrowhead=none color = blue tailclip=false]
+	OII348 -> II408 [color = blue];
+	OII417 -> II408 [color = blue];
+	II461 [label = "II461" shape = none fillcolor = blue image="NAND.png"];
+	II461 -> OII461 [arrowhead=none color = black]
+	OII591_1 -> II461 [color = blue];
+	OII591_2 -> II461 [color = blue];
+	II548 [label = "II548" shape = none fillcolor = blue image="NAND.png"];
+	OII548 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II548 -> OII548 [arrowhead=none color = blue tailclip=false]
+	OY_14 -> II548 [color = blue];
+	OY_13 -> II548 [color = blue];
+	II552 [label = "II552" shape = none fillcolor = blue image="NAND.png"];
+	OII552 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II552 -> OII552 [arrowhead=none color = blue tailclip=false]
+	OY_15 -> II552 [color = blue];
+	OII506 -> II552 [color = blue];
+	II556 [label = "II556" shape = none fillcolor = blue image="NAND.png"];
+	OII556 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II556 -> OII556 [arrowhead=none color = blue tailclip=false]
+	OY_13 -> II556 [color = blue];
+	OII569 -> II556 [color = blue];
+	II560 [label = "II560" shape = none fillcolor = blue image="NAND.png"];
+	OII560 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II560 -> OII560 [arrowhead=none color = blue tailclip=false]
+	OII500 -> II560 [color = blue];
+	OII569 -> II560 [color = blue];
+	II618 [label = "II618" shape = none fillcolor = blue image="NAND.png"];
+	OII618 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II618 -> OII618 [arrowhead=none color = blue tailclip=false]
+	OX -> II618 [color = blue];
+	OY_1 -> II618 [color = blue];
+	II620 [label = "II620" shape = none fillcolor = blue image="NAND.png"];
+	OII620 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II620 -> OII620 [arrowhead=none color = blue tailclip=false]
+	OY_3 -> II620 [color = blue];
+	OII651 -> II620 [color = blue];
+	II621 [label = "II621" shape = none fillcolor = blue image="NAND.png"];
+	OII621 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II621 -> OII621 [arrowhead=none color = blue tailclip=false]
+	OY_4 -> II621 [color = blue];
+	OII622 -> II621 [color = blue];
+	II645 [label = "II645" shape = none fillcolor = blue image="NAND.png"];
+	OII645 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II645 -> OII645 [arrowhead=none color = blue tailclip=false]
+	OII615 -> II645 [color = blue];
+	OII651 -> II645 [color = blue];
+	II654 [label = "II654" shape = none fillcolor = blue image="NAND.png"];
+	OII654 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II654 -> OII654 [arrowhead=none color = blue tailclip=false]
+	OX -> II654 [color = blue];
+	OII613 -> II654 [color = blue];
+	II680 [label = "II680" shape = none fillcolor = blue image="NAND.png"];
+	OII680 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II680 -> OII680 [arrowhead=none color = blue tailclip=false]
+	OY_7 -> II680 [color = blue];
+	OII713 -> II680 [color = blue];
+	II681 [label = "II681" shape = none fillcolor = blue image="NAND.png"];
+	OII681 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II681 -> OII681 [arrowhead=none color = blue tailclip=false]
+	OY_8 -> II681 [color = blue];
+	OII682 -> II681 [color = blue];
+	II708 [label = "II708" shape = none fillcolor = blue image="NAND.png"];
+	OII708 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II708 -> OII708 [arrowhead=none color = blue tailclip=false]
+	OII675 -> II708 [color = blue];
+	OII713 -> II708 [color = blue];
+	II716 [label = "II716" shape = none fillcolor = blue image="NAND.png"];
+	OII716 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II716 -> OII716 [arrowhead=none color = blue tailclip=false]
+	OII673 -> II716 [color = blue];
+	OII721 -> II716 [color = blue];
+	II720 [label = "II720" shape = none fillcolor = blue image="NAND.png"];
+	OII720 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II720 -> OII720 [arrowhead=none color = blue tailclip=false]
+	OII611_1 -> II720 [color = blue];
+	OII672 -> II720 [color = blue];
+	II748 [label = "II748" shape = none fillcolor = blue image="NAND.png"];
+	OII748 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II748 -> OII748 [arrowhead=none color = blue tailclip=false]
+	OY_11 -> II748 [color = blue];
+	OII781 -> II748 [color = blue];
+	II749 [label = "II749" shape = none fillcolor = blue image="NAND.png"];
+	OII749 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II749 -> OII749 [arrowhead=none color = blue tailclip=false]
+	OY_12 -> II749 [color = blue];
+	OII750 -> II749 [color = blue];
+	II776 [label = "II776" shape = none fillcolor = blue image="NAND.png"];
+	OII776 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II776 -> OII776 [arrowhead=none color = blue tailclip=false]
+	OII743 -> II776 [color = blue];
+	OII781 -> II776 [color = blue];
+	II784 [label = "II784" shape = none fillcolor = blue image="NAND.png"];
+	OII784 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II784 -> OII784 [arrowhead=none color = blue tailclip=false]
+	OII741 -> II784 [color = blue];
+	OII789 -> II784 [color = blue];
+	II788 [label = "II788" shape = none fillcolor = blue image="NAND.png"];
+	OII788 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II788 -> OII788 [arrowhead=none color = blue tailclip=false]
+	OII611_2 -> II788 [color = blue];
+	OII740 -> II788 [color = blue];
+	II814 [label = "II814" shape = none fillcolor = blue image="NAND.png"];
+	OII814 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II814 -> OII814 [arrowhead=none color = blue tailclip=false]
+	OY_14 -> II814 [color = blue];
+	OII846 -> II814 [color = blue];
+	II818 [label = "II818" shape = none fillcolor = blue image="NAND.png"];
+	OII818 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II818 -> OII818 [arrowhead=none color = blue tailclip=false]
+	OII846 -> II818 [color = blue];
+	OII810 -> II818 [color = blue];
+	II849 [label = "II849" shape = none fillcolor = blue image="NAND.png"];
+	OII849 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II849 -> OII849 [arrowhead=none color = blue tailclip=false]
+	OII808 -> II849 [color = blue];
+	OII611_3 -> II849 [color = blue];
+	II945 [label = "II945" shape = none fillcolor = blue image="NAND.png"];
+	OII945 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II945 -> OII945 [arrowhead=none color = blue tailclip=false]
+	OP_10 -> II945 [color = blue];
+	OC_10 -> II945 [color = blue];
+	II949 [label = "II949" shape = none fillcolor = blue image="NAND.png"];
+	OII949 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II949 -> OII949 [arrowhead=none color = blue tailclip=false]
+	OP_11 -> II949 [color = blue];
+	OC_11 -> II949 [color = blue];
+	II957 [label = "II957" shape = none fillcolor = blue image="NAND.png"];
+	OII957 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II957 -> OII957 [arrowhead=none color = blue tailclip=false]
+	OP_13 -> II957 [color = blue];
+	OC_13 -> II957 [color = blue];
+	II961 [label = "II961" shape = none fillcolor = blue image="NAND.png"];
+	OII961 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II961 -> OII961 [arrowhead=none color = blue tailclip=false]
+	OP_14 -> II961 [color = blue];
+	OC_14 -> II961 [color = blue];
+	II975 [label = "II975" shape = none fillcolor = blue image="NAND.png"];
+	OII975 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II975 -> OII975 [arrowhead=none color = blue tailclip=false]
+	OII1016_1 -> II975 [color = blue];
+	OII972 -> II975 [color = blue];
+	II981 [label = "II981" shape = none fillcolor = blue image="NAND.png"];
+	OII981 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II981 -> OII981 [arrowhead=none color = blue tailclip=false]
+	OII978 -> II981 [color = blue];
+	OII980 -> II981 [color = blue];
+	II989 [label = "II989" shape = none fillcolor = blue image="NAND.png"];
+	OII989 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II989 -> OII989 [arrowhead=none color = blue tailclip=false]
+	OII982 -> II989 [color = blue];
+	OII949 -> II989 [color = blue];
+	OII974 -> II989 [color = blue];
+	OII957 -> II989 [color = blue];
+	II997 [label = "II997" shape = none fillcolor = blue image="NAND.png"];
+	OII997 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II997 -> OII997 [arrowhead=none color = blue tailclip=false]
+	OII990 -> II997 [color = blue];
+	OII984 -> II997 [color = blue];
+	OII945 -> II997 [color = blue];
+	OII961 -> II997 [color = blue];
+	II1_1 [label = "II1_1" shape = none fillcolor = seagreen image="NOR.png"];
+	OII1_1 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1_1 -> OII1_1 [arrowhead=none color = seagreen tailclip=false]
+	OII41 -> II1_1 [color = seagreen];
+	OII96 -> II1_1 [color = seagreen];
+	II46 [label = "II46" shape = none fillcolor = seagreen image="NOR.png"];
+	OII46 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II46 -> OII46 [arrowhead=none color = seagreen tailclip=false]
+	OII127_1 -> II46 [color = seagreen];
+	OII127_2 -> II46 [color = seagreen];
+	II47 [label = "II47" shape = none fillcolor = seagreen image="NOR.png"];
+	OII47 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II47 -> OII47 [arrowhead=none color = seagreen tailclip=false]
+	OII131_1 -> II47 [color = seagreen];
+	OII131_2 -> II47 [color = seagreen];
+	II109 [label = "II109" shape = none fillcolor = seagreen image="NOR.png"];
+	OII109 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II109 -> OII109 [arrowhead=none color = seagreen tailclip=false]
+	OII43 -> II109 [color = seagreen];
+	OII100 -> II109 [color = seagreen];
+	II113 [label = "II113" shape = none fillcolor = seagreen image="NOR.png"];
+	OII113 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II113 -> OII113 [arrowhead=none color = seagreen tailclip=false]
+	OCLEAR -> II113 [color = seagreen];
+	OII40 -> II113 [color = seagreen];
+	II1_2 [label = "II1_2" shape = none fillcolor = seagreen image="NOR.png"];
+	OII1_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1_2 -> OII1_2 [arrowhead=none color = seagreen tailclip=false]
+	OII193 -> II1_2 [color = seagreen];
+	OII248 -> II1_2 [color = seagreen];
+	II198 [label = "II198" shape = none fillcolor = seagreen image="NOR.png"];
+	OII198 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II198 -> OII198 [arrowhead=none color = seagreen tailclip=false]
+	OII279_1 -> II198 [color = seagreen];
+	OII279_2 -> II198 [color = seagreen];
+	II199 [label = "II199" shape = none fillcolor = seagreen image="NOR.png"];
+	OII199 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II199 -> OII199 [arrowhead=none color = seagreen tailclip=false]
+	OII283_1 -> II199 [color = seagreen];
+	OII283_2 -> II199 [color = seagreen];
+	II261 [label = "II261" shape = none fillcolor = seagreen image="NOR.png"];
+	OII261 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II261 -> OII261 [arrowhead=none color = seagreen tailclip=false]
+	OII195 -> II261 [color = seagreen];
+	OII252 -> II261 [color = seagreen];
+	II265 [label = "II265" shape = none fillcolor = seagreen image="NOR.png"];
+	OII265 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II265 -> OII265 [arrowhead=none color = seagreen tailclip=false]
+	OCLEAR -> II265 [color = seagreen];
+	OII192 -> II265 [color = seagreen];
+	II1_3 [label = "II1_3" shape = none fillcolor = seagreen image="NOR.png"];
+	OII1_3 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II1_3 -> OII1_3 [arrowhead=none color = seagreen tailclip=false]
+	OII345 -> II1_3 [color = seagreen];
+	OII400 -> II1_3 [color = seagreen];
+	II350 [label = "II350" shape = none fillcolor = seagreen image="NOR.png"];
+	OII350 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II350 -> OII350 [arrowhead=none color = seagreen tailclip=false]
+	OII431_1 -> II350 [color = seagreen];
+	OII431_2 -> II350 [color = seagreen];
+	II351 [label = "II351" shape = none fillcolor = seagreen image="NOR.png"];
+	OII351 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II351 -> OII351 [arrowhead=none color = seagreen tailclip=false]
+	OII435_1 -> II351 [color = seagreen];
+	OII435_2 -> II351 [color = seagreen];
+	II413 [label = "II413" shape = none fillcolor = seagreen image="NOR.png"];
+	OII413 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II413 -> OII413 [arrowhead=none color = seagreen tailclip=false]
+	OII347 -> II413 [color = seagreen];
+	OII404 -> II413 [color = seagreen];
+	II417 [label = "II417" shape = none fillcolor = seagreen image="NOR.png"];
+	OII417 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II417 -> OII417 [arrowhead=none color = seagreen tailclip=false]
+	OCLEAR -> II417 [color = seagreen];
+	OII344 -> II417 [color = seagreen];
+	W [label = "W" shape = none fillcolor = seagreen image="NOR.png"];
+	W -> OW [arrowhead=none color = black]
+	OII497 -> W [color = seagreen];
+	OII552 -> W [color = seagreen];
+	II502 [label = "II502" shape = none fillcolor = seagreen image="NOR.png"];
+	OII502 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II502 -> OII502 [arrowhead=none color = seagreen tailclip=false]
+	OII583_1 -> II502 [color = seagreen];
+	OII583_2 -> II502 [color = seagreen];
+	II503 [label = "II503" shape = none fillcolor = seagreen image="NOR.png"];
+	OII503 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II503 -> OII503 [arrowhead=none color = seagreen tailclip=false]
+	OII587_1 -> II503 [color = seagreen];
+	OII587_2 -> II503 [color = seagreen];
+	II565 [label = "II565" shape = none fillcolor = seagreen image="NOR.png"];
+	OII565 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II565 -> OII565 [arrowhead=none color = seagreen tailclip=false]
+	OII499 -> II565 [color = seagreen];
+	OII556 -> II565 [color = seagreen];
+	II569 [label = "II569" shape = none fillcolor = seagreen image="NOR.png"];
+	OII569 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II569 -> OII569 [arrowhead=none color = seagreen tailclip=false]
+	OCLEAR -> II569 [color = seagreen];
+	OII496 -> II569 [color = seagreen];
+	P_2 [label = "P_2" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_2 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_2 -> OP_2 [arrowhead=none color = seagreen tailclip=false]
+	OII614 -> P_2 [color = seagreen];
+	OII654 -> P_2 [color = seagreen];
+	II651 [label = "II651" shape = none fillcolor = seagreen image="NOR.png"];
+	OII651 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II651 -> OII651 [arrowhead=none color = seagreen tailclip=false]
+	OY_2 -> II651 [color = seagreen];
+	OII654 -> II651 [color = seagreen];
+	P_5 [label = "P_5" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_5 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_5 -> OP_5 [arrowhead=none color = seagreen tailclip=false]
+	OII673 -> P_5 [color = seagreen];
+	OII720 -> P_5 [color = seagreen];
+	P_6 [label = "P_6" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_6 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_6 -> OP_6 [arrowhead=none color = seagreen tailclip=false]
+	OII674 -> P_6 [color = seagreen];
+	OII716 -> P_6 [color = seagreen];
+	II713 [label = "II713" shape = none fillcolor = seagreen image="NOR.png"];
+	OII713 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II713 -> OII713 [arrowhead=none color = seagreen tailclip=false]
+	OY_6 -> II713 [color = seagreen];
+	OII716 -> II713 [color = seagreen];
+	P_9 [label = "P_9" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_9 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_9 -> OP_9 [arrowhead=none color = seagreen tailclip=false]
+	OII741 -> P_9 [color = seagreen];
+	OII788 -> P_9 [color = seagreen];
+	P_10 [label = "P_10" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_10 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_10 -> OP_10 [arrowhead=none color = seagreen tailclip=false]
+	OII742 -> P_10 [color = seagreen];
+	OII784 -> P_10 [color = seagreen];
+	II781 [label = "II781" shape = none fillcolor = seagreen image="NOR.png"];
+	OII781 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II781 -> OII781 [arrowhead=none color = seagreen tailclip=false]
+	OY_10 -> II781 [color = seagreen];
+	OII784 -> II781 [color = seagreen];
+	P_13 [label = "P_13" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_13 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_13 -> OP_13 [arrowhead=none color = seagreen tailclip=false]
+	OII809 -> P_13 [color = seagreen];
+	OII849 -> P_13 [color = seagreen];
+	P_15 [label = "P_15" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_15 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_15 -> OP_15 [arrowhead=none color = seagreen tailclip=false]
+	OII811 -> P_15 [color = seagreen];
+	OII818 -> P_15 [color = seagreen];
+	P_16 [label = "P_16" shape = none fillcolor = seagreen image="NOR.png"];
+	OP_16 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	P_16 -> OP_16 [arrowhead=none color = seagreen tailclip=false]
+	OY_15 -> P_16 [color = seagreen];
+	OII818 -> P_16 [color = seagreen];
+	OII812 -> P_16 [color = seagreen];
+	II846 [label = "II846" shape = none fillcolor = seagreen image="NOR.png"];
+	OII846 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II846 -> OII846 [arrowhead=none color = seagreen tailclip=false]
+	OII849 -> II846 [color = seagreen];
+	OY_13 -> II846 [color = seagreen];
+	II902 [label = "II902" shape = none fillcolor = seagreen image="NOR.png"];
+	OII902 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II902 -> OII902 [arrowhead=none color = seagreen tailclip=false]
+	OII997 -> II902 [color = seagreen];
+	OII991 -> II902 [color = seagreen];
+	OII1001_1 -> II902 [color = seagreen];
+	II972 [label = "II972" shape = none fillcolor = seagreen image="NOR.png"];
+	OII972 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II972 -> OII972 [arrowhead=none color = seagreen tailclip=false]
+	OII1008_1 -> II972 [color = seagreen];
+	OII1008_2 -> II972 [color = seagreen];
+	II974 [label = "II974" shape = none fillcolor = seagreen image="NOR.png"];
+	OII974 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II974 -> OII974 [arrowhead=none color = seagreen tailclip=false]
+	OII1012_1 -> II974 [color = seagreen];
+	OII1012_2 -> II974 [color = seagreen];
+	II978 [label = "II978" shape = none fillcolor = seagreen image="NOR.png"];
+	OII978 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II978 -> OII978 [arrowhead=none color = seagreen tailclip=false]
+	OII1019_1 -> II978 [color = seagreen];
+	OII1019_2 -> II978 [color = seagreen];
+	II980 [label = "II980" shape = none fillcolor = seagreen image="NOR.png"];
+	OII980 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II980 -> OII980 [arrowhead=none color = seagreen tailclip=false]
+	OII1023_1 -> II980 [color = seagreen];
+	OII1023_2 -> II980 [color = seagreen];
+	II984 [label = "II984" shape = none fillcolor = seagreen image="NOR.png"];
+	OII984 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II984 -> OII984 [arrowhead=none color = seagreen tailclip=false]
+	OII975 -> II984 [color = seagreen];
+	OII1028_1 -> II984 [color = seagreen];
+	II992 [label = "II992" shape = none fillcolor = seagreen image="NOR.png"];
+	OII992 [label = "", fixedsize="false", width=0, height=0, shape=none]
+	II992 -> OII992 [arrowhead=none color = seagreen tailclip=false]
+	OII1032_1 -> II992 [color = seagreen];
+	OII1032_2 -> II992 [color = seagreen];
+}

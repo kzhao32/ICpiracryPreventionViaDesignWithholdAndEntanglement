@@ -1,0 +1,75 @@
+digraph a
+{
+	//4 Inputs
+	//2 Outputs
+	//12 Gates
+	overlap = false;
+	rankdir = LR;
+	splines = false;
+	"cQuiz2" [color = invis]
+	A [label = "INPUT(A)" shape = cds style = filled]
+	OA [label = "", fixedsize="false", width=0, height=0, shape=none]
+	A -> OA [arrowhead=none]
+	B [label = "INPUT(B)" shape = cds style = filled]
+	OB [label = "", fixedsize="false", width=0, height=0, shape=none]
+	B -> OB [arrowhead=none]
+	C [label = "INPUT(C)" shape = cds style = filled]
+	OC [label = "", fixedsize="false", width=0, height=0, shape=none]
+	C -> OC [arrowhead=none]
+	E [label = "INPUT(E)" shape = cds style = filled]
+	OE [label = "", fixedsize="false", width=0, height=0, shape=none]
+	E -> OE [arrowhead=none]
+	OP [label = "OUTPUT(P)" shape = cds style = filled fillcolor = yellow]
+	OQ [label = "OUTPUT(Q)" shape = cds style = filled fillcolor = yellow]
+	f [label = "f" shape = none fillcolor = green fontcolor = black image="BUF.png"];
+	f -> Of [arrowhead=none color = green tailclip=false]
+	Of [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OB -> f [color = green];
+	g [label = "g" shape = none fillcolor = green fontcolor = black image="BUF.png"];
+	g -> Og [arrowhead=none color = green tailclip=false]
+	Og [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OB -> g [color = green];
+	h [label = "h" shape = none fillcolor = green fontcolor = black image="BUF.png"];
+	h -> Oh [arrowhead=none color = green tailclip=false]
+	Oh [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OC -> h [color = green];
+	i [label = "i" shape = none fillcolor = green fontcolor = black image="BUF.png"];
+	i -> Oi [arrowhead=none color = green tailclip=false]
+	Oi [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OC -> i [color = green];
+	j [label = "j" shape = none fillcolor = darkgreen fontcolor = white image="NOR.png"];
+	j -> Oj [arrowhead=none color = darkgreen tailclip=false]
+	Oj [label = "", fixedsize="false", width=0, height=0, shape=none]
+	OA -> j [color = darkgreen];
+	Of -> j [color = darkgreen];
+	k [label = "k" shape = none fillcolor = orange fontcolor = black image="AND.png"];
+	k -> Ok [arrowhead=none color = orange tailclip=false]
+	Ok [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Og -> k [color = orange];
+	Oh -> k [color = orange];
+	l [label = "l" shape = none fillcolor = red fontcolor = white image="NOT.png"];
+	l -> Ol [arrowhead=none color = red tailclip=false]
+	Ol [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Oi -> l [color = red];
+	m [label = "m" shape = none fillcolor = green fontcolor = black image="BUF.png"];
+	m -> Om [arrowhead=none color = green tailclip=false]
+	Om [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Ok -> m [color = green];
+	n [label = "n" shape = none fillcolor = green fontcolor = black image="BUF.png"];
+	n -> On [arrowhead=none color = green tailclip=false]
+	On [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Ok -> n [color = green];
+	o [label = "o" shape = none fillcolor = purple fontcolor = white image="OR.png"];
+	o -> Oo [arrowhead=none color = purple tailclip=false]
+	Oo [label = "", fixedsize="false", width=0, height=0, shape=none]
+	Ol -> o [color = purple];
+	OE -> o [color = purple];
+	P [label = "P" shape = none fillcolor = orange fontcolor = black image="AND.png"];
+	Oj -> P [color = orange];
+	Om -> P [color = orange];
+	Q [label = "Q" shape = none fillcolor = orange fontcolor = black image="AND.png"];
+	On -> Q [color = orange];
+	Oo -> Q [color = orange];
+	P -> OP [arrowhead=none color = black]
+	Q -> OQ [arrowhead=none color = black]
+}

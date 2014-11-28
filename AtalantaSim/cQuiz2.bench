@@ -1,0 +1,26 @@
+# cQuiz2
+# 4 inputs
+# 2 outputs
+# 1 inverters
+# 5 gates ( 3 ANDs + 1 ORs + 0 NANDs + 1 NORs + 0 XORs )
+
+INPUT(A)
+INPUT(B)
+INPUT(C)
+INPUT(E)
+
+OUTPUT(P)
+OUTPUT(Q)
+
+f = BUFF(B)
+g = BUFF(B)
+h = BUFF(C)
+i = BUFF(C)
+j = NOR(A, f)
+k = AND(g, h)
+l = NOT(i)
+m = BUFF(k)
+n = BUFF(k)
+o = OR(l, E)
+P = AND(j, m)
+Q = AND(n, o)

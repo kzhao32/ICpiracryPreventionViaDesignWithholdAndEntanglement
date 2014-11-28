@@ -1,0 +1,8 @@
+INPUT(1)
+
+OUTPUT(2)
+
+3 = NOT(1)
+4 = NOT(3)
+5 = not(3)
+2 = NAND(5, 4)
